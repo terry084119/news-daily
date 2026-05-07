@@ -1,0 +1,24 @@
+name: 每日新聞自動更新
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install feedparser
+      - run: python fetcher.py
+      - name: Commit
+        run: |
+          git config --global user.name "Action"
+          git config --global user.email "action@github.com"
+          git add news_data.json
+          git commit -m "update" || exit 0
+          git push
