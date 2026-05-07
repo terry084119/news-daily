@@ -7,42 +7,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --active: #E0DACE; }
-        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; padding: 20px; }
+        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; padding: 20px; line-height: 1.6; }
         .container { max-width: 1000px; margin: 0 auto; }
         
-        .header { border-top: 5px solid var(--ink); text-align: center; padding: 20px 0; }
-        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.5rem; margin: 0; }
+        /* 報頭區塊 */
+        .header { border-top: 5px solid var(--ink); padding: 20px 0; margin-bottom: 20px; position: relative; }
+        .admin-link { position: absolute; right: 0; top: 10px; text-decoration: none; font-size: 0.85rem; color: #888; border: 1px solid #ddd; padding: 4px 10px; border-radius: 20px; transition: 0.3s; }
+        .admin-link:hover { background: var(--ink); color: white; }
+        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.8rem; margin: 0; text-align: center; }
+        .header p { text-align: center; color: #666; margin: 5px 0 0 0; letter-spacing: 2px; }
 
         /* 分頁選單 */
-        .tabs { display: flex; flex-wrap: wrap; justify-content: center; border-bottom: 1px solid var(--ink); margin-bottom: 30px; padding: 10px 0; sticky-top: 0; background: var(--paper); z-index: 100; }
-        .tab-btn { background: none; border: none; padding: 10px 15px; cursor: pointer; font-weight: bold; font-size: 1rem; color: #666; transition: 0.3s; }
-        .tab-btn.active { color: var(--accent); border-bottom: 3px solid var(--accent); }
+        .tabs { display: flex; flex-wrap: wrap; justify-content: center; border-bottom: 1px solid var(--ink); margin-bottom: 30px; padding: 10px 0; position: sticky; top: 0; background: var(--paper); z-index: 100; }
+        .tab-btn { background: none; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; font-size: 1.05rem; color: #666; transition: 0.3s; position: relative; }
+        .tab-btn.active { color: var(--accent); }
+        .tab-btn.active::after { content: ''; position: absolute; bottom: 0; left: 20%; width: 60%; height: 3px; background: var(--accent); }
         .tab-btn:hover { background: var(--active); }
 
+        /* 新聞網格 */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; opacity: 0; transform: translateY(10px); transition: 0.4s ease; }
+        .grid.active { display: grid; opacity: 1; transform: translateY(0); }
+        
         /* 新聞卡片 */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; display: none; }
-        .grid.active { display: grid; }
-        .card { border: 1px solid #ddd; padding: 15px; display: flex; flex-direction: column; background: white; border-radius: 4px; box-shadow: 2px 2px 5px rgba(0,0,0,0.05); }
-        .card img { width: 100%; height: 180px; object-fit: cover; border-radius: 2px; margin-bottom: 10px; background: #eee; }
-        .card .source { font-size: 0.75rem; color: #888; margin-bottom: 5px; }
-        .card h3 { font-size: 1.1rem; margin: 0 0 10px 0; line-height: 1.4; }
+        .card { border: 1px solid #e0e0e0; display: flex; flex-direction: column; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 200px; object-fit: cover; background: #f0f0f0; }
+        .card-body { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card .source { font-size: 0.75rem; color: var(--accent); font-weight: bold; margin-bottom: 8px; }
+        .card h3 { font-size: 1.15rem; margin: 0 0 12px 0; line-height: 1.4; font-family: 'Noto Serif TC', serif; }
         .card h3 a { color: var(--ink); text-decoration: none; }
-        .card .summary { font-size: 0.9rem; color: #555; height: 4.5em; overflow: hidden; }
-        .card .actions { margin-top: auto; padding-top: 15px; border-top: 1px solid #eee; display: flex; justify-content: space-between; }
+        .card .summary { font-size: 0.9rem; color: #555; margin-bottom: 15px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
         
-        /* 收藏與筆記 */
-        .btn-fav { background: none; border: 1px solid var(--accent); color: var(--accent); padding: 5px 10px; cursor: pointer; border-radius: 3px; }
-        .note-area { width: 100%; margin-top: 10px; padding: 5px; border: 1px solid #ddd; font-size: 0.85rem; background: #fff9e6; }
+        /* 收藏與筆記功能 */
+        .note-area { width: 100%; margin-top: 10px; padding: 8px; border: 1px solid #ffeeba; font-size: 0.85rem; background: #fffdf5; border-radius: 4px; box-sizing: border-box; resize: vertical; }
+        .actions { margin-top: auto; padding-top: 15px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .btn-fav { background: none; border: 1px solid #ccc; color: #666; padding: 5px 12px; cursor: pointer; border-radius: 4px; font-size: 0.85rem; transition: 0.2s; }
+        .btn-fav:hover { border-color: var(--accent); color: var(--accent); }
+        .btn-fav.is-fav { background: var(--accent); color: white; border-color: var(--accent); }
         
-        #fav-count { background: var(--accent); color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.7rem; vertical-align: top; }
+        #fav-count { background: var(--accent); color: white; border-radius: 10px; padding: 2px 8px; font-size: 0.75rem; margin-left: 5px; }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 2rem; }
+            .admin-link { position: static; display: block; text-align: center; margin-bottom: 10px; }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="header">
+        <a href="https://github.com/terry084119/news-daily/edit/main/settings.json" target="_blank" class="admin-link">⚙️ 編輯後台 (新增源/改類別)</a>
         <h1>阿諺的新聞智庫</h1>
-        <p>自動同步｜每兩小時更新</p>
+        <p>每一份資訊，都是通往未來的碎片</p>
     </div>
 
     <div class="tabs" id="tab-bar">
@@ -54,98 +72,128 @@
         <button class="tab-btn" onclick="showTab('產業')">產業</button>
         <button class="tab-btn" onclick="showTab('運動')">運動</button>
         <button class="tab-btn" onclick="showTab('娛樂')">娛樂</button>
-        <button class="tab-btn" onclick="showTab('收藏')" style="color: var(--accent);">💖 我的收藏 <span id="fav-count">0</span></button>
+        <button class="tab-btn" onclick="showTab('收藏')" style="color: var(--accent);">💖 我的收藏<span id="fav-count">0</span></button>
     </div>
 
     <div id="news-content">
-        </div>
+        <p style="text-align: center; padding: 50px;">🖋️ 正在為您排版今日要聞...</p>
+    </div>
 </div>
 
 <script>
     let allData = {};
     let favorites = JSON.parse(localStorage.getItem('news_favs') || '[]');
+    let currentCategory = '在地';
 
+    // 初始化：抓取資料
     async function init() {
         try {
-            const res = await fetch('news_data.json');
+            const timestamp = new Date().getTime(); // 防止快取
+            const res = await fetch(`news_data.json?t=${timestamp}`);
+            if (!res.ok) throw new Error('找不到新聞資料');
             allData = await res.json();
-            showTab('在地');
             updateFavCount();
+            showTab('在地');
         } catch (e) {
-            document.getElementById('news-content').innerHTML = "資料載入中，請確保已執行 Actions...";
+            document.getElementById('news-content').innerHTML = `
+                <div style="text-align:center; padding:50px;">
+                    <p>⚠️ 尚未偵測到新聞內容</p>
+                    <p style="font-size:0.9rem; color:888;">請確保 GitHub Actions 已經成功執行過一次「每日新聞自動更新」</p>
+                </div>`;
         }
     }
 
+    // 分頁切換邏輯
     function showTab(cat) {
+        currentCategory = cat;
         // 更新按鈕樣式
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.classList.toggle('active', btn.innerText.includes(cat));
         });
 
         const container = document.getElementById('news-content');
-        let html = `<div class="grid active">`;
+        container.innerHTML = ''; // 清空內容
+        
+        const grid = document.createElement('div');
+        grid.className = 'grid active';
 
         if (cat === '收藏') {
             if (favorites.length === 0) {
-                html += `<p style="grid-column: 1/-1; text-align: center;">目前還沒有收藏的新聞喔！</p>`;
+                grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; padding: 100px; color: #999;">目前沒有收藏的新聞，看到喜歡的點擊「💖 收藏」吧！</p>`;
             } else {
                 favorites.forEach((item, index) => {
-                    html += renderCard(item, true, index);
+                    grid.innerHTML += renderCard(item, true, index);
                 });
             }
         } else {
             const items = allData[cat] || [];
             if (items.length === 0) {
-                html += `<p style="grid-column: 1/-1; text-align: center;">今日暫無「${cat}」相關新聞。</p>`;
+                grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; padding: 100px; color: #999;">今日暫無「${cat}」相關新聞，或請調整關鍵字。</p>`;
             } else {
                 // 每個分類取前 5 篇
                 items.slice(0, 5).forEach(item => {
-                    html += renderCard(item, false);
+                    grid.innerHTML += renderCard(item, false);
                 });
             }
         }
-        html += `</div>`;
-        container.innerHTML = html;
+        container.appendChild(grid);
     }
 
+    // 卡片渲染函數
     function renderCard(item, isFav, index) {
-        // 隨機模擬圖片(實作中通常從 RSS summary 抓，這裡先用關鍵字配圖)
-        const imgUrl = `https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=400&q=80`;
+        // 預防圖片讀取失敗
+        const imgUrl = item.image || `https://via.placeholder.com/400x250/f8f9fa/666666?text=NEWS`;
         const note = item.note || "";
+        const isAlreadyFav = !isFav && favorites.some(f => f.link === item.link);
 
         return `
             <div class="card">
-                <img src="${imgUrl}" alt="news">
-                <div class="source">${item.source} · ${item.time}</div>
-                <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                <div class="summary">${item.summary || "點擊標題查看完整內容..."}</div>
-                ${isFav ? `<textarea class="note-area" placeholder="在此輸入筆記..." onchange="saveNote(${index}, this.value)">${note}</textarea>` : ''}
-                <div class="actions">
-                    <button class="btn-fav" onclick="${isFav ? `removeFav(${index})` : `addFav('${catToItem(item)}')`}">
-                        ${isFav ? '🗑️ 移除' : '💖 收藏'}
-                    </button>
-                    <a href="${item.link}" target="_blank" style="font-size: 0.8rem; color: #666;">閱讀原文</a>
+                <img src="${imgUrl}" alt="news" onerror="this.src='https://via.placeholder.com/400x250/f8f9fa/666666?text=NEWS'">
+                <div class="card-body">
+                    <div class="source">${item.source} · ${item.time}</div>
+                    <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                    <div class="summary">${item.summary || "點擊標題閱讀詳細報導內容..."}</div>
+                    
+                    ${isFav ? `
+                        <textarea class="note-area" placeholder="在此輸入筆記感想..." onchange="saveNote(${index}, this.value)">${note}</textarea>
+                    ` : ''}
+                    
+                    <div class="actions">
+                        <button class="btn-fav ${isAlreadyFav ? 'is-fav' : ''}" 
+                                onclick="${isFav ? `removeFav(${index})` : `toggleFav('${encodeURIComponent(JSON.stringify(item))}')`}">
+                            ${isFav ? '🗑️ 移除' : (isAlreadyFav ? '✔️ 已收藏' : '💖 收藏')}
+                        </button>
+                        <a href="${item.link}" target="_blank" style="font-size: 0.85rem; color: #888; text-decoration:none;">閱讀全文 →</a>
+                    </div>
                 </div>
             </div>
         `;
     }
 
-    // 輔助功能：收藏與筆記邏輯
-    function addFav(itemStr) {
+    // 收藏功能邏輯
+    function toggleFav(itemStr) {
         const item = JSON.parse(decodeURIComponent(itemStr));
-        if (!favorites.some(f => f.link === item.link)) {
+        const existingIndex = favorites.findIndex(f => f.link === item.link);
+        
+        if (existingIndex > -1) {
+            favorites.splice(existingIndex, 1);
+        } else {
             favorites.push({...item, note: ""});
-            localStorage.setItem('news_favs', JSON.stringify(favorites));
-            updateFavCount();
-            alert("已加入收藏！");
+            alert("成功加入收藏！");
         }
+        
+        localStorage.setItem('news_favs', JSON.stringify(favorites));
+        updateFavCount();
+        showTab(currentCategory);
     }
 
     function removeFav(index) {
-        favorites.splice(index, 1);
-        localStorage.setItem('news_favs', JSON.stringify(favorites));
-        updateFavCount();
-        showTab('收藏');
+        if(confirm("確定要移除這則收藏嗎？")) {
+            favorites.splice(index, 1);
+            localStorage.setItem('news_favs', JSON.stringify(favorites));
+            updateFavCount();
+            showTab('收藏');
+        }
     }
 
     function saveNote(index, value) {
@@ -154,11 +202,9 @@
     }
 
     function updateFavCount() {
-        document.getElementById('fav-count').innerText = favorites.length;
-    }
-
-    function catToItem(item) {
-        return encodeURIComponent(JSON.stringify(item));
+        const countEl = document.getElementById('fav-count');
+        countEl.innerText = favorites.length;
+        countEl.style.display = favorites.length > 0 ? 'inline-block' : 'none';
     }
 
     init();
