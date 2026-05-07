@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿諺每日新聞快報</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; }
+        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        /* 報頭設計 */
+        .header { border-top: 5px solid var(--ink); border-bottom: 1px solid var(--ink); text-align: center; padding: 20px 0; margin-bottom: 40px; }
+        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 3rem; margin: 0; }
+        .header-meta { display: flex; justify-content: space-between; font-size: 0.9rem; margin-top: 10px; font-weight: bold; }
+
+        /* 分類標題 */
+        .category-block { margin-bottom: 40px; }
+        .category-title { border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; font-size: 1.6rem; margin-bottom: 20px; padding-bottom: 5px; color: var(--accent); }
+
+        /* 新聞卡片佈局 */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
+        .news-card { border-bottom: 1px dashed #ccc; padding-bottom: 15px; position: relative; }
+        .news-card:hover { background: rgba(0,0,0,0.02); }
+        .source-tag { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 1px; }
+        .news-title { display: block; font-size: 1.2rem; font-weight: bold; text-decoration: none; color: var(--ink); margin: 5px 0; }
+        .news-title:hover { color: var(--accent); }
+        
+        /* 功能按鈕 */
+        .actions { margin-top: 10px; }
+        .btn-save { background: none; border: 1px solid #999; color: #666; padding: 2px 8px; font-size: 0.8rem; cursor: pointer; border-radius: 3px; transition: 0.2s; }
+        .btn-save:hover { background: var(--ink); color: white; border-color: var(--ink); }
+
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .header h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>阿諺每日新聞快報</h1>
+        <div class="header-meta">
+            <span>第 001 號</span>
+            <span id="currentDate">2026年05月07日</span>
+            <span>編輯：阿諺</span>
+        </div>
+    </div>
+
+    <div id="news-container">
+        <p style="text-align: center; padding: 50px;">🖋️ 正在為您排版今日要聞...</p>
+    </div>
+</div>
+
+<script>
+    // 設定今日日期
+    document.getElementById('currentDate').innerText = new Date().toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+
+    // 抓取自動生成的 JSON 資料
+    async function loadNews() {
+        try {
+            const response = await fetch('news_data.json');
+            if (!response.ok) throw new Error('尚未生成新聞資料');
+            const data = await response.json();
+            
+            const container = document.getElementById('news-container');
+            let html = '';
+            let hasContent = false;
+
+            for (const [cat, items] of Object.entries(data)) {
+                if (items.length > 0) {
+                    hasContent = true;
+                    html += `
+                        <div class="category-block">
+                            <div class="category-title">${cat}</div>
+                            <div class="grid">
+                                ${items.map(item => `
+                                    <div class="news-card">
+                                        <div class="source-tag">${item.source} · ${item.time}</div>
+                                        <a href="${item.link}" target="_blank" class="news-title">${item.title}</a>
+                                        <div class="actions">
+                                            <button class="btn-save" onclick="saveToNotion('${item.title.replace(/'/g, "\\'")}', '${item.link}')">💾 收藏至簡報夾</button>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            container.innerHTML = hasContent ? html : '<p style="text-align: center; padding: 50px;">今日暫無符合關鍵字的新聞，請調整 settings.json 或稍後再來。</p>';
+            
+        } catch (error) {
+            document.getElementById('news-container').innerHTML = `<p style="text-align: center; padding: 50px;">⚠️ 載入失敗：${error.message}<br>請先至 Actions 手動執行第一次抓取。</p>`;
+        }
+    }
+
+    // 預留 Notion 收藏功能
+    function saveToNotion(title, link) {
+        console.log("準備收藏到 Notion:", title, link);
+        alert("已偵測到新聞：\n" + title + "\n\n(收藏功能將在下一階段串接 Notion API)");
+    }
+
+    loadNews();
+</script>
+
+</body>
+</html>
