@@ -3,106 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阿諺每日新聞快報</title>
+    <title>阿諺的新聞智庫</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; }
-        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); line-height: 1.6; margin: 0; padding: 20px; }
-        .container { max-width: 900px; margin: 0 auto; }
+        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --active: #E0DACE; }
+        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
         
-        /* 報頭設計 */
-        .header { border-top: 5px solid var(--ink); border-bottom: 1px solid var(--ink); text-align: center; padding: 20px 0; margin-bottom: 40px; }
-        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 3rem; margin: 0; }
-        .header-meta { display: flex; justify-content: space-between; font-size: 0.9rem; margin-top: 10px; font-weight: bold; }
+        .header { border-top: 5px solid var(--ink); text-align: center; padding: 20px 0; }
+        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.5rem; margin: 0; }
 
-        /* 分類標題 */
-        .category-block { margin-bottom: 40px; }
-        .category-title { border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; font-size: 1.6rem; margin-bottom: 20px; padding-bottom: 5px; color: var(--accent); }
+        /* 分頁選單 */
+        .tabs { display: flex; flex-wrap: wrap; justify-content: center; border-bottom: 1px solid var(--ink); margin-bottom: 30px; padding: 10px 0; sticky-top: 0; background: var(--paper); z-index: 100; }
+        .tab-btn { background: none; border: none; padding: 10px 15px; cursor: pointer; font-weight: bold; font-size: 1rem; color: #666; transition: 0.3s; }
+        .tab-btn.active { color: var(--accent); border-bottom: 3px solid var(--accent); }
+        .tab-btn:hover { background: var(--active); }
 
-        /* 新聞卡片佈局 */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
-        .news-card { border-bottom: 1px dashed #ccc; padding-bottom: 15px; position: relative; }
-        .news-card:hover { background: rgba(0,0,0,0.02); }
-        .source-tag { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 1px; }
-        .news-title { display: block; font-size: 1.2rem; font-weight: bold; text-decoration: none; color: var(--ink); margin: 5px 0; }
-        .news-title:hover { color: var(--accent); }
+        /* 新聞卡片 */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; display: none; }
+        .grid.active { display: grid; }
+        .card { border: 1px solid #ddd; padding: 15px; display: flex; flex-direction: column; background: white; border-radius: 4px; box-shadow: 2px 2px 5px rgba(0,0,0,0.05); }
+        .card img { width: 100%; height: 180px; object-fit: cover; border-radius: 2px; margin-bottom: 10px; background: #eee; }
+        .card .source { font-size: 0.75rem; color: #888; margin-bottom: 5px; }
+        .card h3 { font-size: 1.1rem; margin: 0 0 10px 0; line-height: 1.4; }
+        .card h3 a { color: var(--ink); text-decoration: none; }
+        .card .summary { font-size: 0.9rem; color: #555; height: 4.5em; overflow: hidden; }
+        .card .actions { margin-top: auto; padding-top: 15px; border-top: 1px solid #eee; display: flex; justify-content: space-between; }
         
-        /* 功能按鈕 */
-        .actions { margin-top: 10px; }
-        .btn-save { background: none; border: 1px solid #999; color: #666; padding: 2px 8px; font-size: 0.8rem; cursor: pointer; border-radius: 3px; transition: 0.2s; }
-        .btn-save:hover { background: var(--ink); color: white; border-color: var(--ink); }
-
-        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .header h1 { font-size: 2rem; } }
+        /* 收藏與筆記 */
+        .btn-fav { background: none; border: 1px solid var(--accent); color: var(--accent); padding: 5px 10px; cursor: pointer; border-radius: 3px; }
+        .note-area { width: 100%; margin-top: 10px; padding: 5px; border: 1px solid #ddd; font-size: 0.85rem; background: #fff9e6; }
+        
+        #fav-count { background: var(--accent); color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.7rem; vertical-align: top; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="header">
-        <h1>阿諺每日新聞快報</h1>
-        <div class="header-meta">
-            <span>第 001 號</span>
-            <span id="currentDate">2026年05月07日</span>
-            <span>編輯：阿諺</span>
-        </div>
+        <h1>阿諺的新聞智庫</h1>
+        <p>自動同步｜每兩小時更新</p>
     </div>
 
-    <div id="news-container">
-        <p style="text-align: center; padding: 50px;">🖋️ 正在為您排版今日要聞...</p>
+    <div class="tabs" id="tab-bar">
+        <button class="tab-btn active" onclick="showTab('在地')">在地</button>
+        <button class="tab-btn" onclick="showTab('文化')">文化</button>
+        <button class="tab-btn" onclick="showTab('科技')">科技</button>
+        <button class="tab-btn" onclick="showTab('國際')">國際</button>
+        <button class="tab-btn" onclick="showTab('政治')">政治</button>
+        <button class="tab-btn" onclick="showTab('產業')">產業</button>
+        <button class="tab-btn" onclick="showTab('運動')">運動</button>
+        <button class="tab-btn" onclick="showTab('娛樂')">娛樂</button>
+        <button class="tab-btn" onclick="showTab('收藏')" style="color: var(--accent);">💖 我的收藏 <span id="fav-count">0</span></button>
     </div>
+
+    <div id="news-content">
+        </div>
 </div>
 
 <script>
-    // 設定今日日期
-    document.getElementById('currentDate').innerText = new Date().toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+    let allData = {};
+    let favorites = JSON.parse(localStorage.getItem('news_favs') || '[]');
 
-    // 抓取自動生成的 JSON 資料
-    async function loadNews() {
+    async function init() {
         try {
-            const response = await fetch('news_data.json');
-            if (!response.ok) throw new Error('尚未生成新聞資料');
-            const data = await response.json();
-            
-            const container = document.getElementById('news-container');
-            let html = '';
-            let hasContent = false;
-
-            for (const [cat, items] of Object.entries(data)) {
-                if (items.length > 0) {
-                    hasContent = true;
-                    html += `
-                        <div class="category-block">
-                            <div class="category-title">${cat}</div>
-                            <div class="grid">
-                                ${items.map(item => `
-                                    <div class="news-card">
-                                        <div class="source-tag">${item.source} · ${item.time}</div>
-                                        <a href="${item.link}" target="_blank" class="news-title">${item.title}</a>
-                                        <div class="actions">
-                                            <button class="btn-save" onclick="saveToNotion('${item.title.replace(/'/g, "\\'")}', '${item.link}')">💾 收藏至簡報夾</button>
-                                        </div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    `;
-                }
-            }
-
-            container.innerHTML = hasContent ? html : '<p style="text-align: center; padding: 50px;">今日暫無符合關鍵字的新聞，請調整 settings.json 或稍後再來。</p>';
-            
-        } catch (error) {
-            document.getElementById('news-container').innerHTML = `<p style="text-align: center; padding: 50px;">⚠️ 載入失敗：${error.message}<br>請先至 Actions 手動執行第一次抓取。</p>`;
+            const res = await fetch('news_data.json');
+            allData = await res.json();
+            showTab('在地');
+            updateFavCount();
+        } catch (e) {
+            document.getElementById('news-content').innerHTML = "資料載入中，請確保已執行 Actions...";
         }
     }
 
-    // 預留 Notion 收藏功能
-    function saveToNotion(title, link) {
-        console.log("準備收藏到 Notion:", title, link);
-        alert("已偵測到新聞：\n" + title + "\n\n(收藏功能將在下一階段串接 Notion API)");
+    function showTab(cat) {
+        // 更新按鈕樣式
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.innerText.includes(cat));
+        });
+
+        const container = document.getElementById('news-content');
+        let html = `<div class="grid active">`;
+
+        if (cat === '收藏') {
+            if (favorites.length === 0) {
+                html += `<p style="grid-column: 1/-1; text-align: center;">目前還沒有收藏的新聞喔！</p>`;
+            } else {
+                favorites.forEach((item, index) => {
+                    html += renderCard(item, true, index);
+                });
+            }
+        } else {
+            const items = allData[cat] || [];
+            if (items.length === 0) {
+                html += `<p style="grid-column: 1/-1; text-align: center;">今日暫無「${cat}」相關新聞。</p>`;
+            } else {
+                // 每個分類取前 5 篇
+                items.slice(0, 5).forEach(item => {
+                    html += renderCard(item, false);
+                });
+            }
+        }
+        html += `</div>`;
+        container.innerHTML = html;
     }
 
-    loadNews();
+    function renderCard(item, isFav, index) {
+        // 隨機模擬圖片(實作中通常從 RSS summary 抓，這裡先用關鍵字配圖)
+        const imgUrl = `https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=400&q=80`;
+        const note = item.note || "";
+
+        return `
+            <div class="card">
+                <img src="${imgUrl}" alt="news">
+                <div class="source">${item.source} · ${item.time}</div>
+                <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                <div class="summary">${item.summary || "點擊標題查看完整內容..."}</div>
+                ${isFav ? `<textarea class="note-area" placeholder="在此輸入筆記..." onchange="saveNote(${index}, this.value)">${note}</textarea>` : ''}
+                <div class="actions">
+                    <button class="btn-fav" onclick="${isFav ? `removeFav(${index})` : `addFav('${catToItem(item)}')`}">
+                        ${isFav ? '🗑️ 移除' : '💖 收藏'}
+                    </button>
+                    <a href="${item.link}" target="_blank" style="font-size: 0.8rem; color: #666;">閱讀原文</a>
+                </div>
+            </div>
+        `;
+    }
+
+    // 輔助功能：收藏與筆記邏輯
+    function addFav(itemStr) {
+        const item = JSON.parse(decodeURIComponent(itemStr));
+        if (!favorites.some(f => f.link === item.link)) {
+            favorites.push({...item, note: ""});
+            localStorage.setItem('news_favs', JSON.stringify(favorites));
+            updateFavCount();
+            alert("已加入收藏！");
+        }
+    }
+
+    function removeFav(index) {
+        favorites.splice(index, 1);
+        localStorage.setItem('news_favs', JSON.stringify(favorites));
+        updateFavCount();
+        showTab('收藏');
+    }
+
+    function saveNote(index, value) {
+        favorites[index].note = value;
+        localStorage.setItem('news_favs', JSON.stringify(favorites));
+    }
+
+    function updateFavCount() {
+        document.getElementById('fav-count').innerText = favorites.length;
+    }
+
+    function catToItem(item) {
+        return encodeURIComponent(JSON.stringify(item));
+    }
+
+    init();
 </script>
 
 </body>
