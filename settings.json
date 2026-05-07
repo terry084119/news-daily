@@ -2,16 +2,24 @@
   "sources": [
     "https://feeds.feedburner.com/cnaFirstNews",
     "https://news.pts.org.tw/xml/newsfeed.xml",
+    "https://feeds.feedburner.com/rsscna/politics",
+    "https://feeds.feedburner.com/rsscna/intworld",
+    "https://feeds.feedburner.com/rsscna/technology",
+    "https://feeds.feedburner.com/rsscna/lifehealth",
+    "https://feeds.feedburner.com/rsscna/local",
+    "https://feeds.feedburner.com/rsscna/culture",
+    "https://feeds.feedburner.com/rsscna/stars",
+    "https://feeds.feedburner.com/rsscna/sport",
     "https://news.google.com/rss/search?q=桃園+OR+文化+OR+科技&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
   ],
   "categories": {
-    "在地": ["桃園", "中壢", "桃園捷運", "三鶯線", "航空城", "張善政"],
+    "在地": ["桃園", "台北", "捷運", "台鐵", "文化資產"],
     "文化": ["古蹟", "文資", "歷史", "藝文", "博物館", "地方創生"],
     "科技": ["AI", "半導體", "晶片", "台積電", "輝達", "生成式"],
     "國際": ["美國", "中國", "戰爭", "氣候", "聯合國", "烏克蘭"],
     "政治": ["立法院", "選舉", "內閣", "外交", "修法"],
     "產業": ["股市", "通膨", "房價", "投資", "ESG", "供應鏈"],
-    "運動": ["棒球", "奧運", "NBA", "職籃", "中職"],
+    "運動": ["棒球", "奧運", "中職"],
     "娛樂": ["電影", "演唱會", "影集", "Netflix", "韓劇"]
   }
 }
