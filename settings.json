@@ -1,0 +1,13 @@
+{
+  "sources": [
+    "https://feeds.feedburner.com/cnaFirstNews",
+    "https://news.pts.org.tw/xml/newsfeed.xml"
+  ],
+  "categories": {
+    "在地": ["桃園", "中壢", "捷運", "張善政"],
+    "文化": ["古蹟", "文資", "歷史", "藝文"],
+    "科技": ["AI", "半導體", "晶片"],
+    "國際": ["美國", "戰爭"],
+    "政治": [], "產經": [], "生活": [], "運動": [], "娛樂": []
+  }
+}
