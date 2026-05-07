@@ -1,7 +1,7 @@
 name: 每日新聞自動更新
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */2 * * *' # 這裡改成了每兩小時執行一次
   workflow_dispatch:
 jobs:
   build:
