@@ -1,730 +1,97 @@
 {
-  "在地": [
-    {
-      "title": "國土署：老宅延壽桃園高雄率先受理　地方可加碼補助",
-      "link": "https://www.cna.com.tw/news/aipl/202605130314.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=國土署：老",
-      "summary": "（中央社記者高華謙台北13日電）內政部國土署今天說，老宅延壽計畫由中央全額補助地方政府成立服務團，各縣市預計6月底前設置臨櫃窗口，並由專業服務團隊協助民眾申請，其中桃園及高雄將率先公告及受理；此外，地",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "台鐵2路段受花蓮地震影響　列車慢行",
-      "link": "https://www.cna.com.tw/news/ahel/202605130330.aspx",
-      "source": "中央社即時新聞 生活醫藥",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=台鐵2路段",
-      "summary": "（中央社記者黃巧雯台北13日電）花蓮今天晚間6時43分發生芮氏規模5.0地震，最大震度花蓮縣4級。台鐵公司表示，新城至鳳林（含花蓮港線）、和仁至新城等區間列車慢行。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "桃園營養午餐9月起調升補助　同步升級菜色內容",
-      "link": "https://www.cna.com.tw/news/aloc/202605130328.aspx",
-      "source": "中央社即時新聞 地方新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園營養午",
-      "summary": "（中央社記者葉臻桃園13日電）桃園市自民國112年2月起推動國中小免費營養午餐，桃園市長張善政今天表示，為因應物價變動、提升校園供餐品質，將從9月新學期起調高每生每餐補助新台幣6元，並升級菜色內容。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "桃園8大公辦園區帶動千億投資動能- 其他 - 旺得富理財網",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSNmdHc2lRSTctdmVfaGVfYng4d0Z4aGZzcFZfa0duUDZtS3dyZ2hxcVQtSGNEUlpQNnJpYmpfT1RWWVJjQksyQ1JDRVAteDY1dHgxZmtlU055SmlQU2tPMmhSQ1J5SjdZVkE?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園8大公",
-      "summary": "桃園8大公辦園區帶動千億投資動能- 其他&nbsp;&nbsp;旺得富理財網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園產業用地125年將缺近3千公頃 雙軌布署8公辦園區驅動轉型 - 桃園電子報",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1IZ3BiMEl3Z09wTnNDTkszNkpWcnJJV2dZa2g3bWZrSnpjd1VaVEk4Sm1mMkNvSlk5V0w4OE9qZUFuckZZQV9BcVo3d3A?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園產業用",
-      "summary": "桃園產業用地125年將缺近3千公頃 雙軌布署8公辦園區驅動轉型&nbsp;&nbsp;桃園電子報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "黃世杰戰桃園 與選將合照看板上架 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92WFRURWRpVkN5dERabDRsRVhTN1ZDT1ZYQWh6M1dnWFkzZ1JtU191NTZHZnRMLWRjNU5tVnh0dm1CWTJlZ194bnhQbG1PWTl6MkJCSmVqckFLOGvSAWBBVV95cUxPVmd2QjhYN0F6SzhEdm1DUl85TW1EYndqUnZ5TFliUG43Um5QTUg5NWcyMjNUdjZ1Z2pzTjJMdXZIdW5BUmRfRU5vSWlXVmc5cjgwb1ZIalZoRmJhblNaU1E?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=黃世杰戰桃",
-      "summary": "黃世杰戰桃園 與選將合照看板上架&nbsp;&nbsp;自由時報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "全台都市原民之冠在桃園！《神靈居所》5/16 大溪揭幕 - 蕃新聞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wbWxPU1dudS1qN3hSVnozLS1IamlvbnVzV280c0ZVSlhoTS1IY05HTENBbURScVd6VDNhWnRGdHE1YUpycjFVQnJTZmRreXkwUkE?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=全台都市原",
-      "summary": "全台都市原民之冠在桃園！《神靈居所》5/16 大溪揭幕&nbsp;&nbsp;蕃新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "斥資8億！桃園延平路三期總算通了 桃園至八德全線貫通 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15VmYzd3VUT01LZjNYSDlNWXNjYldpRFRNSWk2T2djUWF5UmEzZTY0RHdhMENZaFNoX0h2VzRSSUktV2JON3BQeTVTWk8xenBT?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=斥資8億！",
-      "summary": "斥資8億！桃園延平路三期總算通了 桃園至八德全線貫通&nbsp;&nbsp;自由時報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園市政核心機能逐步到位，中路市政特區吸引重視生活品質的家庭移居 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxQRnYxOGpxWEFKVU1zRGFQZWdfMFBQY3puNTFiLUQtVmxDR1RSY1lEYlVCSkxpWHQxYTFGZXEwbVJFUmhBNEJ1WEtZcDh1dGZTd0VNZ1dTSUZXeVQ2bzRmajhMc1VhNkxReEtkVExBT2k0YlI3b0M0TUlOUEsyS080anZhbktlTmNIUmtRYXJzUHNOZzM4Q0xrcGl2RHhsaGZBVWt5LTlCNkEzbHVaVGN5cldubm5VYzg5SjNqNzM4MnVsU2FWX1JwSmxWekFhTG5SLWhwRkpkc28wZFBadmk3ZzRHVDIxT2UtWEFuVzlYUnZXZnE3SlE4bzVWTFdDaWl4eVgyQ0dpSVFZTzB5d2t6Q000ZWcxWHZiWl9jTFBrUWdRemZjYVJBZ2dOU2w3VWN3YXVua3BpZG5JVFBvaHdnbjJCaFVTdjN3SVdEQU8xSXRBYUFPVHhTd3A4UHJnUFhHQm9YeGJ6cm1CbnR2UkFFTmtBUEVjMFFZU0NPWGNIRWZCbkpuWGhNYUY3T3ZVbjZJZkJqcmVqeEFCZWxwN0RuQ0x5OE9ndGFBZWdja19yWUpRbFZ2c0FpQTk4bHc1ZHp6dkNXTHNHN004cjY4cHltLVlOMA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園市政核",
-      "summary": "桃園市政核心機能逐步到位，中路市政特區吸引重視生活品質的家庭移居&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【桃園男遭猥褻！問ChatGPT「師摸生殖器怎麼辦」 母嚇壞急報案】 （示意圖，非當事人／取自免費圖庫pixabay） 還狡辯說自己有女友。(#起啵) - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMimAVBVV95cUxPdVA1eEJ1UFIteExPT091RFdwUVZwYk5OYXh0aTNkaDNORTFXbUkyODNJU2ljNi0xRXowSlMxQU9sZ2xaS1gxbzUwOGhjZnJsUFV1Zms2WmZFM2kyYUptM25NYjJCTmdYOTdtdXc5ZmwwWGdRaEx5QzlFdUVQN0tyTnlpUmxPeW1RWllsd0F4OEVCbGd6ZDcxUlQybi0tQ04ycHZkbTJ2djM0dkRRdkdWcEExc0dhQXgzZVh5ZXA0NkVUUE5yU3M3Y2VZMzNNM3BXaEQxeThRV3R3M3UyZnFINUZqalJNM2Y3bUlqelNDa3I2LVlpZklmNVpPeG4wQzBZYlMyRHFCQzZmZWUybmk0SnNqaXdMcHduQ3VrLTJVQ0pfSnFXeTE3RkZRVHpVeExQUjc3NmRtcXp6LXZkN0hXaHFueGNYaE5BaGloY0FPLXJKRWNWVUNROVVuTm5jeS1JYzZPMVBhYUxiSVktbmt0b0tpVW9XSmNEcmVhQ1JnY3RGVUlQazdBaWU1UElCWGdYRG5ITHFpTWlPU3RvMXhXV0NFWWZ6VFlMMkh1Q3F4QTZaRkFnX3NSOUFzbG1DeG1tOEJtVGJwdGtBNVNYVmtfaF8xeDlaWUk3WE44YnY2Y0J1ZXhESHVDTnlRelEzOTF1cmRWcXZkRDVaRXB6UEVtN000XzhtSzN6Ti15d2NJQndMdHJMWmFFS1FKano4NllQUVM4YVIxajJmaFNTcUlCRkRseTdrTmFPWW9peTBMb2RWLVcxYUFUS012ajFmVElxazRsQ1laV2NkYVA1azJzSUxnTWM1bkNhRkc2MW9mZGVTYTRWZk5LVmEweHZvLU5oMzE1b0JHQ2tTNC1hVjFaQW1aNi0xOENi?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【桃園男遭",
-      "summary": "【桃園男遭猥褻！問ChatGPT「師摸生殖器怎麼辦」 母嚇壞急報案】 （示意圖，非當事人／取自免費圖庫pixabay） 還狡辯說自己有女友。(#起啵)&nbsp;&nbsp;facebook.com",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園公車評鑑得標商 被爆與工程會黑名單有關 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsS1pEWnAwNFYwRnBNbElFVzdDUUdNLXc4eVdYdF9WMG5wZFNkM0pSWERETHZyd3RGWDdlUHFLa2F6ZGxwS1VQU0dnVE44UmxOTXhTY0lDNXZha2_SAWBBVV95cUxPRkwtNWltcG1sa2tFM0xzcWw0RWdGbHMyQnNFeG9hajg0bk5YdXVhS3A3Tk5YektLQlpBdm5aMU8zaHF3MTRZSnp4RU1fVVNtT0p0cWpYazlHckEzb0E5Rks?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園公車評",
-      "summary": "桃園公車評鑑得標商 被爆與工程會黑名單有關&nbsp;&nbsp;自由時報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園推動雙軸轉型 串聯SBIR與最高4,000萬補助助攻企業升級 | 熱門亮點 | 商情 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yeDVKZGN6WEV6RmliRVJGYnJkM3dRWTNNd0lxTnFTTXVZRGpRbzdNc0NoZU1ZRVFBRjBlb2JyQ2wzUXFNYlRKeVRFa2dBZndzTUhzR0FQUmh2RnE3VnFudHU5SnlIYVkzSWRvUjZ6MXZndXdqTklUTUoxaW8?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園推動雙",
-      "summary": "桃園推動雙軸轉型 串聯SBIR與最高4,000萬補助助攻企業升級 | 熱門亮點 | 商情&nbsp;&nbsp;經濟日報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "全台唯一處理生熟廚餘，崑鼎打造桃園生質能中心推動循環經濟 - CSR@天下",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NLXo5VDktUUlaQ0NXVE1DdTBGRGwzdjZjQVBMSG9wX1gwdkhxMGtOdDdSTjlNNHJfUlZ5YVVZVUwtUWszUGN1Zy1VdVpucjVvVjQ4dE13?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=全台唯一處",
-      "summary": "全台唯一處理生熟廚餘，崑鼎打造桃園生質能中心推動循環經濟&nbsp;&nbsp;CSR@天下",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "議員質疑桃園「幽靈公車」亂象多 交通局：以AI提升到站資訊準確性 - 好房網News",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zVVoycnluQjloazdlMWlqSDVxV0NQLURETWJCdGk4ZGF1eHNGVFItZ2xNMmVKaWF0SXVvNEIzck5TM29rUWRDSmZvaTRwZWVreEZlOV83RTlMMTRHcl9RRTV1M096MXowdm1N?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=議員質疑桃",
-      "summary": "議員質疑桃園「幽靈公車」亂象多 交通局：以AI提升到站資訊準確性&nbsp;&nbsp;好房網News",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【桃園男遭猥褻！問ChatGPT「師摸生殖器怎麼辦」 母嚇壞急報案】 （示意圖，非當事人／取自免費圖庫pixabay） 還狡辯說自己有女友。(#起啵) - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMimgVBVV95cUxObWV1ejhfSTM1dlhJc1Azc0w1bEVHdXJUUUhvaDB0Nmk5YU5RSXRDREFHYmNabDZXOFlkRDlLZU9DX2RGYjdlUG1tYVVWMGNidlE0aEFpaF9vdGJvUjhrWWxpMWU0ZUpvb3UyQTlQZ0VraFltYlhQOXVKSWx3MEdwSEJ3RENYTmsxMkhhRU1vWUlnaWpNY2hzbU5PRzR4TTJqNWFJa3lWRlFoSFJocFZ2R2tJOC1NQ1FBTzR1WHNkZnpuS1F2Nkpva3Bzd240dzBGaWpNQnl0ZDFTVDFDRGpYMzc0RVFYQUtndlVJZzlRWVpkX0RwakNqdWVoRDY5SnRjZEtoOGhWZkJ4eXBudHJjRHd1NlVlaUFWZTAzejdOcW9nc1Y5aC1Eeks2eXg4bXRoUGNQNnZCeXlRaUZJYnloeVB3bkRKRmI5ME44V042NGtQZ2hvMXNwYk9ESC1DdG5veldocWxTaFJua2txMmZTSzl2MU56NjJ4ZVNTazFnWnR2MDR1bF9Zd0Fmc3NUZVRwbUN4UXVkbmFwVjVGWjB0QkJqM1JmakFYMFVkMVlNUXBiUkFwUG1iTnIzZzJqSk5qZDRjYXVHZDdZeWI3eDZScWxXVmxteXVjajI3Y0UtbTQ0eElYeU0zaWlTZHh1eWtDaUZTNDVSdS1CdnlWbmNWT1dKOEtVbVpEYXlPNWRrSnhtd0lLS21pMlVkR29maFRFTDZIQ3FvWnVFRVlObkVUUk9kUlV5aXc2eVh6TTZsMmk3cXVvdG9RSTR6cndGZVBvaUJvT05YenVmMEJmS0NSdy1Yd2c2MzdrMjBEcG5zb1lCaGpVQzRQWFk3NUJsUkhTU3NMNnFVMllqMDAzZmY3blA2QWdtTmp0emc?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【桃園男遭",
-      "summary": "【桃園男遭猥褻！問ChatGPT「師摸生殖器怎麼辦」 母嚇壞急報案】 （示意圖，非當事人／取自免費圖庫pixabay） 還狡辯說自己有女友。(#起啵)&nbsp;&nbsp;facebook.com",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "「老師摸我生殖器正常嗎」桃園男高中生問ChatGPT忘記登出 狼師惡行意外曝光！ - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQbGdfSTJ6X3VTRU9wRnZhaV9FNUNsNklFaDF3YmpOUjVYbzZZTG5iTjB1Z0FuZEhDVFQ0SEtKaC1BWVZuVVVJeHRjTkhtV2ZoSmxTX0dpc0lnY19sdklqN2ZfOWhuWVNXOG9ranhKSmU1c2RoWTRwNTNhT2Vvd2FqTVQzWDh0c2JvUHZLcEkyRjNwTndHVHh1RDVLMFlYbnowOVh2akZWRm9EZUhpSTQyUzdka1VUVHZWbjRJWmRIY0N6VUt5d1RnVElQR0p4d2pMckJSNDRhVEhLQ2IyX1M5SDBZQ2d6X3F3ZmVTM2Q0NW9SNVFKYmo5Ylh3SF9ValpxRDVNdWVMS0ZCOEI2MUF3T2tycEczZGtHR2Y1dVZtOGNCOUQtRUhtRTBHWXhiTmo5WXFqRVAwZ3JGc2pJUTMtQUItSndTVDVSOHB5UnpOM1ROQnNMMUFiUnBmS1FJeE1WSTRCU05EeVdwWmVLRlEyRjlmREhOYTVkUDk1ajFUZUNRbWI1Yl8zMmNpT0M1TVZqUVN2cU9HUUNhNXhIUW9od2lKX0NiVURVaktyVjlkWDJHaHg3TEd5QWdGSQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=「老師摸我",
-      "summary": "「老師摸我生殖器正常嗎」桃園男高中生問ChatGPT忘記登出 狼師惡行意外曝光！&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "獲頒年度最佳總教練！桃園台啤永豐雲豹羅德爾「專注季後賽」先不慶祝 - 桃園電子報",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1nQ2xvb1QtWURPbGRXMDRtNGZWVl9HYXJLcTUzYzJHRlBQOUdkTXBQaEhlaU9Ma3luRnZJNDM3UmVKaF8telhPd3E1Uk0?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=獲頒年度最",
-      "summary": "獲頒年度最佳總教練！桃園台啤永豐雲豹羅德爾「專注季後賽」先不慶祝&nbsp;&nbsp;桃園電子報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園「特級咒靈」大聲公炸街嚇壞人！私下真面目曝光全改觀...在地人狂推：帥得離譜 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxOMnFyVTBGYl9mTUtCMDRvT2RnZGR6dWtLckd2MkpGRmVaNl85ak4tWWpLbnd2MjJVekpIcWZ5OXVJeU5jTGpqbE5fbS1NYjdtNC04bnFqVktqVDB2SXJvOHZBOTl4ZzBpa2JidkRMQUlmYWZpOVJIV2FDRGotT05ta19CUkpfUGcyWE5qTXR0WUtmSWc2Z1lXbjd3Unc1VllfTFNYaEJNSUFGZUxWeG8teVJzRXAyMS1kb3NHRjdtQzMyQUw4bUU0cEdhX0p2TE55QVJGbHc1Sm9HZHJSRWZGS1k3eEZJZVhEalozaWRIbnVWMGhpYUtqd0VqVS1lQjZRMF9FckFtcE42WmFuY0pDSWxHczJSVWd5Y3czU1JsR3I5cno2LVV6ZGNFc1Yxb2ZfaDVmaE5XeVNnWmhCR01PQ0o5QllwRzFfNXZOUWFjd1ZubDZCZy11VEQ0S0pKTGRYRGZua1lqQXk3NXFpVUNvXzVHT25sRVJ4R0RoME51XzVoVlYtVkE0MzFHcFBZUElzcGRrc2pUanJyX3FwSjkzaktqeHV5d0dTeEU0STMwTXVaU0pQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園「特級",
-      "summary": "桃園「特級咒靈」大聲公炸街嚇壞人！私下真面目曝光全改觀...在地人狂推：帥得離譜&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園營養午餐9月起每餐補助調升6元 張善政：再推三大特色升級讓孩子愛上午餐 - 台灣好新聞",
-      "link": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxPSm42SnhXQXpKQ21NQ3ZmWjFSLTNPR2ZHTDRyTENDeFV5dWhMR3JiTWhSRzh3OXRXdjJneEtkUDBmdTczMEhCWWFyYlJzSGFTcV9abVUzNG5CaUQ3al9QX280dEtFNTFsM2pwYkpHYkVYeEVLUm1Ta2lxb19TREdjRG5vM3ZsbFdaN01vZHUxNVRuTlF3WXhNNEZJQ29qNmlLLXcwOUk2cTZ4OG1LZzVpTVhDanp4ZHdlaW9mTWo4Q2JMaTRlVWtBTUtEUDRIS1dBbHF5eXVjY2RFczREOERQSHQ3SE5PSEl4dXQ1Yjl6NzBwbnNpMVl0NDRkTVd2WW5yQTVtU09DMF95MWwzUlBzbWJ6MU4wM29td0lrWnR2ZDU4My1ZVWQ1b3ZCNkh4RGQ3Q3B5RUNsOFdIMy1qQ2o0WHN5MWw1MDNGTmF0LXFkbDFfVmdaNGdjMEJRWWJRckVVQXZLdU5ud24tT25sTWIwb2lPUWFOUDdJUTM0clhxQjc5QnVmbVhjUTFoMmFnWE1paFBnUExCRVF2NkJGTE9wZkgtbktVRVFvNGZvalJCc1R5a2lJMG5WMDN3dWQyMUpkYk84QUVQb0RjeTlvSDM5LUV3QXdpSUs2emk5X2hSTS12TTEwc0kyNlNMWVY?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園營養午",
-      "summary": "桃園營養午餐9月起每餐補助調升6元 張善政：再推三大特色升級讓孩子愛上午餐&nbsp;&nbsp;台灣好新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "鋒面影響「桃園以北大雨特報」！山區午後留意大雨 - 民視新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fR0Y0RVFvNkFfSXFlVmMwMVNWVDNESk0tZHo5a3daRXZQNWo5TDNuMDVMVmhlWUlFbjZyRUVvN184THFfNmxaSmwtWEJhZWZIdW5sTTJucGVQRjZfSnpHbQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=鋒面影響「",
-      "summary": "鋒面影響「桃園以北大雨特報」！山區午後留意大雨&nbsp;&nbsp;民視新聞網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "桃園8大公辦園區布局帶動逾千億投資動能- 生活 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WeVg3RjgwQUd5LTRpa0hWSl9rZmtRTTh5TUVMTmloTmtMXzd5Zlc5Nk0tOXlfVDBHZ2ttMDFOem5kZTcxWENtVzRhS0U5MTByb2ZDSzlWelh6RTBYTkE4?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=桃園8大公",
-      "summary": "桃園8大公辦園區布局帶動逾千億投資動能- 生活&nbsp;&nbsp;工商時報",
-      "time": "05/14 02:22"
-    }
-  ],
-  "文化": [
-    {
-      "title": "大學生猴硐田野課老礦工口述歷史  承傳煤礦記憶",
-      "link": "https://www.cna.com.tw/news/ahel/202605130297.aspx",
-      "source": "中央社即時新聞 生活醫藥",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=大學生猴硐",
-      "summary": "（中央社記者黃旭昇新北13日電）台灣大學學生近日前往新北市猴硐礦工文史館田野課程，透過老礦工口述歷史與導覽，讓學生重新思考人生價值。副教授蔡佳芬表示，除珍貴礦業遺址更應珍惜台灣最後礦工的生命資產。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "造山者瑞典放映　導演：盼傳奇讓台灣人更關心歷史",
-      "link": "https://www.cna.com.tw/news/acul/202605110325.aspx",
-      "source": "中央社即時新聞 文化新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=造山者瑞典",
-      "summary": "（中央社記者辜泳秝斯德哥爾摩11日專電）台灣半導體發展史紀錄片「造山者」前進瑞典，在10日的放映會上，觀眾好奇片中「小欣欣豆漿店」的探尋細節，導演蕭菊貞在映後連線座談中表示，這個片段雖然短短7分鐘，卻",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "逾60館所博物館日週一迎客　文化部推系列活動",
-      "link": "https://www.cna.com.tw/news/acul/202605110222.aspx",
-      "source": "中央社即時新聞 文化新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=逾60館所",
-      "summary": "（中央社記者王寶兒台北11日電）518國際博物館日將登場，文化部所屬博物館及全台超過60間館所將在5月18日週一多數博物館例行休館日特別開館，文化部同步推出系列活動及文化幣「打卡集徽章」快閃。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "肯亞薩威倫敦馬拉松「破2」寫歷史　將參加9月柏林馬",
-      "link": "https://www.cna.com.tw/news/aspt/202605130365.aspx",
-      "source": "中央社即時新聞 運動新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=肯亞薩威倫",
-      "summary": "（中央社柏林13日綜合外電報導）柏林馬拉松主辦單位今天宣布，史上第一位在2小時內完成全馬的肯亞好手薩威（Sabastian Sawe），將於今年9月參加柏林馬拉松。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "文化創業加速器3／跨域打造影視 IP新商模 加速器「校友」回鍋聚焦地方創生計畫 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQcTVzU25hLTJ4blhZNGh4ekxJVG1IVm5ncHFiS21YUktCeFlnLWpqZ0w3TmEzYnZTaFMyc0dNdTd1X2xYQ3dqc2FLTVg4ZEIyZmg4eVFhUnNfUTIwN2dCWnItRG5UOGFMemdIRXFBU21LU3BCQUYwN2NmZkRpNHdhd19ZNUJYQ3hjTFEzN1JCZ0tmV0hRSEpCVmtEY0pRY2NIbGE1dTJYekZVbnFKdHVoS3ZnczNNZEZFR2VrU3N5V1k0Z3FBWldtVGJzdXBVV1JLcHZiNlp3aTNVN2dFT3lBeW0yQWZnZmp5Vm1wNVdiazg4SzdfZXJTTkt4cUhYQlJ3QW5TZGJaUDBuN1VXNmM5ajJwOElKWlNqdy1SVEhxVWxnVUpNX2ZSckVvTm1oejdKRUl3dmRQNENXRDBzazlVWnFhZFFHY0lsNnl1XzJGVldMdURlbVpmRA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=文化創業加",
-      "summary": "文化創業加速器3／跨域打造影視 IP新商模 加速器「校友」回鍋聚焦地方創生計畫&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "科技股領漲！標普500、納指再創歷史新高 | 財經 | CTWANT - CTWANT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xY1VvOUw4V2tRZ1RHVVdhc3dyVTcycW93YWVCN2NLS2pPRmZvV2hjUU5LV3pVT2lhbDNuelk3a3BUZ29aTU1Zbkh2a3N4bmfSAVRBVV95cUxQbVZ6cVVxSDR6Z28zWU9weUZ0Ulp0bFJRUDVvYUVfN285SDlLSFIxNlM1SkE4M0oxQlR0Zmk1VDYyeGMzTmFicTdQUm9uVGZwbGMyY24?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=科技股領漲",
-      "summary": "科技股領漲！標普500、納指再創歷史新高 | 財經 | CTWANT&nbsp;&nbsp;CTWANT",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【藝術文化】NSO攜手TBT泰武古謠傳唱美巡 首站聖地牙哥合體演出 - 自由藝文網",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40ZktlOVhlZDJTVWVNZEtwcTNfdUlLZ2htb3Q4V3c4b0VmUjVrUG4yQUdYTU5td08tSjJmdmJwd3Qwa2hsX2FnTkxid0lJUGhYU1FkWHd6d9IBXEFVX3lxTFBWZkZVekhqS1p3V0dfT3ZNdzdkZ3pNcnkyT2pRRWJodUpkejF2d3FZakNXSXRIV1hydTJxaWh1VzdzbGpmNndOUWRmNkVlakpZdEtXbFp2XzZUeVNj?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【藝術文化",
-      "summary": "【藝術文化】NSO攜手TBT泰武古謠傳唱美巡 首站聖地牙哥合體演出&nbsp;&nbsp;自由藝文網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【藝術文化】五爪金鷹現身新莊 隆興閣特展一窺客語偶戲傳承 - 自由藝文網",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CUHFvN1JCNjZOVnUyNTdjeW5KVzhBSVJtWjVDNDE5OEl5dmZSMjdieW5NMjBJdkpBbmktR05RRzRYcmRCOVA1VXQ3Y0ZWM0lPLXBWOGVQUdIBXEFVX3lxTFBiNVd2ckZnNFJYZGt4YkVlYTVBbnNmXzkyOUlPTWVyUXVEbEZYLWJYeE82ODRBWlQzR2NnTjN3YWpJUzBMYmlkZ0JwOEJXYmRxaVhoZkF6aVlSenBa?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【藝術文化",
-      "summary": "【藝術文化】五爪金鷹現身新莊 隆興閣特展一窺客語偶戲傳承&nbsp;&nbsp;自由藝文網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "從客庄到原鄉 新竹縣518博物館日推出32場文化體驗 - 新住民全球新聞網",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZWl2ZVlRS0JGNF8taENhbEdjNGN5OUUxZURTQThUbGhNc2x2TS1KSEVsTmJDWG9XWTJGdkEzZnZwQXV2dDhHQ2hXdGVGZExSWUh6SHdjZWhzTEkzTEpKcDB1UEdIUTVWV1c2NTd0ZnJwdUh6cHE5T3cyNTJfQVN5ak9acnQ0dUhaSmcyeUxrRjFEM204Y1pmXzZWVQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=從客庄到原",
-      "summary": "從客庄到原鄉 新竹縣518博物館日推出32場文化體驗&nbsp;&nbsp;新住民全球新聞網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【藝術文化】南管跨世代匯演 台南孔廟流轉百年絃音 - 自由藝文網",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhekFnMmlZZFZYc3dSV2NtZDRmd0VVa0VGMklMRlM4WGZxWXFBM0NiaEV1U2YwQk00a0VydkpZcHNqNHlNV1l6emViUzcxTV94T3dTbEFJY9IBXEFVX3lxTFBPT3dPbWdwMnBsZ1J2bGlWVTZqNGQwSnBlRWU1RWVjX1k4RWlNejA2MzVmN3pxMnZaVllTNVBOSndOU2ZTUXZaQ3QyNG9kaVNJWmVUSjRqMDZGM0tm?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【藝術文化",
-      "summary": "【藝術文化】南管跨世代匯演 台南孔廟流轉百年絃音&nbsp;&nbsp;自由藝文網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "年輕世代重新詮釋文化 5/18「國際博物館日」中台世界博物館「博物策動」開展 - 蕃新聞",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNSEhGUi1YdHdma1ZEcTB5UzVVUjZIWnN3WjFLWEZkRGdQdnd0WDZqcW9WYloycGlGMEZnaVlmOEhRUl9QMzBWX3h4T0FxeGZ2WkE?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=年輕世代重",
-      "summary": "年輕世代重新詮釋文化 5/18「國際博物館日」中台世界博物館「博物策動」開展&nbsp;&nbsp;蕃新聞",
-      "time": "05/14 02:22"
-    }
-  ],
-  "科技": [
-    {
-      "title": "Googlebook新筆電主打AI　宏碁華碩入列首批供應商",
-      "link": "https://www.cna.com.tw/news/ait/202605130039.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=Googl",
-      "summary": "（中央社記者吳家豪台北13日電）Google今天在針對Android開發者與愛好者舉辦的The Android Show活動上，發表全新筆記型電腦裝置Googlebook，以人工智慧（AI）模型Gem",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "華爾街日報：英特爾奪蘋果晶片訂單　雙方達初步協議",
-      "link": "https://www.cna.com.tw/news/ait/202605090003.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=華爾街日報",
-      "summary": "（中央社紐約8日綜合外電報導）「華爾街日報」今天引述知情人士報導，蘋果（Apple）與英特爾（Intel）已達成一項初步協議，將由英特爾為蘋果裝置生產部分晶片。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "微軟：台灣AI擴散率31.8%躋身全球前20　領先德美",
-      "link": "https://www.cna.com.tw/news/ait/202605080197.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=微軟：台灣",
-      "summary": "（中央社記者吳家豪台北8日電）微軟（Microsoft）旗下人工智慧經濟研究所發布2026年第1季全球AI使用報告，揭露生成式AI在全球範圍內加速滲透的最新趨勢，台灣的AI擴散率提升到31.8%，相較",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "輝達砸660億元投資IREN　瞄準德州大型AI園區",
-      "link": "https://www.cna.com.tw/news/ait/202605080124.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=輝達砸66",
-      "summary": "（中央社德州斯威特沃特7日綜合外電報導）隨著人工智慧（AI）需求急遽攀升，輝達（Nvidia）將投資資料中心營運商IREN多達21億美元（約新台幣660億元），作為雙方合作部署最高5GW（Gigawa",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "搶占AI晶片供應　科技巨頭爭相向SK海力士提投資方案",
-      "link": "https://www.cna.com.tw/news/ait/202605080114.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=搶占AI晶",
-      "summary": "（中央社首爾/新加坡8日綜合外電報導）路透獨家報導，全球多個科技巨頭爭相追捧SK海力士，甚至提出投資新產線、資助購置昂貴的製造設備等方案，希望在激烈的競爭中確保記憶體晶片供應。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "IG推青少年帳號適齡內容　強化AI年齡偵測",
-      "link": "https://www.cna.com.tw/news/ait/202605070192.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=IG推青少",
-      "summary": "（中央社記者吳家豪台北7日電）Meta公司參考電影分級制度與家長回饋，在台灣及全球各地推行Instagram適齡內容分級機制，針對18歲以下青少年帳號預設套用，確保其瀏覽內容符合電影分級中13歲以上標",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "量子AI新創Qutwo　天使輪融資逾9億元創芬蘭紀錄",
-      "link": "https://www.cna.com.tw/news/ait/202605060392.aspx",
-      "source": "中央社即時新聞 科技新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=量子AI新",
-      "summary": "（中央社記者巫祈麟赫爾辛基6日專電）前Silo AI執行長薩林（Peter Sarlin）賣掉公司不到兩年，又一手創立量子AI新創Qutwo，日前宣布完成2500萬歐元（約新台幣9.25億元）天使輪融",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "AI結合運動科學　虎科大攜手運科中心推精準訓練",
-      "link": "https://www.cna.com.tw/news/ahel/202605130285.aspx",
-      "source": "中央社即時新聞 生活醫藥",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=AI結合運",
-      "summary": "（中央社記者姜宜菁雲林縣13日電）虎尾科技大學與國家運動科學中心今天共同簽署合作意向書，透過數據分析與實證研究方式，推動運動訓練朝向數據化、精準化與科學化發展，盼研究成果與第一線訓練現場接軌。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "清大發現光絲化機制　埃秒脈衝助半導體材料檢測",
-      "link": "https://www.cna.com.tw/news/ahel/202605130256.aspx",
-      "source": "中央社即時新聞 地方新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=清大發現光",
-      "summary": "（中央社記者魯鋼駿新竹市13日電）國立清華大學電機工程學系研究團隊利用「光絲化」機制引導雷射光，使其自然壓縮並產生高品質的孤立埃秒脈衝，如同超高速閃光燈，能運用在半導體先進製程中的材料檢測。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "「魔戒」導演彼得傑克森獲坎城榮譽金棕櫚獎　影展揭幕AI衝擊成話題",
-      "link": "https://www.cna.com.tw/news/amov/202605130170.aspx",
-      "source": "中央社即時新聞 娛樂新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=「魔戒」導",
-      "summary": "（中央社巴黎12日綜合外電報導）從黛咪摩爾（Demi Moore）到伊萊亞伍德（Elijah Wood），眾多影壇名人今天踏上坎城影展開幕典禮紅毯，AI衝擊與好萊塢大製片廠的缺席，雙雙成為本屆影展最受",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "COMPUTEX 2026臺北國際電腦展即將登場黃仁勳與高科技巨頭來台聚焦AI主題仍成矚目話題| 大媒體 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HLXctcUp2REttTHVlcURIc2QxV093cC1tM2tlTFY3aTJJcTdqUGFueV9GR05YWWZPUnhaeUt3cFZOLVRtOWVlb0l3b3dUb09saDZXczVZTXhMQVpucEphZWxGc29OUTFwSnI2SE5UR3d2U0xV?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=COMPU",
-      "summary": "COMPUTEX 2026臺北國際電腦展即將登場黃仁勳與高科技巨頭來台聚焦AI主題仍成矚目話題| 大媒體&nbsp;&nbsp;LINE TODAY",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "黃仁勳「空降」川普訪中團 美科技股帶動盤勢、台積電ADR上漲 - 太報 TaiSounds",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hQkFFWThFRzFMZGZHcW94R1Z6ZWlZN0RrdTZPQ0RualU5cE9YeDZJcmZYZWZQNmZnMVo3a1VMTG9PbzBETVVQZGl0YnNmR05keVN0TGZud29QTkRn?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=黃仁勳「空",
-      "summary": "黃仁勳「空降」川普訪中團 美科技股帶動盤勢、台積電ADR上漲&nbsp;&nbsp;太報 TaiSounds",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "又有科技企業要裁員！思科宣布裁撤4千人 重組資源搶攻AI基建商機 - 科技島",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83cUM0ckhuT2RwVmxVM3JIbUk5VkM4a1J3bm51S1N4Z2Y1c0lrMEZuUC1nUEw1RmdvT0NYVE5QSGRrVXdmTE9KdUlzVHFWM1ZiZTFQQkZHaFIxdw?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=又有科技企",
-      "summary": "又有科技企業要裁員！思科宣布裁撤4千人 重組資源搶攻AI基建商機&nbsp;&nbsp;科技島",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "AI 醫療與長照科技齊發！Medical Taiwan 2026 開放預先參觀登記 - TechNews 科技新報",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lOFlId3dTNXFRa2MzQmVremFrbkZNdnpGSEd4a2NCaS10dTR0STlZVFlOVUtUR0p3RXpsa0ZrVU10OEFiMUhad2pJaXVQREN1WEJkam9QcWVJSkQwcWFyeUFLTkR0eElNQUpkMS1tUkh3QzN4U3NBa3dPVGhtUQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=AI 醫療",
-      "summary": "AI 醫療與長照科技齊發！Medical Taiwan 2026 開放預先參觀登記&nbsp;&nbsp;TechNews 科技新報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "AI科技股領漲 美股標普那指創新高 台積電ADR漲0.63% - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQaE5ubmhHX2piNUFFRmVSekhONzdsNFRyb2ZJTFJja3o0RUV5N2w2SXBOZHc1MVVZTThIQmdxNmdJY21wa0EyaVV0OWtaejhqR1Fnc3FIY0NDancxM3lLdWU5RHJuWWZCYURCZXlET01NS2lTdXY1Q3NJLTM4ZDY1ZmNwVzByYmotQjFwYzduTGNSRkNKVXF0OGp4MFhEeHJzWF90WXlIZXZmSW1taHFGdWtXN2h6LXlJTVFENGJHWElsMmt2UmpONHE2ejYwN1BvMk5ETjZiVC1ZMkhYcHRuMUVEZGljY0FmRXZxbERuMnROVm13QlhJWWk4a2dTUXVnSkZnUHhQb0hGQ05aODBuRUV6UElKcVR2Z2hSWGZjelZlTzZCeldLV085TXVIbjJjU2tMcHdOdVlJUQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=AI科技股",
-      "summary": "AI科技股領漲 美股標普那指創新高 台積電ADR漲0.63%&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "AI科技股領漲 美股標普那指創新高、台積電ADR上漲0.63% | 中廣新聞網 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByVUppUHNKX2hoc2tGX0tYRTVlMEU1VDZBdE16aFJCR1AyXy1WM2tVOUlBSkp5TjJOcHZwZklxVVRVb2RFNF9pTmRrWGlrRHo3NXdNdEl3?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=AI科技股",
-      "summary": "AI科技股領漲 美股標普那指創新高、台積電ADR上漲0.63% | 中廣新聞網&nbsp;&nbsp;LINE TODAY",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美股收盤》科技股助攻！標普那指再創新高 台積電ADR上漲 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GaEZneWp4b2JLelFjbU1HUnFHNno2OGp1bTZESm8ydkR1bHI5SGljbGg5UUUydndGVzItM2duTjlkSndNY2tYeEJpMk8zSFhwcTZZQ1hScU1PX0pkVHBJ0gFkQVVfeXFMUGhVNHVhNTBHb2g5bU81SGdfRU9DaVVMUnptVEM1TTRFU05FSHhWenFxYUFyZjZTWjNxc09MUzVJckh1NzlRUHBwS3FNUm5zZUFzbTlYYmw3NHB1ZUR5N21KZ1JnZA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美股收盤》",
-      "summary": "美股收盤》科技股助攻！標普那指再創新高 台積電ADR上漲&nbsp;&nbsp;自由財經",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "趨勢科技揭台灣三大防詐意識現況！逾7成民眾使用AI 惟對詐騙辨識信心度不足 - 知新聞",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaeDIzV2tWSmtqT3gyU0RjY3VMc0VIWXJqU2QtNC1PU2sxdnVWSU1EYlBjRXBVc05xNjlkdkdfT3hxV3EyX1gzS0pyTUp6d2xLZFpaSGx5QjBhcTlpMzhNUzBlcU9DbUoxQ1ExQmJDUQ?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=趨勢科技揭",
-      "summary": "趨勢科技揭台灣三大防詐意識現況！逾7成民眾使用AI 惟對詐騙辨識信心度不足&nbsp;&nbsp;知新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "無需編碼也能打造個人化AI助理 科技愛好者入門新途徑 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQdDNWUHRjYmpCWmtYbkREbDBJS2wtWjQ3RWZjTzdJZFJqQVRlTm5XbUVfcXlySFdxUDI2SU9zSWdSTi00eFV3SlBlVF9tT0xudHVDb053ZElHSzduODlxVU5vWlc2Snp2RUJuRWxQRFUzYlhGbXNnZGF1SUs4MDBPS2FkMC1sVmRDejNYdlB5SUlNQkV5X2tpM1FWTkFMRGZmZTZ4cS03VzlyOG1ReFpNWHZuYnJTVzAwZXUydzJTaTE3YmVxQlFlQU9QWGNvdk5XQURlMUhBMVZBOEpzZFViSEYzMmxaQ09VVFBMT2pKeVRBODZEb2E5LS1NYmZiZS1yS0EzSTNiMENnejdGNDRGemlTdFF4UnVpazVRa1pfbEFzT1c1MWg5cUFFVGV2X3oxTmZxenpFZDk2YnYyX2M1LV9zUERZVzQ1V3lZYzl2VWRER2hxWnJibjUyc0JQMGdJa24xeTVsVWY1TUJNaDEzNDV6dw?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=無需編碼也",
-      "summary": "無需編碼也能打造個人化AI助理 科技愛好者入門新途徑&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "水利署導入AI科技防災 快速提供民眾警戒災情資訊 - 住展雜誌",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aQWFscVlQaV9haWRjel9lcFh3aDYwQ2N1T2Yxb2trcHRjUFVmbHQ1MkxCUkdpcnhvYW95d0JRVlNCSkdPRjFaRHZhTGFwMjlXNFpsMld3OVpzaUpqelQwcFBUbnlrOUU?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=水利署導入",
-      "summary": "水利署導入AI科技防災 快速提供民眾警戒災情資訊&nbsp;&nbsp;住展雜誌",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "台積電ADR 走高川普訪中與科技股行情受矚目 - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQRXBfSE5ZeEZKbFppb0FoeGo3d0o3a2UtMVJyeHlpdXc0WnZFdW1VeXJTOHNveS02OGhKUGRuajdTRmZUdS1yb1BVUmJXZENQdkFwcnExVDJ2c0QwTF9EemFNTUd5bkpNWVVWSHowa2JzWDdmWHhTeFlzelI0aXlpVDI2RFZSTVZzV3JNc3luYmdCNVFCUHRwZ3BFVFZ0QWhaUXNwVTVXclhHblhIR2YxaWcwbmZmY1Q2ajNmTzg4eEhoWXdiOGU2UkJsYWZ2bW9rUjU4QU5RcFFsbVRGSllIRDlBUXpTT1ZfcXFzeDJqRlVpUXkxNmozd3FIaEhueXBNeDVXWEI4UnRBSXRrRzdJdGtjYkVqZGdFYmxmR1dGVFRMMUhDSlpDemZEOVhzTHpiMHVIaGdaMWFoTnVfbC1XREJhSW9FdGluUVpRbnVxaU1rZXJXMHdEdnR0LUw0dldXQjFMaExB?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=台積電AD",
-      "summary": "台積電ADR 走高川普訪中與科技股行情受矚目&nbsp;&nbsp;MSN",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "智慧升級…6G+AI 重塑2030生活風貌 - 聯合新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xLWphcHQzbGNDcDRlU0RFdnZkZEllOVRPMXpwVldmTGc3R25nUGRUVjBsTU9ZZHRGOG9BR0hWMFpkM3g5X3U3b3BRdVdOZzBJ0gFWQVVfeXFMUHFVU190UDByVk1MRE9iUzBTOC1YYnE0cm9XdVQ1YmVfTnVESGhpUURPQ09VRHo2NkpqQlBDcEh4VkhZUmh4UmpwcVJ2Qlhwc1UxR3Z6b1E?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=智慧升級…",
-      "summary": "智慧升級…6G+AI 重塑2030生活風貌&nbsp;&nbsp;聯合新聞網",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "韓國ETF教父捨棄巴菲特策略 籲投資人擁抱AI科技ETF - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNNTZUaDlGTkdzTlFsdTRrMWZZUmE2YTU0YTJzMHp0b3p0MElSbUJzN1BjZ0lUQ2VjMU9fYjdZNnBhU1gzVUNyT0szSDE5ZjJadFFzazB1bnJNYXN1Y2k3S0tnR0gwQTF2VDZZVlFUUUR3TWZ0MHBmQm9idXBkOW00VXJBSVdQcnNyekxhVkVzS0pMQzF2VVJLM3hEUFpHVk0xdWFBekpsNE84NnIyYjhQbFd3Y1ZZdGoyakRJeUNHeWNLNnR3ME93Vi00WWcyQ3ZjeGtKUkpveTg0bDVlS0lBLUdkNVY2Uk5jVEc4VDI2eGgyMU05cjRRNXpVZXdzelZIRDZtc2FHc1ZhOHVSdzc3T1FqNDFJZEhkbnBKckpDZC0yZ3NNbUpjUEgyQzRVOUdDazF5Um5Ea2IxS2l0SENZNDlBYjNaZGI2d1hv?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=韓國ETF",
-      "summary": "韓國ETF教父捨棄巴菲特策略 籲投資人擁抱AI科技ETF&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    }
-  ],
-  "國際": [
-    {
-      "title": "美國無人機協會執行長：美台軟硬體合作進入新領域",
-      "link": "https://www.cna.com.tw/news/aipl/202605140024.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美國無人機",
-      "summary": "（中央社記者廖漢原底特律13日專電）美國無人機產業協會執行長羅賓斯接受中央社訪問表示，台灣有能力提供無人機安全與可信賴運作的場域，美國軟體領先全球，台灣是硬體領導者，雙方可在無人機、機器人及配套項目合",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "英智庫示警中國域外法律戰　台灣人面臨更大風險",
-      "link": "https://www.cna.com.tw/news/aipl/202605130336.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=英智庫示警",
-      "summary": "（中央社記者陳韻聿倫敦13日專電）英國智庫「中國戰略風險研究所」（CSRI）今天發布報告，分析中國升高域外法律戰對各國企業造成的風險。報告作者詹寧恩指出，就算是英國境內企業，也有可能遭北京當局依據中國",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "外交部要求中國善盡APEC主辦責任　確保台灣平等參與",
-      "link": "https://www.cna.com.tw/news/aipl/202605130268.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=外交部要求",
-      "summary": "（中央社記者吳書緯台北13日電）中國為2026年APEC經濟領袖會議與系列會議主辦方，中國國台辦今天稱，按「一個中國」原則處理台灣參會事宜。外交部表示，嚴厲譴責並駁斥中國國台辦謬誤說法，再度嚴正要求中",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "中科院參展美國無人機展　主攻國際供應鏈短缺項目",
-      "link": "https://www.cna.com.tw/news/aipl/202605130262.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=中科院參展",
-      "summary": "（中央社記者吳書緯台北13日電）XPONENTIAL 2026「國際無人載具系統展」在美國底特律登場，中科院由院長李世強率隊參與，參展勁蜂2型、勁蜂3型攻擊無人機、銳鳶2型多功能海用無人機等項目。知情",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "川普談伊朗戰事未考量美國人經濟困境　范斯澄清[影]",
-      "link": "https://www.cna.com.tw/news/aopl/202605140025.aspx",
-      "source": "中央社即時新聞 國際焦點",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=川普談伊朗",
-      "summary": "（中央社華盛頓13日綜合外電報導）美國總統川普昨天表示，他在協商結束伊朗戰爭的協議時，並未考量到美國人的財務困境；副總統范斯今天試圖澄清川普這番發言，稱川普當然在乎美國人的經濟困難。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "川習會在即　盧比歐：美國希望說服中國勸阻伊朗",
-      "link": "https://www.cna.com.tw/news/aopl/202605140014.aspx",
-      "source": "中央社即時新聞 國際焦點",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=川習會在即",
-      "summary": "（中央社空軍一號13日綜合外電報導）美國國務卿盧比歐今天在空軍一號上接受福斯新聞（Fox News）專訪時表示，美國希望說服中國在勸阻伊朗方面扮演更積極角色，使伊朗停止其在波斯灣的行動。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "美參院否決戰爭權力決議案　挺川普對伊朗動武",
-      "link": "https://www.cna.com.tw/news/aopl/202605140007.aspx",
-      "source": "中央社即時新聞 國際焦點",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美參院否決",
-      "summary": "（中央社華盛頓13日綜合外電報導）美國聯邦參議院今天以微弱差距否決一項限制總統川普對伊朗戰爭權力的決議案，這是美伊戰爭60天國會授權期限屆滿後，國會首次就該衝突進行表決。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "伊朗戰爭致能源成本飆　美4月PPI年增6.0%逾3年新高",
-      "link": "https://www.cna.com.tw/news/aopl/202605130362.aspx",
-      "source": "中央社即時新聞 國際焦點",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=伊朗戰爭致",
-      "summary": "（中央社華盛頓13日綜合外電報導）美國政府今天公布數據顯示，受到伊朗戰爭導致能源成本飆升影響，美國4月批發價格大幅上揚，創下自從2022年12月以來最高的12個月增幅。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "國際足總秘書長訪中  盼世足賽在中國點燃熱情",
-      "link": "https://www.cna.com.tw/news/acn/202605130220.aspx",
-      "source": "中央社即時新聞 運動新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=國際足總秘",
-      "summary": "（中央社台北13日電）世界盃足球賽中國大陸地區轉播權價碼陷入僵局，國際足球總會（FIFA）秘書長葛拉夫斯卓姆昨天率團抵達中國，預計將與中國官媒央視磋商並大幅降低報價。他說，堅信世足賽將在中國點燃足球熱",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "台作家談文化交流：當局越封鎖民間越渴望 - 中國評論新聞",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZNWhOZGd2eVBRTEZyNk9Qd3VFaElTQ2hsclVoYUJ4d1puc0JBUDM3aXdrclRSOWQzLWREVi1EZkIwbk5tRU42N29DY1ROUFhneGoyZVoxbTd4b1d2WV9JUjhvZGRlMGs?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=台作家談文",
-      "summary": "台作家談文化交流：當局越封鎖民間越渴望&nbsp;&nbsp;中國評論新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美國4月PPI意外強勁 科技股仍引領大盤上揚 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNNHp3dFBNNGNZdnpPcF9NdzVfNUZNUmlmeHRQTjFVQ3pXMVRlcjE3eGUteGIxcm5QSnhFUHZMM2hxOXM3czc4a0JtOS1wbjlKTDFOcnlZX2txbnEzOHI4TWhhcVM4VVhqNTUtYjQ2MVhnVUhWRjdfcHdETWREWTBYYnktMm01OVUtMHRpVHgtc0lLRmZ1QlpoODNldTBNOXNhVUctUDdYaEQzbGQ2U0dpUlUtVVFDNVA5MnZiSVhfTHd5cXc3Rklzek9PMlNfckpidGx6cWdicUJ5eDhLbDdfdzVuclNrVjVFZjZYc1JxdVF1U3hILVhYLWVKLWZPZHJtWDRQaTZOU25McEtUZFRVTEZlbmZ3ZC1uZUt6WkdrWGlNRHlPTDRiNXY1bE9hdw?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美國4月P",
-      "summary": "美國4月PPI意外強勁 科技股仍引領大盤上揚&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美國PPI飆高通膨引憂慮 科技股獨領風騷那斯達克創新高 - 商傳媒",
-      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNY19VMWtZekhGenhJOVJ4RVpKNDRtMjREVjd1c0VHbFFSQXRVTVlHRXhEUlA5U1cyMEE3WnhERDZJNzF4TFlQMEY1UWxwRzNjUndzYmNoRF83ZmY3RVJkVGctQjdaMUpFNHVYblg5NndKLW5sYVg3QnQ4MG02d1hBTnE0YzMyT3pVQlNvaHB4Y0ZrYnAyd0JqQ1dHeUlqR2hMZ3Z5U2pGVEpnMF9RTFllOUg0NmhaUTBCSUVNTnMyVEY2b2hDaEJuR2ZfcWdYU1kxTG1ET0ZkRGZJMEZZUUxHZDJPVVhZdEM1U09HRnNwazdrbXRITGpicU5yRk9MV0JxLUxCbEJmc2ctLUxtdXREVzZocThHUm10bjJKTFJaN3NnbVEwZHBHN09oalFGbWxoSjBTc2RVQmczY0pHTFlYY0M3V0o1OVZNVlE1bEpURXdLT0Y1bDVWQmJGMkMzUlpfTE5GYXR5Y0tmbjQySktCX0Rtdw?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美國PPI",
-      "summary": "美國PPI飆高通膨引憂慮 科技股獨領風騷那斯達克創新高&nbsp;&nbsp;商傳媒",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美國PPI飆高通膨引憂慮 科技股獨領風騷那斯達克創新高 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNbWhkMFBvVENzVERJZUx0eTJkOXFXZndMTmJMRlBLekoybjBIZGhxaW5UZk5SY0VBQjdSRzJlVDNMOW81QkpTODRLLW5GbVY0M1JCclJhZThObmNmNDNUM2YyZFRYUnlnc3pzVmZwZ2p6ZFF6WERKbTNTLU0xVjI4S2VCWFJ2YkdOaHhPald2WnU0aGJvY1RmdkhkalVFQjBCV2ZodUZieTFSMTkya1pxcXlWNTY0blBXRXB0X09NWXJiOFhaQV9sSVlwTHdDSFF5WUdCZ2hjSF81WDZfQkp0dU82a2JDWDRmZ2NVQmJiWXJfc3N2dW5NZmRST2lpX3hIR2JqVkh4bzNJZHRnRVkxbjZZZzk0aWFYUGRKcWprQTB4Y3FuOW1FeXlRVmtLcnU5TGN2U1JTUEFUMm8wZENTZ05JQ2UxNk83bTdBX24tVk5lNk8xUW9kYm0yUUNtNGVkRFZDcDdmbmdyWUE3?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美國PPI",
-      "summary": "美國PPI飆高通膨引憂慮 科技股獨領風騷那斯達克創新高&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "總統接見美國懷俄明州州長訪團 盼深化經貿能源科技交流 攜手打造更具韌性民主供應鏈 - president.gov.tw",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUbmVDX3h3cjJ6aEI3WEU3cjJxb2ZreDQzYkZZMW8xYU5Ic2otMWZfTzMtN2t6c2Q0Z3RUSTNSNWotbmhnbGJSTktJVEw3OU0t?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=總統接見美",
-      "summary": "總統接見美國懷俄明州州長訪團 盼深化經貿能源科技交流 攜手打造更具韌性民主供應鏈&nbsp;&nbsp;president.gov.tw",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "華爾街開始擔心了？美國通膨預期飆升 科技股重挫、Fed陷兩難 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sVEtkMUZNamFyZ1NuTTJkVUR0Q2RRb2xlcE5UTF9GalF4YUVSWnBLOTlLbnEwb0RGOFpXclpoeklab0llVnFYMmYtbDB6NjA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=華爾街開始",
-      "summary": "華爾街開始擔心了？美國通膨預期飆升 科技股重挫、Fed陷兩難&nbsp;&nbsp;news.cnyes.com",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "現實版變形金剛來了！中國宇樹科技推出巨型人形機甲，1800萬一圓鋼鐵駕駛夢 - Yahoo新聞",
-      "link": "https://news.google.com/rss/articles/CBMixANBVV95cUxQRlFMNlVxQ3Z5aGM4Z1BCWGNBNU4yWTRZSllOWjhrbWRyUUhXVzNXelpsaWZ3RjN2U3JlWnBpWkMzNHNzeFZ0Wmx0cy1NSlY3YUpGX3kwc0RkWGNfZlNhZmZsSUNweDhLb05ybkYzV3FQNGowVHFRX21acnpJaFdMVlZnOUtDaVlBY1FxSGhyVkw4cElfLVNCTWJhYnlWbHFwN2YzQkFpbFM0Y1FRcGR1NExVbDRkYnUtOTFvSDFvNHg3RjBEVllsanBNbGFKaDNNd0U4NjhydThsUGJ3cTc3RVp1WU1hRmJJMDd3Mk0tQ29ndUVJVXJMQ3lwTi1GRlFKb0dheUowME9YVUxMeW9zN21CRElEY2djVy1DeEUzUnJTQ2hCVUJMWDF3WWpiaHZjX2FIdHBxR0JzNzRTVUFocmRMcjVXNlhkQ0psc2tnWUlQY1lsU2M1WFpzbWpUdVJMTmlZWVJXQV9yUXE4d18ySTFiZzBvZ19ObzZfcUphcFJfSjRxZmdSYlZhNk9Qcjlmamxrdk9sVkQxU05kVnFDbmxtMnRaLUVleFBuV3FBTTJScGFmR25lRTB0QU1GWEprcWtzRA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=現實版變形",
-      "summary": "現實版變形金剛來了！中國宇樹科技推出巨型人形機甲，1800萬一圓鋼鐵駕駛夢&nbsp;&nbsp;Yahoo新聞",
-      "time": "05/14 02:22"
-    }
-  ],
   "政治": [
     {
-      "title": "立院外交團倫敦會僑界　韓國瑜稱許「日不落台商」",
-      "link": "https://www.cna.com.tw/news/aipl/202605140016.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=立院外交團",
-      "summary": "（中央社記者陳韻聿倫敦13日專電）立法院長韓國瑜率跨黨派立委訪問團，13日抵達倫敦，晚間設宴與旅英台商和僑界交流，總計約80人出席，氣氛熱絡。",
-      "time": "05/14 02:21"
+      "title": "「包山包海」部長盧比歐 傳統共和黨人從MAGA世界崛起",
+      "link": "https://www.cna.com.tw/news/aopl/202505050014.aspx",
+      "source": "中央社 重點新聞",
+      "summary": "傳統共和黨人盧比歐數年前和川普尖銳互槓，入閣擔任國務卿後被認為與川普核心「MAGA圈」格格不入，終究會邊緣化。如今他掌國安、外交等4職，成為受川普信任的「包山包海」部長，粉碎不看好他能在川普2.0撐太久的預測。",
+      "time": "2026-05-14 02:35"
     },
     {
-      "title": "川習會在即台灣議題受矚　前美外交官籲堅守對台政策",
-      "link": "https://www.cna.com.tw/news/aipl/202605140013.aspx",
-      "source": "中央社即時新聞 國內政治",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=川習會在即",
-      "summary": "（中央社記者侯姿瑩華盛頓13日專電）川習會即將在北京登場，預計觸及台灣相關議題，川普如何回應習近平，外界高度關注。前美駐中大使伯恩斯今天表示，重要的是，川普堅守美國長期政策，繼續對台軍售；另有專家示警",
-      "time": "05/14 02:21"
+      "title": "白宮透露美中領袖14日起在北京會談| NHK WORLD-JAPAN News - nhk.or.jp",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lU2dqV05iOEJTTHBkcWdhdHM0dTh5aTRwRnFnS3dRWURtUTRLTDRkaTVzdHFleFlpNktnaGVhZkFheWJXRmczd29tWGVtTlFYSDFmU3hLU05zTy1ObkVrOWdid3hLbllUR0Rr?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "白宮透露美中領袖14日起在北京會談| NHK WORLD-JAPAN News&nbsp;&nbsp;nhk.or.jp",
+      "time": "2026-05-14 02:36"
     }
   ],
-  "產業": [
+  "經濟": [
     {
-      "title": "美4月通膨攀升至3年來高峰　范斯改口坦承「不理想」",
-      "link": "https://www.cna.com.tw/news/aopl/202605140021.aspx",
-      "source": "中央社即時新聞 國際焦點",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美4月通膨",
-      "summary": "（中央社華盛頓13日綜合外電報導）美國副總統范斯（JD Vance）今天罕見地偏離川普政府一貫的樂觀語調，坦承4月消費者通膨「不理想」。",
-      "time": "05/14 02:21"
-    },
-    {
-      "title": "高通膨擔憂劇增 然科技巨頭訪華支持市場情緒 - esunbank.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1aTlduSVlpOHNsa20xYl9UeEdlTjJyeHRxNW53YkxIaWJWbmhvZk4yN1dPWXJoN3lvZW5ScnFoMTNNX0RtNndoOXlsU1ZOU3ppczBsT1ZEbnZ1ZXVWWXZidGtiMFRiWE1HTlNVRmxtaXRWYUtfQTR2LVcyMA?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=高通膨擔憂",
-      "summary": "高通膨擔憂劇增 然科技巨頭訪華支持市場情緒&nbsp;&nbsp;esunbank.com",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "晶泰生態賦能項目劑泰科技成功IPO，產業稀缺生態平台全面邁入價值兌現期 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxOM2VMY2piRHVrXzlab2k0NE83V1hVUExXSnBramU5clBjUjFpTTVkZHdqcHE3cVQza2kxb1VyOU81UU1CaExYQndKVjdZbWFvaDNhNi1WdmU1UTRlMFpTT0d0ZkgxTVp6ckFXUUpMZkJHZVYzd1ZnamswRjR0WW1TNm15RVNoaGx0OXFYbHJyUDJkUG9JRnRqdWhMamlvSEdTTVN4US1ka2hzWnlCUTB4UTcyR3A2SllRZk5GeXlEVGFIeGMtbi0yY0ZQNWtXSFJia0VsMDdNOThCd0ZUR0I2VDlEdEVHN1BCZ2g0c0MxN1lleHJoWUNWRFhfWkJXRG50Q2JUcm1LMUZqT0pkbk56QmdKckg4UUdKdE9BX2ZzcjQ4dlV5UTFqMFM4c0NmbndwTGNLbTVBYllMWjEyMGtWQy1qY0VaY2NneGE4X2poZi1XNXlaQ29DSGFrcUVRTnF2clE5SnhwYjZYeUtvTG10dWhQb2hkWmZtaElPNGRyVk5DMngxaEhKT1dCaWZrZnhYLWJBWGswX2IzSlRMY2d5TEItdENoMENzc0FEMWRVeE5zaERiWVBSMUF0VzFjYmpKTnJqbzFuSmJxeXd3dHhHSWVmNXY?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=晶泰生態賦",
-      "summary": "晶泰生態賦能項目劑泰科技成功IPO，產業稀缺生態平台全面邁入價值兌現期&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美股盤後交易：Eason Technology飆漲逾38% 數檔科技股劇烈震盪 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPalIxSUpvQnZ4eEd6c0c4ekUtWW1wUEU5QVlYMTBfWGp1UzZMVTBQQ0NPVkRSSmdaMFd1cUI4cjMtbFMwelpieTBaaHBlQ01va3ZJR29VSlJPVGtrTUNiRzI0QklEU0NoTTlWQ0xXUDljdUhLdlc3UWNES2RNRHRob3ZVMkZIbXpGN0NHY01JRS1FbnNJLU1TXzIxdEw4b2Q5UTg2cE1ib3hfWVBSZTJZUDlrLUQxQUc1Q0o3X3ZZN29MS3JGX3lQNkJnQXJic3I3UmdEVmh1cmNRSTRUb1RpbTJ5VTVMMFo3MVBablI4TWN5VlNzTjl2NWtKYjJLN0h1SDJzVFctWC01RHA0NHRjZVJvR3dIbVl1QmIyTXo5MFRYaEpqRG93UnloSjNmWGhEX2VhTlBUWmY4UTFUYUlfYll6ZG9yXzRReXV6VHNR?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美股盤後交",
-      "summary": "美股盤後交易：Eason Technology飆漲逾38% 數檔科技股劇烈震盪&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "全民瘋投資1／最敢開槓桿的竟是科技業　券商曝：很多人質押後再買權值股 - 鏡週刊Mirror Media",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51bjZHT0xtMmRPR3loYmlGSkwxZGFkVFhJWExOUDllaWFmZ3BLN0JzZE9YQV9IRkRWNjJaN2VQUTBiUWxVQWt5RmhTeEd0QzhFY1JZU3AtclJSQkpEaHfSAWNBVV95cUxOcGxmbC0yd3hKakVNcmlDUTMxMzRLck44b05XREdsRENXZ2FHajh1aG5tNDJnNkJRdlRFZXo4Y3p3N00yQW84d0MxVUZwRkYtT0diOVFOM1d6clB5RVJBQkxuTU0?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=全民瘋投資",
-      "summary": "全民瘋投資1／最敢開槓桿的竟是科技業　券商曝：很多人質押後再買權值股&nbsp;&nbsp;鏡週刊Mirror Media",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【美股盤勢】PPI爆表卻漲？科技股硬撐，市場在賭什麼（2026.05.14） - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDkwNE1BUjJ4eDFwd3V5T3JSWHNjR0JvNVhRazk3SGttZFFNWklCUzlVdUtBSEVPZUozNm1fS0hHVFl4QkNqUG5HY0NfUV9vYjkzRnN6eTRSejZKMGl3N1JIdkZVMW9ycHpETk0zbjVrTmVRclpTdEo1UDhwN2E3WVVXUWczSVQ4cVFXTHJ3?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【美股盤勢",
-      "summary": "【美股盤勢】PPI爆表卻漲？科技股硬撐，市場在賭什麼（2026.05.14）&nbsp;&nbsp;CMoney投資網誌",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "光寶科技永續治理展現國際競爭力！榮獲標普全球永續年鑑評比（THQ） Top 1% | ESG | 商情 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LMUlhOExNemxEbFExY1ozbjI0alU2ZWhCaHR4dm5SUEhaLVJtMXFmRGliVFFfaHVzODQ5ajJtdUpVVWRmWmVraEc4dE5Gb2NUN2p4QUQ2NFF6Zw?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=光寶科技永",
-      "summary": "光寶科技永續治理展現國際競爭力！榮獲標普全球永續年鑑評比（THQ） Top 1% | ESG | 商情&nbsp;&nbsp;經濟日報",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "通膨升溫壓不住買盤! 科技股領軍，S&P500、那指再寫新高，費半彈2.57% - MSN",
-      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxNVVQzQ05YLTVSZi1EX1NOVTIzTjRNcFU5UHdNSWVoYklqU1UwM2F6d3pZRHJ0am1SRTRWd2tyRHNER2NoUWN4TU9qTk42eEZlXzBROFJFalpYekVIQXlwZkt0bzdWUUJMVlQzUlc2VEJ3YmZEdHN6aVVPQWV5MjRiMWU2ZmNDRE5ZZmJFVzNyYWhWU29tRnRDMHZiX1BTUVlfYVQzREdybnh4MjktMlFmWmV1YmVrcTVERnNnNW14ZVVsT2NFUjFqNkxzaUdhWl84eGpfWlVzQldZdzdXSHJlY1E2Q3NZdVc1MEhRM1p3Y1lURlBqY3lvTVN2a3ZLM3QwOVRhcjYwRC1tZWRabWVoZUFOVGpRSHJjSU9MOC15SDVQWmcwbVB4NTBOSjBSMVYwTjNEY1pCaHA3MUJUT01QRFVuTDQyTjVJX3NMM3VCU2E5SE9TdEZ0Rm5QVk16R1UyS3dTOGZHMG5oNkRtNzhKSnFZRV82ckpvOVR0SGQwNW16bWFLbmJrY2pabUM?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=通膨升溫壓",
-      "summary": "通膨升溫壓不住買盤! 科技股領軍，S&amp;P500、那指再寫新高，費半彈2.57%&nbsp;&nbsp;MSN",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "人工智慧推升記憶體需求，台韓科技股強勢齊揚-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOURBT1htWll6cXBVNElVaUo5WnZaWE94NV9ON3pIODNWTTFEYUZGS2N5cHpCYWFOUkhod05vRTJTSG1zMkpzRmhEWnk1Zk1EWUtWOHlRc3psQ2djc2pnY2ZYMkZ3RXFOR1RKdXBPNU1JNFpqRVhlUDNyWmNYY1VaQXdR?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=人工智慧推",
-      "summary": "人工智慧推升記憶體需求，台韓科技股強勢齊揚-財經焦點情報站&nbsp;&nbsp;CMoney投資網誌",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "科技股遇通膨逆風！台股重挫資金轉中小型題材-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc0s2MXF3alNXX1lvQXYwVjJZTlBiaTJhSy01TWI1M3BkOVpwMTFZZnhrRWFkdmg1QTJaZ28zNDgtbDgzOGNabWJfSHlGRGE1cm9kVzBKZlBINGVYcDJodDJ3YldGWFl6T21tZzJCVHI4YkUtNGlibk1QU2lzaWM3MVNR?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=科技股遇通",
-      "summary": "科技股遇通膨逆風！台股重挫資金轉中小型題材-財經焦點情報站&nbsp;&nbsp;CMoney投資網誌",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "DoorDash拓版圖鎖定餐廳科技 分析師預警恐顛覆支付產業 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQRkNzX3d6SmlNMEVkRjhsVVBIV3NCemE5dWpKUFNiZ2QtT0dlQV9YdFdnSnRYRGpfd2w3QkdqNUg1NWpPbEZmSnVtZXNPZW9ZNnpPak03aTFXeDFqLWdlaGV3MV9LX2ZaOE5SNGplNFBQU1RKc3hUaVJfdkE2d3cydENwX21IT1RpYkR2WWJsM1hWZUtSVm5rd1FFTy1SbWF2bWNzbTVHVnJMZ3hDZ2hSYXhsRFBDUzBoSWFhb2dpQTVIV0JoTk9YSnpKb1otdnZLS3NiNHU5U1o1bjZfSmZteGZyeEhtMnpXUk1RcVkzRk1wVV9uUG9Jejd6XzVIRVBDLWR6cS1LSG14TUF3NmwxWjhLeEdVX2dCOTJ6dURHQ1pyYlcyaExuMnhWUW4tNS1MM0gzT19kWUMzNUczLS1FSGZwVFlrSUtMZ3ctT1hsREJnQXA2T09OWXdNbVJiZDdwNDRR?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=DoorD",
-      "summary": "DoorDash拓版圖鎖定餐廳科技 分析師預警恐顛覆支付產業&nbsp;&nbsp;Yahoo股市",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "【即時新聞】科技巨頭領漲！特斯拉(TSLA)大漲逾3%抵銷通膨利空，標普500逆勢逼近新高 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdzRRZDZKckxVcVVRT2QyLWxhQzhKX2FQQjBLZ0NFc2lPWDNoTTF2UnJ6Z0VXeDNfNmNCTzBPTC1xX2dvT0cxVU9oNXpPdFRoWEZHNHpVRUhjR25ncHdZbEEyQkVrZHhqVmhmZk9zMk1sSU5YTWMzNTBQWnhYN0RsRXZzN09ZTGxlb2MxcVNtT1o?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=【即時新聞",
-      "summary": "【即時新聞】科技巨頭領漲！特斯拉(TSLA)大漲逾3%抵銷通膨利空，標普500逆勢逼近新高&nbsp;&nbsp;CMoney投資網誌",
-      "time": "05/14 02:22"
-    },
-    {
-      "title": "美通膨升溫重挫科技股，台股跳水跌逾五百點-財經焦點情報站 - CMoney投資網誌",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdkZuUTdtbzFZY1J4WDBpcTFPVEc2ZUxpNUhqX3k5dW5VWUNmMzVVZUZOWjBFdWFjaXFuVTN4UTFZM3NORzlNeXJNVGlETDlKaGt0THktNjJwbm0tRzVSSm9vbDVSLXJ3cEZmeGNsbUx4ZFZZQVd5ci1TTmNobDRBWk9R?oc=5",
-      "source": "\"桃園 OR 文化 OR 科技\" - Google 新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=美通膨升溫",
-      "summary": "美通膨升溫重挫科技股，台股跳水跌逾五百點-財經焦點情報站&nbsp;&nbsp;CMoney投資網誌",
-      "time": "05/14 02:22"
+      "title": "「八年貿易戰」後特朗普再訪華：打破舊平衡，還是重構新底線？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UVEtnZGtEalpNR2xSb0pNZFU3WG8tQ2NmWThMU29iUEdBNnpNdXN5aU9nSVJvdHlvWWJxUEc0UlJTOTM0R2llVkYtdGd4SC1PWl85cUZfSlFxYmVHbl94Njl3SGkzd9IBa0FVX3lxTE5qenJnUGxKN2dvb05qSjF4dmlPQ3lWRGdpbkZqZy1BMGZfM2Fia0stZE9WTkRHZnZQNkpqczRsQ0RBZ19vZGl0Y1dRTVA5Z3JfYzZ3RExFTF9kdGdfcjREcEdFUDc3cHl2NHNz?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "「八年貿易戰」後特朗普再訪華：打破舊平衡，還是重構新底線？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
     }
   ],
-  "運動": [
+  "地方": [],
+  "科學與科技": [
     {
-      "title": "統一獅隊史2000勝中職第1隊　總教練林岳平盼再創高峰[影]",
-      "link": "https://www.cna.com.tw/news/aspt/202605130368.aspx",
-      "source": "中央社即時新聞 運動新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=統一獅隊史",
-      "summary": "（中央社記者謝靜雯台北13日電）中職統一7-ELEVEn獅隊今天以2比1擊敗味全龍，為史上首支達成2000勝里程碑的球隊；總教練「餅總」林岳平說，從一代獅到六代獅，這1勝帶給所有統一人喜悅，期許可以再",
-      "time": "05/14 02:21"
+      "title": "為什麼AI公司想讓你害怕？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PQm5leS15alRta1M4OHZPeGhHdG45TTNVM0pYcXA1ejBVamtiSnpDX1pZVWkyV1dNZldIbXRNZjd4MzZ3WlVNaFB2NXB2NVgtR0N1WE1RVXExZ3F4MGpzVUV6LTBPd9IBa0FVX3lxTE8tTGdGNGJtZzZwcnVTUF9TVmdkNmswdkhsLXNjWm13RklKemlBSWpDclE2NUQ5ajNwQ3NENGFfSlBGemlaeXBXNnpPdjVabFBxYVRfeTk4ckFHQ19vNDhVdnZLUkxwLXFmdkNn?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "為什麼AI公司想讓你害怕？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
     },
     {
-      "title": "兄弟首局失13分創隊史新高　追平中職史上次多[影]",
-      "link": "https://www.cna.com.tw/news/aspt/202605130339.aspx",
-      "source": "中央社即時新聞 運動新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=兄弟首局失",
-      "summary": "（中央社記者蘇志畬台北13日電）中信兄弟隊今天首局就崩盤，先發投手鄭浩均0.1局失9分，最終兄弟第1局被富邦悍將隊猛攻13分，寫下隊史單局最多失分紀錄，也追平中華職棒賽史第2多。",
-      "time": "05/14 02:21"
+      "title": "中國正在悄悄贏得 AI 競賽嗎？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zZ1I1QS1FMk1vaUZoTmZVV1d4THVCemdtQ3Jwckw2dWhpbG83NlB4TjV4TV9OYVp4TE5hX2ZBcjF2UVNMcWNDRXNzdXl1STU0ZXJIYTJSaG5qNy1NYVJYb1dFWmJCZ9IBa0FVX3lxTE1vdjFOVExrZUN2VkU4bFp1dk9sU3JKS01mZDlZeGhKay1uOXZZa05Ja00yY1paR0FSUlVTT2F3VWZfbW8zRHl4cmx3ZWdUaU5aX292YXU0VzVwT2U0dndVcUdLYjBpX3RYRm9n?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "中國正在悄悄贏得 AI 競賽嗎？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "AI指令是否正在損害你的思考能力？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3WDY1TUt0eVpBN0otdDVSWTY2S004WDRoYlJPN0I5T2VuQnlESmRZR1BidTFIbkt3UFNfdi0zazllVDQyOVZwcmgyOHZ4UDZDay1FdWNsZl9vaWZtcHRiUG9GaEZnd9IBa0FVX3lxTE9SNk44OXAzZE9lY21ySVZ1M1NHdGl5YU5VUE1sem55VjlaWW5wa2wyR0NKLU5ReXlWdndacTVtTG1mcHF3eE9FNld4UkRNbGVXWEphTDZxSDFpcTRsYWxTZlNsQnh6ZGdQd0hF?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "AI指令是否正在損害你的思考能力？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "因涉AI創作，瑞典禁播這首歌 - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43TFlVV2QtV0xrMEpKR1lTOUMtaElLZ0VrZ3JpaU9meWwzd2JlOTk1ZkxlR20tcmxjRmV6Z1NaYjdqcnpRSGY3RVpiRkdVbmZuekdPUFpKakhqT3lqUDAwSGhHZkl6QdIBa0FVX3lxTFB0N0lQWlQ5NFpNY0VrOVNnMWk5aVpfNkZpTWl2eUUyemF0azZYZDNUam9rR2FDVTFBVVFubWs0WURlZlZfWjVaT05sN05vbXpEOVJ4dDV6T0Jfc2NMTzhidjd2eXZ5eDNXc2E4?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "因涉AI創作，瑞典禁播這首歌&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "我們需要對AI機器人保持禮貌嗎？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KbEpPNkJxZHItQ2dqMVZQQnJMdmNUWlo1RUZoLWlzMHhLVDdZSUJjVFF4Rl9JVHRKcWo0RWEtTWJrRE9sbllsOUJoTll5eGdnbjMxUi1CWDhuRGxQREVEVnRwZ2htZ9IBa0FVX3lxTE5CNm5IenhRY3k1bkxUbDBMek5vTF9pWjc5OWZMVW5qTFFVS2pua0liRTFPQjBSQW9CMkxZaGxGZDlKSGw2azI2SUhBYXpqaXdxRGpXU1JVS2VPTG4waUtVWU04ZERURHlIUG9Z?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "我們需要對AI機器人保持禮貌嗎？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "AI機器人會真的愛上你嗎？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NWVdJWDh5VnhsWkRmb2c5cmtEQzYwTnVwektSM0ZUWXNxTGtveUU0WnhyZjB5SjVUQ1ZiNGZua1JkSjMwX1JHNlFxRXRBejIxdnV5QkpCUjZFXzFWd19ENXFFTll3d9IBa0FVX3lxTE9hcHllZEJ3SDZsaEdISHEzMWZWZUszS2d2Y2xyb2kzYnFyb3RWSTZQRjItVHMxWEYtUDhtTGYwMUxzZXJpVDR2RDlrZEoxc01XREdXVE16WFY2MUdUUGdQWWlYcFBZR1NWSzlj?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "AI機器人會真的愛上你嗎？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "台灣想成為AI產業鏈樞紐，但電力夠用嗎？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTZzZrdmJWOExoMExLN2NxSHRlQXJnSjNQRGZvS0ZIZ20wTmtoa0t2dEhBTDUtMjduRTlBMkU4a1hVY0pXNkYySjNMN2hnbkpZSXNYUTZoQ0hfcmVkcklDUDVXUTVOUdIBa0FVX3lxTE9SUzdVY2NvZEVTRmx2MnNGNGV6MWRmTkFMdC1uVnNBUkNuSmNzaUFQM3ZIYVI4SG5Rd3lxcGE2aFRiX052WlFQdnhyVnFrd08zSEhjM0JfS21vRzdwMUk5ZmVsbzRwZWRHY2hz?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "台灣想成為AI產業鏈樞紐，但電力夠用嗎？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
     }
   ],
   "娛樂": [
     {
-      "title": "華燈初上到霍諾德攀101　Netflix續深耕台灣影視",
-      "link": "https://www.cna.com.tw/news/amov/202605130324.aspx",
-      "source": "中央社即時新聞 娛樂新聞",
-      "image": "https://via.placeholder.com/400x250/f0f0f0/666666?text=華燈初上到",
-      "summary": "（中央社記者洪素津台北13日電）台灣影視在Netflix全球舞台表現亮眼，從戲劇「華燈初上」、「影后」帶動熱潮，到霍諾德攀登台北101引發關注。Netflix表示，將繼續深耕台灣創意生態圈，與在地產業",
-      "time": "05/14 02:21"
+      "title": "台灣電影《世紀血案》為何引發抵制潮？ - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sQnNBcWZXVkVITGdIUDUySG1VUHFIOWp5aTBDVFV2R0NSdTIwMW9wLXFTdF8yV3VULXh1U1Z1QWxWVmtDTjZkeXk2QW5RUktBLUo4RUdVMGlaN0I5R0lFazVScWdPUdIBa0FVX3lxTFA3dE9YdTZWM1gyejQ0cEFsVDJUNUhBZjhRNElyZlg4bzVmQk1qM3ZkRS1WYUNnZEpVNGpGaTZOcnZmZ2VkUFlRb0QtY0RSZkZSTS1xTFU3Sld5cnRIUDMycm0tVl9hU0RRQnJF?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "台灣電影《世紀血案》為何引發抵制潮？&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
+    },
+    {
+      "title": "《邁克爾・傑克遜》：註定引起爭議的話題電影 - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2eU1qOEZXblJzemcxTThDVldrYWpSM2pCbTdDMGhnOHpFZW1URUt5MGNnTDZMdjJYUS1ONFBRLW05NHpKdVFiblZqdm9jcE80RHNBa0llMDlBZ2RaQXVqUFFiMFRtUdIBa0FVX3lxTE95cXNUeks5OEhCRzRNdVRDZTRJQzlaYkdSMURQYXR6MFV1WWoyS0R6VzVEOFpSQXdYeFdvcjFNbldkV1dqS3M4ZlJrV2N0ZF82ZnN5WTQwUHQ2bWJ4MXY1cUpGOXJTSW1HTThv?oc=5",
+      "source": "\"經濟日報 OR 報導者 OR 環境資訊中心 OR 央廣 OR NHK OR 日經新聞 OR BBC OR ABC News OR Euro News OR 路透社\" - Google 新聞",
+      "summary": "《邁克爾・傑克遜》：註定引起爭議的話題電影&nbsp;&nbsp;BBC",
+      "time": "2026-05-14 02:36"
     }
-  ]
+  ],
+  "運動": [],
+  "生活": []
 }
