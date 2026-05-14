@@ -2,163 +2,132 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阿諺的新聞智庫 PRO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <title>新聞智庫 | 專業列表模式</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --active: #E0DACE; }
-        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; display: flex; height: 100vh; overflow: hidden; }
+        :root { --paper: #ffffff; --sidebar: #f8f9fa; --accent: #1a73e8; }
+        body { margin: 0; font-family: 'Noto Sans TC', sans-serif; display: flex; height: 100vh; overflow: hidden; }
         
-        /* 左側導覽列 */
-        .sidebar { width: 220px; border-right: 1px solid #ddd; display: flex; flex-direction: column; background: #f4f1ea; z-index: 10; }
-        .sidebar-header { padding: 25px 20px; border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; }
-        .nav-btn { width: 100%; text-align: left; padding: 15px 20px; border: none; background: none; cursor: pointer; font-size: 1rem; color: #555; transition: 0.2s; border-bottom: 1px solid #eee; }
-        .nav-btn.active { background: white; color: var(--accent); font-weight: bold; }
-        
-        /* 主列表區 - 乾淨、寬敞 */
-        .main-content { flex: 1; overflow-y: auto; background: white; padding: 20px 40px; position: relative; }
-        .list-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--ink); padding-bottom: 10px; margin-bottom: 20px; }
-        .news-item { padding: 15px 0; border-bottom: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; }
-        .news-info { flex: 1; }
-        .item-meta { font-size: 0.75rem; color: var(--accent); font-weight: bold; margin-bottom: 5px; }
-        .item-title { font-size: 1.15rem; font-weight: 700; text-decoration: none; color: var(--ink); line-height: 1.4; display: block; }
-        .item-title:hover { color: var(--accent); text-decoration: underline; }
-        
-        /* 功能按鈕 */
-        .action-btns { display: flex; gap: 10px; }
-        .btn-sm { padding: 4px 10px; font-size: 0.8rem; cursor: pointer; border: 1px solid #ccc; background: white; border-radius: 3px; }
-        .btn-sm:hover { background: #eee; }
+        /* 側邊導覽 */
+        .nav-bar { width: 200px; background: var(--sidebar); border-right: 1px solid #ddd; display: flex; flex-direction: column; }
+        .nav-item { padding: 15px 20px; cursor: pointer; border-bottom: 1px solid #eee; transition: 0.2s; color: #555; }
+        .nav-item:hover { background: #eee; }
+        .nav-item.active { background: var(--accent); color: white; font-weight: bold; }
 
-        /* 可縮放側邊閱讀欄 */
-        #reader-pane { width: 0; border-left: 0; transition: 0.3s; display: flex; flex-direction: column; background: var(--paper); overflow: hidden; position: relative; }
-        #reader-pane.open { width: 45%; border-left: 2px solid var(--ink); }
-        .reader-controls { padding: 10px 20px; background: white; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; }
-        .reader-frame { flex: 1; border: none; width: 100%; }
-        .note-area { height: 150px; background: #fffde7; padding: 15px; border-top: 1px solid #ddd; }
-        .note-area textarea { width: 100%; height: 80%; border: none; background: transparent; resize: none; outline: none; }
+        /* 純淨列表區 */
+        .list-container { flex: 1; overflow-y: auto; padding: 20px 40px; }
+        .news-card { padding: 18px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+        .news-info { flex: 1; padding-right: 20px; }
+        .news-title { font-size: 1.1rem; font-weight: 700; color: #222; text-decoration: none; display: block; margin-bottom: 5px; }
+        .news-title:hover { color: var(--accent); }
+        .news-meta { font-size: 0.8rem; color: #888; }
 
-        .highlight-card { background: #fffcf0; }
-        .badge { font-size: 0.7rem; background: var(--accent); color: white; padding: 2px 6px; border-radius: 10px; margin-left: 5px; }
+        /* 可動態縮放的預覽面板 */
+        #preview-panel { width: 0; background: #fff; border-left: 0; display: flex; flex-direction: column; position: relative; }
+        #preview-panel.open { width: 500px; border-left: 2px solid #333; }
+        
+        /* 拖曳條 */
+        .resizer { width: 5px; cursor: col-resize; position: absolute; left: 0; top: 0; bottom: 0; z-index: 10; }
+
+        .panel-header { padding: 10px; background: #f1f1f1; display: flex; justify-content: space-between; align-items: center; }
+        iframe { flex: 1; border: none; width: 100%; }
+        .note-section { height: 120px; background: #fffde7; padding: 10px; border-top: 1px solid #ddd; }
+        textarea { width: 100%; height: 70px; border: 1px solid #ccc; resize: none; }
+        
+        .btn { padding: 5px 10px; cursor: pointer; border: 1px solid #888; background: white; border-radius: 4px; }
+        .btn-open { background: var(--accent); color: white; border: none; }
     </style>
 </head>
 <body>
 
-<!-- 側邊欄 -->
-<div class="sidebar">
-    <div class="sidebar-header">
-        <h2 style="margin:0;">智庫列表</h2>
-        <p style="font-size:0.75rem; color:#888;">24H 資訊同步</p>
-    </div>
-    <div id="nav-tabs"></div>
-    <div style="padding: 15px;">
-        <button class="btn-sm" style="width:100%;" onclick="openManager()">⚙️ 管理源與關鍵字</button>
-    </div>
-</div>
+<div class="nav-bar" id="nav"></div>
 
-<!-- 主內容區 -->
-<div class="main-content">
-    <div class="list-header">
-        <h2 id="current-cat-name">政治</h2>
-        <span id="update-time" style="font-size:0.8rem; color:#888;"></span>
-    </div>
+<div class="list-container">
+    <h2 id="cat-title">載入中...</h2>
     <div id="news-list"></div>
 </div>
 
-<!-- 側邊閱讀欄 -->
-<div id="reader-pane">
-    <div class="reader-controls">
-        <button onclick="closeReader()">✕ 關閉預覽</button>
-        <span id="preview-title" style="font-size:0.8rem; color:#666; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:200px;"></span>
-        <button onclick="window.open(activeLink, '_blank')">🌐 開啟新頁面</button>
+<div id="preview-panel">
+    <div class="resizer" id="resizer"></div>
+    <div class="panel-header">
+        <button class="btn" onclick="closePreview()">✕ 關閉</button>
+        <button class="btn btn-open" id="external-link" onclick="window.open(activeUrl)">🌐 開啟全頁面</button>
     </div>
-    <iframe id="iframe" class="reader-frame" src="about:blank"></iframe>
-    <div class="note-area">
-        <div style="font-size:0.75rem; font-weight:bold;">📝 筆記區</div>
-        <textarea id="note-text" oninput="saveNote()" placeholder="輸入筆記..."></textarea>
+    <iframe id="reader-frame"></iframe>
+    <div class="note-section">
+        <div style="font-size: 0.8rem; font-weight: bold; margin-bottom: 5px;">隨手筆記</div>
+        <textarea id="note-input" oninput="saveNote()"></textarea>
     </div>
 </div>
 
 <script>
     let allData = {};
-    let activeLink = "";
-    let userSettings = JSON.parse(localStorage.getItem('news_pro_settings') || '{"keywords":[], "sources":[]}');
-    let notes = JSON.parse(localStorage.getItem('news_notes') || '{}');
+    let activeUrl = "";
+    let notes = JSON.parse(localStorage.getItem('notes') || '{}');
 
-    async function init() {
-        try {
-            const res = await fetch(`news_data.json?t=${Date.now()}`);
-            allData = await res.json();
-            renderNav();
-            switchTab('政治');
-        } catch (e) {
-            document.getElementById('news-list').innerHTML = "資料載入中，請確保 Actions 已執行過。";
-        }
+    async function fetchData() {
+        const res = await fetch('news_data.json?t=' + Date.now());
+        allData = await res.json();
+        renderNav();
+        loadCategory('政治');
     }
 
     function renderNav() {
-        const cats = ["政治", "經濟", "地方", "科學與科技", "娛樂", "運動", "生活"];
-        document.getElementById('nav-tabs').innerHTML = cats.map(c => `
-            <button class="nav-btn" id="btn-${c}" onclick="switchTab('${c}')">${c}</button>
+        const nav = document.getElementById('nav');
+        nav.innerHTML = Object.keys(allData).map(cat => 
+            `<div class="nav-item" onclick="loadCategory('${cat}')">${cat}</div>`
+        ).join('');
+    }
+
+    function loadCategory(cat) {
+        document.getElementById('cat-title').innerText = cat;
+        const list = document.getElementById('news-list');
+        list.innerHTML = allData[cat].map(item => `
+            <div class="news-card">
+                <div class="news-info">
+                    <a href="${item.link}" target="_blank" class="news-title">${item.title}</a>
+                    <div class="news-meta">${item.source} · ${item.time}</div>
+                </div>
+                <button class="btn" onclick="openPreview('${item.link}')">👁️ 預覽</button>
+            </div>
         `).join('');
     }
 
-    function switchTab(cat) {
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-        document.getElementById(`btn-${cat}`).classList.add('active');
-        document.getElementById('current-cat-name').innerText = cat;
-
-        const list = document.getElementById('news-list');
-        const items = allData[cat] || [];
-        
-        list.innerHTML = items.map(item => {
-            const isMatch = userSettings.keywords.some(k => item.title.includes(k));
-            return `
-                <div class="news-item ${isMatch ? 'highlight-card' : ''}">
-                    <div class="news-info">
-                        <div class="item-meta">
-                            ${item.source} · ${item.time} 
-                            ${isMatch ? '<span class="badge">精準鎖定</span>' : ''}
-                        </div>
-                        <a href="${item.link}" target="_blank" class="item-title">${item.title}</a>
-                        <div style="font-size:0.85rem; color:#666; margin-top:5px;">${item.summary}</div>
-                    </div>
-                    <div class="action-btns">
-                        <button class="btn-sm" onclick="previewNews('${item.link}', '${item.title.replace(/'/g, "")}')">👁️ 預覽</button>
-                    </div>
-                </div>
-            `;
-        }).join('');
+    function openPreview(url) {
+        activeUrl = url;
+        const panel = document.getElementById('preview-panel');
+        panel.classList.add('open');
+        if(!panel.style.width) panel.style.width = "500px";
+        document.getElementById('reader-frame').src = url;
+        document.getElementById('note-input').value = notes[url] || "";
     }
 
-    function previewNews(link, title) {
-        activeLink = link;
-        document.getElementById('preview-title').innerText = title;
-        document.getElementById('iframe').src = link;
-        document.getElementById('note-text').value = notes[link] || "";
-        document.getElementById('reader-pane').classList.add('open');
-    }
-
-    function closeReader() {
-        document.getElementById('reader-pane').classList.remove('open');
-        document.getElementById('iframe').src = "about:blank";
+    function closePreview() {
+        document.getElementById('preview-panel').classList.remove('open');
+        document.getElementById('reader-frame').src = "";
     }
 
     function saveNote() {
-        if (!activeLink) return;
-        notes[activeLink] = document.getElementById('note-text').value;
-        localStorage.setItem('news_notes', JSON.stringify(notes));
+        notes[activeUrl] = document.getElementById('note-input').value;
+        localStorage.setItem('notes', JSON.stringify(notes));
     }
 
-    function openManager() {
-        const kw = prompt("請輸入想要標記的關鍵字（多個請用逗號隔開）：", userSettings.keywords.join(","));
-        if (kw !== null) {
-            userSettings.keywords = kw.split(",").map(s => s.trim()).filter(s => s);
-            localStorage.setItem('news_pro_settings', JSON.stringify(userSettings));
-            location.reload();
+    // 拖曳縮放邏輯
+    const resizer = document.getElementById('resizer');
+    const panel = document.getElementById('preview-panel');
+    resizer.addEventListener('mousedown', (e) => {
+        document.addEventListener('mousemove', resize);
+        document.addEventListener('mouseup', () => document.removeEventListener('mousemove', resize));
+    });
+
+    function resize(e) {
+        const newWidth = window.innerWidth - e.clientX;
+        if(newWidth > 300 && newWidth < 900) {
+            panel.style.width = newWidth + 'px';
         }
     }
 
-    init();
+    fetchData();
 </script>
 </body>
 </html>
