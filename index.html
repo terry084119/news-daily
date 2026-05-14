@@ -2,132 +2,95 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>新聞智庫 | 專業列表模式</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <title>新聞智庫 | 列表模式</title>
     <style>
-        :root { --paper: #ffffff; --sidebar: #f8f9fa; --accent: #1a73e8; }
-        body { margin: 0; font-family: 'Noto Sans TC', sans-serif; display: flex; height: 100vh; overflow: hidden; }
+        :root { --paper: #ffffff; --sidebar: #f4f4f4; --accent: #d32f2f; }
+        body { margin: 0; font-family: sans-serif; display: flex; height: 100vh; }
+        .nav-bar { width: 180px; background: var(--sidebar); border-right: 1px solid #ddd; }
+        .nav-item { padding: 15px; cursor: pointer; border-bottom: 1px solid #eee; }
+        .nav-item:hover { background: #e0e0e0; }
+        .nav-item.active { background: #333; color: white; }
         
-        /* 側邊導覽 */
-        .nav-bar { width: 200px; background: var(--sidebar); border-right: 1px solid #ddd; display: flex; flex-direction: column; }
-        .nav-item { padding: 15px 20px; cursor: pointer; border-bottom: 1px solid #eee; transition: 0.2s; color: #555; }
-        .nav-item:hover { background: #eee; }
-        .nav-item.active { background: var(--accent); color: white; font-weight: bold; }
-
-        /* 純淨列表區 */
         .list-container { flex: 1; overflow-y: auto; padding: 20px 40px; }
-        .news-card { padding: 18px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
-        .news-info { flex: 1; padding-right: 20px; }
-        .news-title { font-size: 1.1rem; font-weight: 700; color: #222; text-decoration: none; display: block; margin-bottom: 5px; }
-        .news-title:hover { color: var(--accent); }
-        .news-meta { font-size: 0.8rem; color: #888; }
-
-        /* 可動態縮放的預覽面板 */
-        #preview-panel { width: 0; background: #fff; border-left: 0; display: flex; flex-direction: column; position: relative; }
-        #preview-panel.open { width: 500px; border-left: 2px solid #333; }
+        .news-card { padding: 15px 0; border-bottom: 1px solid #eee; }
+        .news-title { font-size: 1.1rem; font-weight: bold; color: #222; text-decoration: none; }
+        .news-meta { font-size: 0.8rem; color: #666; margin-top: 5px; }
         
-        /* 拖曳條 */
-        .resizer { width: 5px; cursor: col-resize; position: absolute; left: 0; top: 0; bottom: 0; z-index: 10; }
-
-        .panel-header { padding: 10px; background: #f1f1f1; display: flex; justify-content: space-between; align-items: center; }
-        iframe { flex: 1; border: none; width: 100%; }
-        .note-section { height: 120px; background: #fffde7; padding: 10px; border-top: 1px solid #ddd; }
-        textarea { width: 100%; height: 70px; border: 1px solid #ccc; resize: none; }
-        
-        .btn { padding: 5px 10px; cursor: pointer; border: 1px solid #888; background: white; border-radius: 4px; }
-        .btn-open { background: var(--accent); color: white; border: none; }
+        #preview-panel { width: 0; transition: 0.3s; border-left: 0; display: flex; flex-direction: column; overflow: hidden; }
+        #preview-panel.open { width: 40%; border-left: 2px solid #333; }
+        iframe { flex: 1; border: none; }
+        .note-box { height: 120px; background: #fffde7; padding: 10px; }
     </style>
 </head>
 <body>
 
 <div class="nav-bar" id="nav"></div>
-
 <div class="list-container">
-    <h2 id="cat-title">載入中...</h2>
+    <h2 id="cat-title">請選擇分類</h2>
     <div id="news-list"></div>
 </div>
-
 <div id="preview-panel">
-    <div class="resizer" id="resizer"></div>
-    <div class="panel-header">
-        <button class="btn" onclick="closePreview()">✕ 關閉</button>
-        <button class="btn btn-open" id="external-link" onclick="window.open(activeUrl)">🌐 開啟全頁面</button>
+    <div style="padding: 10px; background: #eee;">
+        <button onclick="document.getElementById('preview-panel').classList.remove('open')">✕ 關閉預覽</button>
+        <button onclick="window.open(activeUrl)">🌐 開啟分頁</button>
     </div>
-    <iframe id="reader-frame"></iframe>
-    <div class="note-section">
-        <div style="font-size: 0.8rem; font-weight: bold; margin-bottom: 5px;">隨手筆記</div>
-        <textarea id="note-input" oninput="saveNote()"></textarea>
+    <iframe id="ifr"></iframe>
+    <div class="note-box">
+        <textarea id="nt" style="width:100%; height:80px;" oninput="saveN()" placeholder="輸入筆記..."></textarea>
     </div>
 </div>
 
 <script>
     let allData = {};
     let activeUrl = "";
-    let notes = JSON.parse(localStorage.getItem('notes') || '{}');
 
-    async function fetchData() {
-        const res = await fetch('news_data.json?t=' + Date.now());
-        allData = await res.json();
-        renderNav();
-        loadCategory('政治');
-    }
-
-    function renderNav() {
+    async function load() {
+        const r = await fetch('news_data.json?v=' + Date.now());
+        allData = await r.json();
         const nav = document.getElementById('nav');
-        nav.innerHTML = Object.keys(allData).map(cat => 
-            `<div class="nav-item" onclick="loadCategory('${cat}')">${cat}</div>`
+        // 自動生成導航欄
+        nav.innerHTML = Object.keys(allData).map(c => 
+            `<div class="nav-item" onclick="show('${c}')">${c}</div>`
         ).join('');
+        
+        // 預設顯示第一個有資料的分類
+        const firstCat = Object.keys(allData)[0];
+        if(firstCat) show(firstCat);
     }
 
-    function loadCategory(cat) {
-        document.getElementById('cat-title').innerText = cat;
+    function show(c) {
+        document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+        event?.target?.classList?.add('active');
+        
+        document.getElementById('cat-title').innerText = c;
         const list = document.getElementById('news-list');
-        list.innerHTML = allData[cat].map(item => `
+        const data = allData[c] || [];
+        
+        if(data.length === 0) {
+            list.innerHTML = "<p>此分類目前沒有 24 小時內的新聞，請確認搜尋關鍵字或等待下次更新。</p>";
+            return;
+        }
+
+        list.innerHTML = data.map(n => `
             <div class="news-card">
-                <div class="news-info">
-                    <a href="${item.link}" target="_blank" class="news-title">${item.title}</a>
-                    <div class="news-meta">${item.source} · ${item.time}</div>
-                </div>
-                <button class="btn" onclick="openPreview('${item.link}')">👁️ 預覽</button>
+                <a href="${n.link}" target="_blank" class="news-title">${n.title}</a>
+                <div class="news-meta">${n.source} · ${n.time} | <span style="cursor:pointer; color:blue;" onclick="prev('${n.link}')">👁️ 預覽</span></div>
             </div>
         `).join('');
     }
 
-    function openPreview(url) {
-        activeUrl = url;
-        const panel = document.getElementById('preview-panel');
-        panel.classList.add('open');
-        if(!panel.style.width) panel.style.width = "500px";
-        document.getElementById('reader-frame').src = url;
-        document.getElementById('note-input').value = notes[url] || "";
+    function prev(u) {
+        activeUrl = u;
+        document.getElementById('preview-panel').classList.add('open');
+        document.getElementById('ifr').src = u;
+        document.getElementById('nt').value = localStorage.getItem(u) || "";
     }
 
-    function closePreview() {
-        document.getElementById('preview-panel').classList.remove('open');
-        document.getElementById('reader-frame').src = "";
+    function saveN() {
+        localStorage.setItem(activeUrl, document.getElementById('nt').value);
     }
 
-    function saveNote() {
-        notes[activeUrl] = document.getElementById('note-input').value;
-        localStorage.setItem('notes', JSON.stringify(notes));
-    }
-
-    // 拖曳縮放邏輯
-    const resizer = document.getElementById('resizer');
-    const panel = document.getElementById('preview-panel');
-    resizer.addEventListener('mousedown', (e) => {
-        document.addEventListener('mousemove', resize);
-        document.addEventListener('mouseup', () => document.removeEventListener('mousemove', resize));
-    });
-
-    function resize(e) {
-        const newWidth = window.innerWidth - e.clientX;
-        if(newWidth > 300 && newWidth < 900) {
-            panel.style.width = newWidth + 'px';
-        }
-    }
-
-    fetchData();
+    load();
 </script>
 </body>
 </html>
