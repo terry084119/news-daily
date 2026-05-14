@@ -3,192 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阿諺的新聞智庫 v2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <title>阿諺的新聞智庫 PRO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --active: #E0DACE; --highlight: #FFF9E6; }
-        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; padding: 20px; line-height: 1.6; }
-        .container { max-width: 1000px; margin: 0 auto; }
+        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --dim: #666; --bg-card: #ffffff; }
+        body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; display: flex; height: 100vh; overflow: hidden; }
         
-        .header { border-top: 5px solid var(--ink); padding: 20px 0; margin-bottom: 20px; position: relative; }
-        .config-btn { position: absolute; right: 0; top: 10px; cursor: pointer; border: 1px solid #ccc; padding: 5px 15px; border-radius: 20px; background: white; font-size: 0.85rem; }
-        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.8rem; margin: 0; text-align: center; }
+        /* 左側導覽列 */
+        .sidebar { width: 250px; border-right: 1px solid #ddd; display: flex; flex-direction: column; background: #f9f7f2; }
+        .sidebar-header { padding: 20px; border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; }
+        .nav-tabs { flex-grow: 1; overflow-y: auto; padding: 10px 0; }
+        .nav-btn { width: 100%; text-align: left; padding: 12px 20px; border: none; background: none; cursor: pointer; font-size: 1rem; color: var(--dim); transition: 0.2s; }
+        .nav-btn.active { background: white; color: var(--accent); font-weight: bold; border-left: 4px solid var(--accent); }
+        
+        /* 中間列表區 */
+        .main-list { flex-grow: 1; overflow-y: auto; background: white; border-right: 1px solid #ddd; max-width: 500px; }
+        .news-item { padding: 20px; border-bottom: 1px solid #eee; cursor: pointer; transition: 0.2s; }
+        .news-item:hover { background: #fafafa; }
+        .news-item.active { background: #fff9f9; border-left: 4px solid var(--accent); }
+        .item-meta { font-size: 0.75rem; color: var(--accent); margin-bottom: 5px; font-weight: bold; }
+        .item-title { font-size: 1.05rem; font-weight: 700; line-height: 1.4; margin-bottom: 10px; }
+        .item-actions { display: flex; gap: 10px; font-size: 0.8rem; }
+        
+        /* 右側閱讀區 */
+        .reader-panel { flex-grow: 2; display: flex; flex-direction: column; background: var(--paper); }
+        .reader-header { padding: 15px 25px; border-bottom: 1px solid #ddd; background: white; display: flex; justify-content: space-between; align-items: center; }
+        .reader-content { flex-grow: 1; border: none; width: 100%; }
+        .note-box { height: 150px; padding: 20px; border-top: 2px solid var(--ink); background: #fffde7; }
+        .note-box textarea { width: 100%; height: 100%; border: none; background: transparent; font-family: inherit; font-size: 0.95rem; resize: none; outline: none; }
 
-        /* 前台管理面板 */
-        #config-panel { display: none; background: white; border: 2px solid var(--ink); padding: 20px; margin-bottom: 30px; border-radius: 8px; box-shadow: 5px 5px 0px rgba(0,0,0,0.1); }
-        .config-section { margin-bottom: 15px; }
-        .tag-input { padding: 5px 10px; border: 1px solid #ddd; border-radius: 4px; width: 200px; }
-        .keyword-tag { display: inline-block; background: var(--active); padding: 2px 8px; border-radius: 4px; margin: 3px; font-size: 0.85rem; }
-        .keyword-tag span { margin-left: 5px; cursor: pointer; color: var(--accent); font-weight: bold; }
+        /* 管理面板 */
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+        .modal-content { background: white; width: 600px; margin: 50px auto; padding: 30px; border-radius: 8px; max-height: 80vh; overflow-y: auto; }
+        .btn { padding: 8px 15px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: white; }
+        .btn-primary { background: var(--ink); color: white; border: none; }
 
-        /* 分頁選單 */
-        .tabs { display: flex; flex-wrap: wrap; justify-content: center; border-bottom: 1px solid var(--ink); margin-bottom: 30px; padding: 10px 0; position: sticky; top: 0; background: var(--paper); z-index: 100; }
-        .tab-btn { background: none; border: none; padding: 10px 15px; cursor: pointer; font-weight: bold; font-size: 1rem; color: #666; transition: 0.3s; position: relative; }
-        .tab-btn.active { color: var(--accent); }
-        .tab-btn.active::after { content: ''; position: absolute; bottom: 0; left: 20%; width: 60%; height: 3px; background: var(--accent); }
-        
-        /* 新聞卡片 */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
-        .card { border: 1px solid #e0e0e0; background: white; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; }
-        .card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .card img { width: 100%; height: 180px; object-fit: cover; background: #f0f0f0; }
-        .card-body { padding: 15px; flex-grow: 1; }
-        .card h3 { font-size: 1.1rem; margin: 10px 0; font-family: 'Noto Serif TC', serif; }
-        .card h3 a { color: var(--ink); text-decoration: none; }
-        .card .source { font-size: 0.75rem; color: var(--accent); font-weight: bold; }
-        
-        .highlight-mark { background: yellow; font-weight: bold; }
+        .disliked { opacity: 0.4; filter: grayscale(1); }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-        <button class="config-btn" onclick="toggleConfig()">🔍 精準追蹤設定</button>
-        <h1>阿諺的新聞智庫</h1>
-        <p>自定義新聞流｜本地同步</p>
+<!-- 左側選單 -->
+<div class="sidebar">
+    <div class="sidebar-header">
+        <h2 style="margin:0;">新聞智庫</h2>
+        <p style="font-size:0.8rem; color:var(--dim);">專業採訪模式</p>
     </div>
+    <div class="nav-tabs" id="category-tabs">
+        <!-- 分類會動態插入 -->
+    </div>
+    <div style="padding: 20px;">
+        <button class="btn btn-primary" style="width:100%;" onclick="openSettings()">⚙️ 智庫管理</button>
+    </div>
+</div>
 
-    <div id="config-panel">
-        <div class="config-section">
-            <h4 style="margin:0 0 10px 0;">🎯 加強追蹤關鍵字 (即時過濾)</h4>
-            <div id="my-keywords" style="margin-bottom: 10px;"></div>
-            <input type="text" id="keyword-in" class="tag-input" placeholder="輸入關鍵字按確認...">
-            <button onclick="addKeyword()" style="padding: 5px 15px;">確認</button>
-            <p style="font-size: 0.8rem; color: #888; margin-top: 5px;">* 這些關鍵字會幫助你從新聞海中「標記」出你最感興趣的內容。</p>
+<!-- 中間新聞列表 -->
+<div class="main-list" id="news-list">
+    <p style="text-align:center; padding:50px;">正在調度資訊...</p>
+</div>
+
+<!-- 右側閱讀與筆記 -->
+<div class="reader-panel" id="reader-panel">
+    <div class="reader-header">
+        <span id="reader-source" style="font-weight:bold;">請選擇文章</span>
+        <div>
+            <button class="btn" onclick="vote('like')">👍 推薦</button>
+            <button class="btn" onclick="vote('dislike')">👎 減少</button>
+            <button class="btn" onclick="window.open(currentNews.link, '_blank')">🌐 原網頁</button>
         </div>
-        <hr>
-        <div style="text-align: right;">
-            <button onclick="toggleConfig()" style="background: var(--ink); color: white; border: none; padding: 5px 20px; border-radius: 4px; cursor: pointer;">完成設定</button>
+    </div>
+    <iframe id="reader-iframe" class="reader-content" src="about:blank"></iframe>
+    <div class="note-box">
+        <div style="font-size:0.8rem; font-weight:bold; margin-bottom:5px;">📝 採訪筆記 / 隨筆</div>
+        <textarea id="note-input" placeholder="在這裡輸入對此報導的想法..." oninput="saveNote()"></textarea>
+    </div>
+</div>
+
+<!-- 管理面板彈窗 -->
+<div id="settings-modal" class="modal">
+    <div class="modal-content">
+        <h3>智庫中心管理</h3>
+        <div style="margin-bottom:20px;">
+            <h4>自定義 RSS 新聞源</h4>
+            <div id="source-list" style="margin-bottom:10px;"></div>
+            <input type="text" id="new-rss" placeholder="貼上 RSS 網址" style="width:70%; padding:5px;">
+            <button class="btn" onclick="addSource()">新增</button>
         </div>
-    </div>
-
-    <div class="tabs" id="tab-bar">
-        <button class="tab-btn active" onclick="showTab('在地')">在地</button>
-        <button class="tab-btn" onclick="showTab('文化')">文化</button>
-        <button class="tab-btn" onclick="showTab('科技')">科技</button>
-        <button class="tab-btn" onclick="showTab('國際')">國際</button>
-        <button class="tab-btn" onclick="showTab('政治')">政治</button>
-        <button class="tab-btn" onclick="showTab('產業')">產業</button>
-        <button class="tab-btn" onclick="showTab('收藏')">💖 收藏<span id="fav-count">0</span></button>
-    </div>
-
-    <div id="news-content">
-        <p style="text-align: center; padding: 50px;">載入中...</p>
+        <div style="margin-bottom:20px;">
+            <h4>精準鎖定關鍵字</h4>
+            <div id="keyword-list" style="margin-bottom:10px;"></div>
+            <input type="text" id="new-kw" placeholder="輸入關鍵字" style="width:70%; padding:5px;">
+            <button class="btn" onclick="addKeyword()">新增</button>
+        </div>
+        <button class="btn btn-primary" onclick="closeSettings()">完成並關閉</button>
     </div>
 </div>
 
 <script>
     let allData = {};
-    let favorites = JSON.parse(localStorage.getItem('news_favs') || '[]');
-    let myKeywords = JSON.parse(localStorage.getItem('my_keywords') || '["桃園", "採訪", "吐瓦魯"]');
-    let currentCat = '在地';
+    let currentCat = '政治';
+    let currentNews = null;
+    let userPrefs = JSON.parse(localStorage.getItem('news_prefs') || '{"likes":[], "dislikes":[], "sources":[], "keywords":[]}');
+    let notes = JSON.parse(localStorage.getItem('news_notes') || '{}');
 
     async function init() {
         try {
-            const res = await fetch(`news_data.json?t=${new Date().getTime()}`);
+            const res = await fetch(`news_data.json?t=${Date.now()}`);
             allData = await res.json();
-            renderKeywords();
-            updateFavCount();
-            showTab('在地');
+            renderTabs();
+            showTab('政治');
         } catch (e) {
-            document.getElementById('news-content').innerHTML = "請先執行 GitHub Actions 更新資料。";
+            document.getElementById('news-list').innerHTML = "請確保已在 GitHub Actions 執行抓取任務。";
         }
     }
 
-    // 面板控制
-    function toggleConfig() {
-        const p = document.getElementById('config-panel');
-        p.style.display = p.style.display === 'none' ? 'block' : 'none';
-    }
-
-    // 關鍵字管理
-    function renderKeywords() {
-        const div = document.getElementById('my-keywords');
-        div.innerHTML = myKeywords.map((k, i) => `
-            <span class="keyword-tag">${k}<span onclick="removeKeyword(${i})">×</span></span>
+    function renderTabs() {
+        const cats = ["政治", "經濟", "地方", "科學與科技", "娛樂", "運動", "生活", "收藏"];
+        const container = document.getElementById('category-tabs');
+        container.innerHTML = cats.map(c => `
+            <button class="nav-btn ${c===currentCat?'active':''}" onclick="showTab('${c}')">${c}</button>
         `).join('');
     }
 
-    function addKeyword() {
-        const val = document.getElementById('keyword-in').value.trim();
-        if (val && !myKeywords.includes(val)) {
-            myKeywords.push(val);
-            localStorage.setItem('my_keywords', JSON.stringify(myKeywords));
-            document.getElementById('keyword-in').value = '';
-            renderKeywords();
-            showTab(currentCat); // 即時重整內容
-        }
-    }
-
-    function removeKeyword(i) {
-        myKeywords.splice(i, 1);
-        localStorage.setItem('my_keywords', JSON.stringify(myKeywords));
-        renderKeywords();
-        showTab(currentCat);
-    }
-
-    // 渲染邏輯
     function showTab(cat) {
         currentCat = cat;
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.innerText.includes(cat)));
+        renderTabs();
+        const container = document.getElementById('news-list');
+        let items = (cat === '收藏') ? Object.values(allData).flat().filter(n => notes[n.link]) : (allData[cat] || []);
         
-        const container = document.getElementById('news-content');
-        let html = '<div class="grid">';
+        // 排序：符合關鍵字的在前，被不喜歡的在後
+        items.sort((a, b) => {
+            let aScore = userPrefs.keywords.some(k => a.title.includes(k)) ? 10 : 0;
+            let bScore = userPrefs.keywords.some(k => b.title.includes(k)) ? 10 : 0;
+            if (userPrefs.dislikes.includes(a.link)) aScore -= 100;
+            if (userPrefs.dislikes.includes(b.link)) bScore -= 100;
+            return bScore - aScore;
+        });
 
-        const items = (cat === '收藏') ? favorites : (allData[cat] || []);
-        
-        if (items.length === 0) {
-            html += `<p style="grid-column: 1/-1; text-align: center; padding: 50px;">暫無內容。</p>`;
-        } else {
-            // 這裡實作精準過濾與標記
-            items.forEach((item, index) => {
-                let isMatch = myKeywords.some(k => item.title.includes(k));
-                html += renderCard(item, cat === '收藏', index, isMatch);
-            });
-        }
-        html += '</div>';
-        container.innerHTML = html;
-    }
-
-    function renderCard(item, isFav, index, isMatch) {
-        let displayTitle = item.title;
-        if (isMatch) {
-            myKeywords.forEach(k => {
-                const reg = new RegExp(k, "gi");
-                displayTitle = displayTitle.replace(reg, match => `<mark class="highlight-mark">${match}</mark>`);
-            });
-        }
-
-        return `
-            <div class="card" style="${isMatch ? 'border: 2px solid var(--accent); background: var(--highlight);' : ''}">
-                <img src="${item.image || 'https://via.placeholder.com/400x200?text=News'}" onerror="this.src='https://via.placeholder.com/400x200?text=News'">
-                <div class="card-body">
-                    <div class="source">${isMatch ? '⭐ 精準命中 · ' : ''}${item.source} · ${item.time}</div>
-                    <h3><a href="${item.link}" target="_blank">${displayTitle}</a></h3>
-                    <div class="summary" style="font-size:0.85rem; color:#666;">${item.summary || ""}</div>
-                    <div style="margin-top:15px; text-align:right;">
-                        <button onclick="toggleFav('${encodeURIComponent(JSON.stringify(item))}')" style="cursor:pointer; border:1px solid #ccc; background:none; padding:3px 10px; border-radius:4px;">
-                            ${favorites.some(f => f.link === item.link) ? '❤️ 已收藏' : '🤍 收藏'}
-                        </button>
-                    </div>
+        container.innerHTML = items.map(item => `
+            <div class="news-item ${userPrefs.dislikes.includes(item.link)?'disliked':''}" onclick='openNews(${JSON.stringify(item).replace(/'/g, "&apos;")})'>
+                <div class="item-meta">${item.source} · ${item.time}</div>
+                <div class="item-title">${item.title}</div>
+                <div class="item-actions">
+                    ${notes[item.link] ? '📝 已有筆記' : ''}
+                    ${userPrefs.likes.includes(item.link) ? '❤️ 已推薦' : ''}
                 </div>
             </div>
-        `;
+        `).join('');
     }
 
-    function toggleFav(itemStr) {
-        const item = JSON.parse(decodeURIComponent(itemStr));
-        const idx = favorites.findIndex(f => f.link === item.link);
-        if (idx > -1) favorites.splice(idx, 1);
-        else favorites.push(item);
-        localStorage.setItem('news_favs', JSON.stringify(favorites));
-        updateFavCount();
+    function openNews(item) {
+        currentNews = item;
+        document.getElementById('reader-source').innerText = item.source + " - " + item.title;
+        document.getElementById('reader-iframe').src = item.link;
+        document.getElementById('note-input').value = notes[item.link] || "";
+        
+        // 標記 active 項目
+        document.querySelectorAll('.news-item').forEach(el => el.classList.remove('active'));
+        event.currentTarget.classList.add('active');
+    }
+
+    function saveNote() {
+        if (!currentNews) return;
+        const val = document.getElementById('note-input').value;
+        if (val) notes[currentNews.link] = val;
+        else delete notes[currentNews.link];
+        localStorage.setItem('news_notes', JSON.stringify(notes));
+    }
+
+    function vote(type) {
+        if (!currentNews) return;
+        if (type === 'like') userPrefs.likes.push(currentNews.link);
+        else userPrefs.dislikes.push(currentNews.link);
+        localStorage.setItem('news_prefs', JSON.stringify(userPrefs));
         showTab(currentCat);
     }
 
-    function updateFavCount() {
-        document.getElementById('fav-count').innerText = favorites.length;
+    // 管理面板功能
+    function openSettings() { 
+        document.getElementById('settings-modal').style.display = 'block'; 
+        renderSettings();
+    }
+    function closeSettings() { 
+        document.getElementById('settings-modal').style.display = 'none'; 
+        showTab(currentCat);
+    }
+    function renderSettings() {
+        document.getElementById('source-list').innerHTML = userPrefs.sources.map((s,i) => `<div>${s} <span style="cursor:pointer; color:red;" onclick="removeSetting('sources', ${i})">×</span></div>`).join('');
+        document.getElementById('keyword-list').innerHTML = userPrefs.keywords.map((k,i) => `<div>${k} <span style="cursor:pointer; color:red;" onclick="removeSetting('keywords', ${i})">×</span></div>`).join('');
+    }
+    function addSource() {
+        const val = document.getElementById('new-rss').value;
+        if(val) userPrefs.sources.push(val);
+        saveSettings();
+    }
+    function addKeyword() {
+        const val = document.getElementById('new-kw').value;
+        if(val) userPrefs.keywords.push(val);
+        saveSettings();
+    }
+    function removeSetting(type, i) {
+        userPrefs[type].splice(i, 1);
+        saveSettings();
+    }
+    function saveSettings() {
+        localStorage.setItem('news_prefs', JSON.stringify(userPrefs));
+        renderSettings();
     }
 
     init();
