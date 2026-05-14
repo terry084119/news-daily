@@ -6,213 +6,159 @@
     <title>阿諺的新聞智庫 PRO</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --dim: #666; --bg-card: #ffffff; }
+        :root { --paper: #FDFBF7; --ink: #2C2C2C; --accent: #8B0000; --active: #E0DACE; }
         body { background: var(--paper); font-family: 'Noto Sans TC', sans-serif; color: var(--ink); margin: 0; display: flex; height: 100vh; overflow: hidden; }
         
         /* 左側導覽列 */
-        .sidebar { width: 250px; border-right: 1px solid #ddd; display: flex; flex-direction: column; background: #f9f7f2; }
-        .sidebar-header { padding: 20px; border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; }
-        .nav-tabs { flex-grow: 1; overflow-y: auto; padding: 10px 0; }
-        .nav-btn { width: 100%; text-align: left; padding: 12px 20px; border: none; background: none; cursor: pointer; font-size: 1rem; color: var(--dim); transition: 0.2s; }
-        .nav-btn.active { background: white; color: var(--accent); font-weight: bold; border-left: 4px solid var(--accent); }
+        .sidebar { width: 220px; border-right: 1px solid #ddd; display: flex; flex-direction: column; background: #f4f1ea; z-index: 10; }
+        .sidebar-header { padding: 25px 20px; border-bottom: 2px solid var(--ink); font-family: 'Noto Serif TC', serif; }
+        .nav-btn { width: 100%; text-align: left; padding: 15px 20px; border: none; background: none; cursor: pointer; font-size: 1rem; color: #555; transition: 0.2s; border-bottom: 1px solid #eee; }
+        .nav-btn.active { background: white; color: var(--accent); font-weight: bold; }
         
-        /* 中間列表區 */
-        .main-list { flex-grow: 1; overflow-y: auto; background: white; border-right: 1px solid #ddd; max-width: 500px; }
-        .news-item { padding: 20px; border-bottom: 1px solid #eee; cursor: pointer; transition: 0.2s; }
-        .news-item:hover { background: #fafafa; }
-        .news-item.active { background: #fff9f9; border-left: 4px solid var(--accent); }
-        .item-meta { font-size: 0.75rem; color: var(--accent); margin-bottom: 5px; font-weight: bold; }
-        .item-title { font-size: 1.05rem; font-weight: 700; line-height: 1.4; margin-bottom: 10px; }
-        .item-actions { display: flex; gap: 10px; font-size: 0.8rem; }
+        /* 主列表區 - 乾淨、寬敞 */
+        .main-content { flex: 1; overflow-y: auto; background: white; padding: 20px 40px; position: relative; }
+        .list-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--ink); padding-bottom: 10px; margin-bottom: 20px; }
+        .news-item { padding: 15px 0; border-bottom: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; }
+        .news-info { flex: 1; }
+        .item-meta { font-size: 0.75rem; color: var(--accent); font-weight: bold; margin-bottom: 5px; }
+        .item-title { font-size: 1.15rem; font-weight: 700; text-decoration: none; color: var(--ink); line-height: 1.4; display: block; }
+        .item-title:hover { color: var(--accent); text-decoration: underline; }
         
-        /* 右側閱讀區 */
-        .reader-panel { flex-grow: 2; display: flex; flex-direction: column; background: var(--paper); }
-        .reader-header { padding: 15px 25px; border-bottom: 1px solid #ddd; background: white; display: flex; justify-content: space-between; align-items: center; }
-        .reader-content { flex-grow: 1; border: none; width: 100%; }
-        .note-box { height: 150px; padding: 20px; border-top: 2px solid var(--ink); background: #fffde7; }
-        .note-box textarea { width: 100%; height: 100%; border: none; background: transparent; font-family: inherit; font-size: 0.95rem; resize: none; outline: none; }
+        /* 功能按鈕 */
+        .action-btns { display: flex; gap: 10px; }
+        .btn-sm { padding: 4px 10px; font-size: 0.8rem; cursor: pointer; border: 1px solid #ccc; background: white; border-radius: 3px; }
+        .btn-sm:hover { background: #eee; }
 
-        /* 管理面板 */
-        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
-        .modal-content { background: white; width: 600px; margin: 50px auto; padding: 30px; border-radius: 8px; max-height: 80vh; overflow-y: auto; }
-        .btn { padding: 8px 15px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: white; }
-        .btn-primary { background: var(--ink); color: white; border: none; }
+        /* 可縮放側邊閱讀欄 */
+        #reader-pane { width: 0; border-left: 0; transition: 0.3s; display: flex; flex-direction: column; background: var(--paper); overflow: hidden; position: relative; }
+        #reader-pane.open { width: 45%; border-left: 2px solid var(--ink); }
+        .reader-controls { padding: 10px 20px; background: white; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; }
+        .reader-frame { flex: 1; border: none; width: 100%; }
+        .note-area { height: 150px; background: #fffde7; padding: 15px; border-top: 1px solid #ddd; }
+        .note-area textarea { width: 100%; height: 80%; border: none; background: transparent; resize: none; outline: none; }
 
-        .disliked { opacity: 0.4; filter: grayscale(1); }
+        .highlight-card { background: #fffcf0; }
+        .badge { font-size: 0.7rem; background: var(--accent); color: white; padding: 2px 6px; border-radius: 10px; margin-left: 5px; }
     </style>
 </head>
 <body>
 
-<!-- 左側選單 -->
+<!-- 側邊欄 -->
 <div class="sidebar">
     <div class="sidebar-header">
-        <h2 style="margin:0;">新聞智庫</h2>
-        <p style="font-size:0.8rem; color:var(--dim);">專業採訪模式</p>
+        <h2 style="margin:0;">智庫列表</h2>
+        <p style="font-size:0.75rem; color:#888;">24H 資訊同步</p>
     </div>
-    <div class="nav-tabs" id="category-tabs">
-        <!-- 分類會動態插入 -->
-    </div>
-    <div style="padding: 20px;">
-        <button class="btn btn-primary" style="width:100%;" onclick="openSettings()">⚙️ 智庫管理</button>
+    <div id="nav-tabs"></div>
+    <div style="padding: 15px;">
+        <button class="btn-sm" style="width:100%;" onclick="openManager()">⚙️ 管理源與關鍵字</button>
     </div>
 </div>
 
-<!-- 中間新聞列表 -->
-<div class="main-list" id="news-list">
-    <p style="text-align:center; padding:50px;">正在調度資訊...</p>
+<!-- 主內容區 -->
+<div class="main-content">
+    <div class="list-header">
+        <h2 id="current-cat-name">政治</h2>
+        <span id="update-time" style="font-size:0.8rem; color:#888;"></span>
+    </div>
+    <div id="news-list"></div>
 </div>
 
-<!-- 右側閱讀與筆記 -->
-<div class="reader-panel" id="reader-panel">
-    <div class="reader-header">
-        <span id="reader-source" style="font-weight:bold;">請選擇文章</span>
-        <div>
-            <button class="btn" onclick="vote('like')">👍 推薦</button>
-            <button class="btn" onclick="vote('dislike')">👎 減少</button>
-            <button class="btn" onclick="window.open(currentNews.link, '_blank')">🌐 原網頁</button>
-        </div>
+<!-- 側邊閱讀欄 -->
+<div id="reader-pane">
+    <div class="reader-controls">
+        <button onclick="closeReader()">✕ 關閉預覽</button>
+        <span id="preview-title" style="font-size:0.8rem; color:#666; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:200px;"></span>
+        <button onclick="window.open(activeLink, '_blank')">🌐 開啟新頁面</button>
     </div>
-    <iframe id="reader-iframe" class="reader-content" src="about:blank"></iframe>
-    <div class="note-box">
-        <div style="font-size:0.8rem; font-weight:bold; margin-bottom:5px;">📝 採訪筆記 / 隨筆</div>
-        <textarea id="note-input" placeholder="在這裡輸入對此報導的想法..." oninput="saveNote()"></textarea>
-    </div>
-</div>
-
-<!-- 管理面板彈窗 -->
-<div id="settings-modal" class="modal">
-    <div class="modal-content">
-        <h3>智庫中心管理</h3>
-        <div style="margin-bottom:20px;">
-            <h4>自定義 RSS 新聞源</h4>
-            <div id="source-list" style="margin-bottom:10px;"></div>
-            <input type="text" id="new-rss" placeholder="貼上 RSS 網址" style="width:70%; padding:5px;">
-            <button class="btn" onclick="addSource()">新增</button>
-        </div>
-        <div style="margin-bottom:20px;">
-            <h4>精準鎖定關鍵字</h4>
-            <div id="keyword-list" style="margin-bottom:10px;"></div>
-            <input type="text" id="new-kw" placeholder="輸入關鍵字" style="width:70%; padding:5px;">
-            <button class="btn" onclick="addKeyword()">新增</button>
-        </div>
-        <button class="btn btn-primary" onclick="closeSettings()">完成並關閉</button>
+    <iframe id="iframe" class="reader-frame" src="about:blank"></iframe>
+    <div class="note-area">
+        <div style="font-size:0.75rem; font-weight:bold;">📝 筆記區</div>
+        <textarea id="note-text" oninput="saveNote()" placeholder="輸入筆記..."></textarea>
     </div>
 </div>
 
 <script>
     let allData = {};
-    let currentCat = '政治';
-    let currentNews = null;
-    let userPrefs = JSON.parse(localStorage.getItem('news_prefs') || '{"likes":[], "dislikes":[], "sources":[], "keywords":[]}');
+    let activeLink = "";
+    let userSettings = JSON.parse(localStorage.getItem('news_pro_settings') || '{"keywords":[], "sources":[]}');
     let notes = JSON.parse(localStorage.getItem('news_notes') || '{}');
 
     async function init() {
         try {
             const res = await fetch(`news_data.json?t=${Date.now()}`);
             allData = await res.json();
-            renderTabs();
-            showTab('政治');
+            renderNav();
+            switchTab('政治');
         } catch (e) {
-            document.getElementById('news-list').innerHTML = "請確保已在 GitHub Actions 執行抓取任務。";
+            document.getElementById('news-list').innerHTML = "資料載入中，請確保 Actions 已執行過。";
         }
     }
 
-    function renderTabs() {
-        const cats = ["政治", "經濟", "地方", "科學與科技", "娛樂", "運動", "生活", "收藏"];
-        const container = document.getElementById('category-tabs');
-        container.innerHTML = cats.map(c => `
-            <button class="nav-btn ${c===currentCat?'active':''}" onclick="showTab('${c}')">${c}</button>
+    function renderNav() {
+        const cats = ["政治", "經濟", "地方", "科學與科技", "娛樂", "運動", "生活"];
+        document.getElementById('nav-tabs').innerHTML = cats.map(c => `
+            <button class="nav-btn" id="btn-${c}" onclick="switchTab('${c}')">${c}</button>
         `).join('');
     }
 
-    function showTab(cat) {
-        currentCat = cat;
-        renderTabs();
-        const container = document.getElementById('news-list');
-        let items = (cat === '收藏') ? Object.values(allData).flat().filter(n => notes[n.link]) : (allData[cat] || []);
-        
-        // 排序：符合關鍵字的在前，被不喜歡的在後
-        items.sort((a, b) => {
-            let aScore = userPrefs.keywords.some(k => a.title.includes(k)) ? 10 : 0;
-            let bScore = userPrefs.keywords.some(k => b.title.includes(k)) ? 10 : 0;
-            if (userPrefs.dislikes.includes(a.link)) aScore -= 100;
-            if (userPrefs.dislikes.includes(b.link)) bScore -= 100;
-            return bScore - aScore;
-        });
+    function switchTab(cat) {
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(`btn-${cat}`).classList.add('active');
+        document.getElementById('current-cat-name').innerText = cat;
 
-        container.innerHTML = items.map(item => `
-            <div class="news-item ${userPrefs.dislikes.includes(item.link)?'disliked':''}" onclick='openNews(${JSON.stringify(item).replace(/'/g, "&apos;")})'>
-                <div class="item-meta">${item.source} · ${item.time}</div>
-                <div class="item-title">${item.title}</div>
-                <div class="item-actions">
-                    ${notes[item.link] ? '📝 已有筆記' : ''}
-                    ${userPrefs.likes.includes(item.link) ? '❤️ 已推薦' : ''}
+        const list = document.getElementById('news-list');
+        const items = allData[cat] || [];
+        
+        list.innerHTML = items.map(item => {
+            const isMatch = userSettings.keywords.some(k => item.title.includes(k));
+            return `
+                <div class="news-item ${isMatch ? 'highlight-card' : ''}">
+                    <div class="news-info">
+                        <div class="item-meta">
+                            ${item.source} · ${item.time} 
+                            ${isMatch ? '<span class="badge">精準鎖定</span>' : ''}
+                        </div>
+                        <a href="${item.link}" target="_blank" class="item-title">${item.title}</a>
+                        <div style="font-size:0.85rem; color:#666; margin-top:5px;">${item.summary}</div>
+                    </div>
+                    <div class="action-btns">
+                        <button class="btn-sm" onclick="previewNews('${item.link}', '${item.title.replace(/'/g, "")}')">👁️ 預覽</button>
+                    </div>
                 </div>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     }
 
-    function openNews(item) {
-        currentNews = item;
-        document.getElementById('reader-source').innerText = item.source + " - " + item.title;
-        document.getElementById('reader-iframe').src = item.link;
-        document.getElementById('note-input').value = notes[item.link] || "";
-        
-        // 標記 active 項目
-        document.querySelectorAll('.news-item').forEach(el => el.classList.remove('active'));
-        event.currentTarget.classList.add('active');
+    function previewNews(link, title) {
+        activeLink = link;
+        document.getElementById('preview-title').innerText = title;
+        document.getElementById('iframe').src = link;
+        document.getElementById('note-text').value = notes[link] || "";
+        document.getElementById('reader-pane').classList.add('open');
+    }
+
+    function closeReader() {
+        document.getElementById('reader-pane').classList.remove('open');
+        document.getElementById('iframe').src = "about:blank";
     }
 
     function saveNote() {
-        if (!currentNews) return;
-        const val = document.getElementById('note-input').value;
-        if (val) notes[currentNews.link] = val;
-        else delete notes[currentNews.link];
+        if (!activeLink) return;
+        notes[activeLink] = document.getElementById('note-text').value;
         localStorage.setItem('news_notes', JSON.stringify(notes));
     }
 
-    function vote(type) {
-        if (!currentNews) return;
-        if (type === 'like') userPrefs.likes.push(currentNews.link);
-        else userPrefs.dislikes.push(currentNews.link);
-        localStorage.setItem('news_prefs', JSON.stringify(userPrefs));
-        showTab(currentCat);
-    }
-
-    // 管理面板功能
-    function openSettings() { 
-        document.getElementById('settings-modal').style.display = 'block'; 
-        renderSettings();
-    }
-    function closeSettings() { 
-        document.getElementById('settings-modal').style.display = 'none'; 
-        showTab(currentCat);
-    }
-    function renderSettings() {
-        document.getElementById('source-list').innerHTML = userPrefs.sources.map((s,i) => `<div>${s} <span style="cursor:pointer; color:red;" onclick="removeSetting('sources', ${i})">×</span></div>`).join('');
-        document.getElementById('keyword-list').innerHTML = userPrefs.keywords.map((k,i) => `<div>${k} <span style="cursor:pointer; color:red;" onclick="removeSetting('keywords', ${i})">×</span></div>`).join('');
-    }
-    function addSource() {
-        const val = document.getElementById('new-rss').value;
-        if(val) userPrefs.sources.push(val);
-        saveSettings();
-    }
-    function addKeyword() {
-        const val = document.getElementById('new-kw').value;
-        if(val) userPrefs.keywords.push(val);
-        saveSettings();
-    }
-    function removeSetting(type, i) {
-        userPrefs[type].splice(i, 1);
-        saveSettings();
-    }
-    function saveSettings() {
-        localStorage.setItem('news_prefs', JSON.stringify(userPrefs));
-        renderSettings();
+    function openManager() {
+        const kw = prompt("請輸入想要標記的關鍵字（多個請用逗號隔開）：", userSettings.keywords.join(","));
+        if (kw !== null) {
+            userSettings.keywords = kw.split(",").map(s => s.trim()).filter(s => s);
+            localStorage.setItem('news_pro_settings', JSON.stringify(userSettings));
+            location.reload();
+        }
     }
 
     init();
 </script>
-
 </body>
 </html>
