@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Daily Pro - 高速即時新聞</title>
+    <title>News Daily Pro - 即時新聞</title>
     <style>
         :root {
             --bg-dark: #0f111a;
@@ -20,9 +20,9 @@
 
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
         body { background-color: var(--bg-dark); color: var(--text-main); padding-bottom: 60px; }
-        .container { max-width: 1300px; margin: 0 auto; padding: 0 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
-        /* 全域導覽列 */
+        /* 導覽列 */
         header { background-color: var(--bg-card); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; }
         .nav-main { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; }
         .logo { font-size: 22px; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px; }
@@ -32,31 +32,30 @@
         .tab-btn:hover { color: #fff; background-color: var(--bg-input); }
         .tab-btn.active { color: #fff; background-color: var(--accent); }
 
-        /* 分類導覽列 */
+        /* 分類列 */
         .category-bar { background-color: #121420; border-bottom: 1px solid var(--border); padding: 12px 0; overflow-x: auto; white-space: nowrap; }
         .category-wrapper { display: flex; gap: 8px; }
         .cat-btn { background-color: var(--bg-card); border: 1px solid var(--border); color: var(--text-muted); padding: 6px 14px; border-radius: 20px; font-size: 14px; cursor: pointer; transition: all 0.2s; }
         .cat-btn:hover, .cat-btn.active { border-color: var(--accent); color: #fff; background-color: var(--bg-input); }
 
-        /* 主要內容區塊開關 */
+        /* 區塊開關 */
         .page-section { display: none; padding: 25px 0; }
         .page-section.active { display: block; }
 
-        /* 讀取中狀態動畫 */
-        .loading-zone { text-align: center; padding: 50px 0; font-size: 17px; color: var(--accent); display: none; }
-        .spinner { border: 4px solid rgba(255,255,255,0.1); width: 36px; height: 36px; border-radius: 50%; border-left-color: var(--accent); animation: spin 1s linear infinite; margin: 0 auto 15px; }
+        /* 讀取狀態 */
+        .loading-zone { text-align: center; padding: 50px 0; font-size: 16px; color: var(--accent); display: none; }
+        .spinner { border: 3px solid rgba(255,255,255,0.1); width: 28px; height: 28px; border-radius: 50%; border-left-color: var(--accent); animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        /* 新聞卡片網格與樣式 */
-        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
-        .news-card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s; position: relative; }
-        .news-card:hover { transform: translateY(-4px); }
-        .news-img { width: 100%; height: 170px; object-fit: cover; background-color: var(--bg-input); }
-        .news-content { padding: 18px; display: flex; flex-direction: column; flex-grow: 1; }
+        /* 純文字高密度新聞卡片 */
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .news-card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; display: flex; flex-direction: column; transition: border-color 0.2s; }
+        .news-card:hover { border-color: var(--accent); }
         .news-source { font-size: 12px; color: var(--accent); font-weight: 700; margin-bottom: 8px; display: flex; justify-content: space-between; }
-        .news-time { color: var(--text-muted); }
-        .news-title { font-size: 16px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; color: #fff; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-        .news-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.5; margin-bottom: 15px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; flex-grow: 1; }
+        .news-time { color: var(--text-muted); font-weight: normal; }
+        .news-title { font-size: 17px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; color: #fff; text-decoration: none; display: block; }
+        .news-title:hover { color: var(--accent-hover); }
+        .news-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.6; margin-bottom: 15px; flex-grow: 1; }
         
         .kw-container { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
         .kw-tag { background-color: var(--bg-input); color: var(--text-main); font-size: 11px; padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border); }
@@ -69,12 +68,11 @@
         .btn-fav:hover { background-color: var(--accent); color: #fff; }
         .btn-fav.bookmarked { background-color: var(--danger); color: #fff; }
 
-        /* 收藏夾專用隨手筆記區 */
+        /* 隨手筆記 */
         .note-area { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
         .note-input { width: 100%; background-color: var(--bg-dark); border: 1px solid var(--border); color: #fff; padding: 8px; border-radius: 6px; font-size: 12px; resize: vertical; margin-bottom: 6px; }
-        .note-input:focus { outline: none; border-color: var(--accent); }
 
-        /* 後台控制面板樣式 */
+        /* 後台控制 */
         .mgmt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
         @media (max-width: 768px) { .mgmt-grid { grid-template-columns: 1fr; } }
         .panel { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
@@ -110,7 +108,7 @@
     <main class="container">
         <div class="loading-zone" id="system-loading">
             <div class="spinner"></div>
-            <p>正在跨海同時發射抓取 24H 內最新真實新聞中，請稍候...</p>
+            <p>正在動態同步請求各媒體 RSS 饋送源中...</p>
         </div>
 
         <section id="page-browse" class="page-section active">
@@ -135,20 +133,20 @@
                             <input type="text" id="mgmt-src-name" class="mgmt-input" placeholder="媒體名稱 (如: 中央社─政治)">
                         </div>
                         <div class="mgmt-input-row">
-                            <input type="text" id="mgmt-src-url" class="mgmt-input" placeholder="真實 RSS 網址 (網路上公開的 XML 連結)">
+                            <input type="text" id="mgmt-src-url" class="mgmt-input" placeholder="真實 RSS 網址 (XML 連結)">
                             <button class="btn-add" onclick="addSourceViaMgmt()">新增</button>
                         </div>
                     </div>
-                    <button class="btn-action btn-read" style="margin-bottom:15px; width:100%;" onclick="resetToDefaultSources()">⚡ 還原成系統預設台灣頂級媒體源</button>
+                    <button class="btn-action btn-read" style="margin-bottom:15px; width:100%;" onclick="resetToDefaultSources()">⚡ 還原成系統預設台灣媒體源</button>
                     <div class="item-list" id="mgmt-sources-list"></div>
                 </div>
 
                 <div class="panel">
                     <h3>🚫 敏感詞與八卦自動阻斷器</h3>
-                    <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">系統只要抓到標題或摘要包含以下字眼，會立刻捨棄，絕不呈現。</p>
+                    <p style="font-size:12px; color:var(--text-muted); margin-bottom:10px;">只要標題或摘要包含以下字眼，會自動過濾。若放寬條件可將其刪除。</p>
                     <div class="mgmt-form">
                         <div class="mgmt-input-row">
-                            <input type="text" id="mgmt-kw-text" class="mgmt-input" placeholder="輸入要阻斷的敏感詞 (如: 緋聞、爆料)">
+                            <input type="text" id="mgmt-kw-text" class="mgmt-input" placeholder="輸入要阻斷的敏感詞">
                             <button class="btn-add" onclick="addKeywordViaMgmt()">加入</button>
                         </div>
                     </div>
@@ -183,7 +181,7 @@
             international: [
                 { name: '中央社─國際', url: 'https://www.cna.com.tw/cna2018/ws/Rss.aspx?id=aINT' },
                 { name: '聯合新聞網─全球', url: 'https://udn.com/rssfeed/news/2/7225' },
-                { name: 'BBC NEWS中文─國際', url: 'https://feeds.bbci.co.uk/zhongwen/trad/rss.xml' }
+                { name: 'BBC NEWS中文', url: 'https://feeds.bbci.co.uk/zhongwen/trad/rss.xml' }
             ],
             economy: [
                 { name: '經濟日報─產業', url: 'https://money.udn.com/rssfeed/news/1001/2047' },
@@ -212,15 +210,8 @@
             ]
         };
 
-        // 額外附加的各大國際媒體大廠 RSS 清單
-        const intlGlobalFeeds = [
-            { name: 'BBC World News', url: 'http://feeds.bbci.co.uk/news/world/rss.xml' },
-            { name: 'Reuters World', url: 'https://www.reutersagency.com/feed/?best-topics=political-general-news&post_type=best' },
-            { name: 'DW News', url: 'https://rss.dw.com/rdf/rss-en-world' },
-            { name: 'ABC News', url: 'https://abcnews.go.com/abcnews/internationalheadlines' }
-        ];
-
-        const defaultBlockKeywords = ['八卦', '緋聞', '爆料', '私生活', '車禍', '火災', '殺人', '搶劫', '偷竊', '同居', '直擊', '戀情', '離婚', '床戰', '不倫', '劈腿', '小三'];
+        // 預設過濾詞（放寬條件：減少敏感詞，避免誤殺正常新聞）
+        const defaultBlockKeywords = ['八卦', '爆料', '床戰', '不倫', '小三'];
 
         let currentSources = JSON.parse(localStorage.getItem('nd_real_sources')) || defaultSources;
         let currentBlockKeywords = JSON.parse(localStorage.getItem('nd_real_keywords')) || defaultBlockKeywords;
@@ -230,24 +221,22 @@
         let activeCategory = 'politics';
 
         // ==========================================
-        // 2. 優化版：加入 5秒超時中斷 的真實 RSS 抓取器
+        // 2. 高成功率：Raw 純文字 XML 抓取器
         // ==========================================
         async function fetchRssToArticles(sourceObj) {
-            // 設定 5 秒連線上限防止單一網頁卡死
             const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 5000);
+            const timeoutId = setTimeout(() => controller.abort(), 6000); // 延長到 6 秒防止逾時
 
             try {
-                // 加上時間戳，強迫代理伺服器回傳最新資料，避免抓到舊的 Cache
-                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sourceObj.url)}&_ts=${Date.now()}`;
+                // 改用 /raw 接口直接拿最原始的 XML 純文字，繞過複雜轉檔程序
+                const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(sourceObj.url)}&_ts=${Date.now()}`;
                 
                 const response = await fetch(proxyUrl, { signal: controller.signal });
                 clearTimeout(timeoutId);
                 
                 if (!response.ok) return [];
                 
-                const jsonWrapper = await response.json();
-                const xmlText = jsonWrapper.contents;
+                const xmlText = await response.text();
                 
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, "text/xml");
@@ -258,120 +247,81 @@
                     const title = item.querySelector("title")?.textContent || "";
                     let description = item.querySelector("description")?.textContent || "";
                     const link = item.querySelector("link")?.textContent || "#";
-                    const pubDate = item.querySelector("pubDate")?.textContent || new Date().toISOString();
+                    const pubDate = item.querySelector("pubDate")?.textContent || "";
                     
+                    // 潔淨化描述欄位的 HTML 標籤
                     description = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
-                    // 智慧抓取圖片
-                    let imageUrl = "";
-                    const enclosure = item.querySelector("enclosure");
-                    if (enclosure && enclosure.getAttribute("type")?.startsWith("image")) {
-                        imageUrl = enclosure.getAttribute("url");
-                    }
-                    if (!imageUrl) {
-                        const rawDesc = item.querySelector("description")?.textContent || "";
-                        const imgMatch = rawDesc.match(/<img[^>]+src="([^">]+)"/);
-                        if (imgMatch) imageUrl = imgMatch[1];
-                    }
-                    if (!imageUrl) {
-                        imageUrl = `https://picsum.photos/400/250?random=${Math.floor(Math.random()*1000)}`;
+                    // 格式化時間顯示
+                    let displayTime = "";
+                    if (pubDate) {
+                        try {
+                            const d = new Date(pubDate);
+                            displayTime = `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+                        } catch(e) { displayTime = pubDate.substring(0, 16); }
                     }
 
-                    parsedList.push({
-                        title: title,
-                        description: description.substring(0, 150) + "...",
-                        url: link,
-                        publishedAt: pubDate,
-                        urlToImage: imageUrl,
-                        source: sourceObj.name
-                    });
+                    if (title) {
+                        parsedList.push({
+                            title: title,
+                            description: description.substring(0, 120) + (description.length > 120 ? "..." : ""),
+                            url: link,
+                            time: displayTime,
+                            source: sourceObj.name
+                        });
+                    }
                 });
                 return parsedList;
             } catch (err) {
                 clearTimeout(timeoutId);
-                console.warn(`⚠️ 來源 ${sourceObj.name} 讀取超時或失敗，系統已自動跳過。`);
+                console.warn(`無法讀取來源: ${sourceObj.name}`);
                 return [];
             }
         }
 
         // ==========================================
-        // 3. Promise.all 多執行緒平行抓取與分流核心
+        // 3. 【條件放寬】平行抓取與黑名單過濾
         // ==========================================
         async function loadAndProcessCategoryNews(category) {
             document.getElementById('system-loading').style.display = 'block';
             document.getElementById('browse-news-grid').innerHTML = '';
 
             const localSources = currentSources[category] || [];
-            const allTasks = [];
-            
-            // 將本地專屬媒體與全球外媒大廠全部推入平行執行佇列
-            localSources.forEach(src => allTasks.push(fetchRssToArticles(src)));
-            intlGlobalFeeds.forEach(src => allTasks.push(fetchRssToArticles(src)));
+            const allTasks = localSources.map(src => fetchRssToArticles(src));
 
-            // 所有連線同時開轟
+            // 多管齊下同時抓取
             const resultsArray = await Promise.all(allTasks);
-            let allCategoryArticles = resultsArray.flat();
+            let allArticles = resultsArray.flat();
 
             const finalArticles = [];
-            const now = new Date();
 
-            for (let art of allCategoryArticles) {
-                // 1. 全域敏感詞與八卦黑名單精準阻斷
+            for (let art of allArticles) {
+                // 1. 簡易黑名單字詞過濾
                 const fullText = (art.title + art.description).toLowerCase();
-                const isSpamOrGossip = currentBlockKeywords.some(keyword => fullText.includes(keyword.toLowerCase()));
-                if (isSpamOrGossip) continue;
+                const isSpam = currentBlockKeywords.some(kw => kw && fullText.includes(kw.toLowerCase()));
+                if (isSpam) continue;
 
-                // 2. 國際大廠自動分流落位機制
-                const isIntlBrand = intlGlobalFeeds.some(f => f.name === art.source);
-                if (isIntlBrand) {
-                    let match = false;
-                    if (category === 'tech' && (fullText.includes('tech') || fullText.includes('ai') || fullText.includes('google') || fullText.includes('chip') || fullText.includes('nvidia'))) match = true;
-                    if (category === 'economy' && (fullText.includes('market') || fullText.includes('stock') || fullText.includes('economy') || fullText.includes('money') || fullText.includes('fed'))) match = true;
-                    if (category === 'sports' && (fullText.includes('sport') || fullText.includes('game') || fullText.includes('match') || fullText.includes('nba') || fullText.includes('mlb'))) match = true;
-                    if (category === 'international') match = true; 
-                    if (!match) continue; // 不符合目前分類特徵的外媒，跳過
-                }
-
-                // 特定分類進階潔淨過濾
-                if (category === 'politics' && (fullText.includes('私生活') || fullText.includes('招待所'))) continue;
-                if (category === 'local' && (fullText.includes('偷竊') || fullText.includes('打架') || fullText.includes('縱火'))) continue;
-
-                // 防止重覆文章
+                // 2. 防止重覆標題
                 if (finalArticles.some(a => a.title === art.title)) continue;
 
                 finalArticles.push(art);
-                if (finalArticles.length === 8) break; // 嚴格鎖定 8 則
-            }
-
-            // 緩衝防呆：萬一經過嚴苛過濾後不滿 8 則，放寬標準補齊
-            if (finalArticles.length < 8) {
-                for (let art of allCategoryArticles) {
-                    if (!finalArticles.some(a => a.title === art.title)) {
-                        const fullText = (art.title + art.description).toLowerCase();
-                        if (!currentBlockKeywords.some(keyword => fullText.includes(keyword.toLowerCase()))) {
-                            finalArticles.push(art);
-                        }
-                    }
-                    if (finalArticles.length === 8) break;
-                }
+                if (finalArticles.length === 15) break; // 上限放寬到 15 則
             }
 
             document.getElementById('system-loading').style.display = 'none';
             return finalArticles;
         }
 
-        // 智慧型自動關鍵字標籤提取 (3-5個)
+        // 自動關鍵字標籤
         function extractKeywordsAuto(title, desc) {
             const cleanText = `${title} ${desc || ''}`.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'’]/g, " ");
             const words = cleanText.split(/[\s,、，。]/).filter(w => w.length > 1);
-            const stopWords = ['今天', '民眾', '指出', '報導', '目前', '表示', '進行', '已經', '一項', '我們', '這個', 'the', 'and', 'with'];
+            const stopWords = ['今天', '民眾', '指出', '報導', '目前', '表示', '進行', '已經', '核心', '一個', '可以'];
             const filtered = words.filter(w => !stopWords.includes(w));
             
             let unique = [...new Set(filtered)];
-            let count = Math.min(Math.max(unique.length, 3), 5);
-            
-            let tags = unique.slice(0, count);
-            if (tags.length < 3) tags = ['即時新聞', categoryMap[activeCategory].name, '焦點追蹤'];
+            let tags = unique.slice(0, 3);
+            if (tags.length < 2) tags = [categoryMap[activeCategory].name, '即時焦點'];
             return tags.map(k => `#${k}`);
         }
 
@@ -419,17 +369,17 @@
             const titleZone = document.getElementById('current-category-title');
             const grid = document.getElementById('browse-news-grid');
             
-            titleZone.innerHTML = `${categoryMap[activeCategory].icon} ${categoryMap[activeCategory].name} 即時深度新聞流 (保證嚴選 8 則)`;
+            titleZone.innerHTML = `${categoryMap[activeCategory].icon} ${categoryMap[activeCategory].name} 即時新聞流`;
             grid.innerHTML = '';
 
             const articles = await loadAndProcessCategoryNews(activeCategory);
 
             if(articles.length === 0) {
-                grid.innerHTML = `<div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:40px;">📭 目前此分類各 RSS 源在 24 小時內沒有符合潔淨標準的新聞。</div>`;
+                grid.innerHTML = `<div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:40px;">📭 目前此分類各來源暫無即時資料，可至後台檢查或更換 RSS 連結。</div>`;
                 return;
             }
 
-            articles.forEach((art, index) => {
+            articles.forEach((art) => {
                 const isBookmarked = bookmarks.some(b => b.title === art.title);
                 const favClass = isBookmarked ? 'bookmarked' : '';
                 const favText = isBookmarked ? '❤️ 已收藏' : '⭐ 收藏新聞';
@@ -439,13 +389,13 @@
 
                 grid.innerHTML += `
                     <article class="news-card">
-                        <img class="news-img" src="${art.urlToImage}" alt="新聞圖片">
                         <div class="news-content">
                             <div class="news-source">
                                 <span>📍 ${art.source}</span>
+                                <span class="news-time">${art.time}</span>
                             </div>
-                            <h3 class="news-title">${art.title}</h3>
-                            <p class="news-desc">${art.description}</p>
+                            <a href="${art.url}" target="_blank" class="news-title">${art.title}</a>
+                            <p class="news-desc">${art.description || '點擊閱讀原文查看詳細報導。'}</p>
                             <div class="kw-container">${kwsHTML}</div>
                             <div class="card-footer">
                                 <a href="${art.url}" target="_blank" class="btn-action btn-read">閱讀原文</a>
@@ -457,7 +407,6 @@
             });
         }
 
-        // 收藏夾與個人隨手筆記機制
         function toggleBookmark(art) {
             const idx = bookmarks.findIndex(b => b.title === art.title);
             if (idx > -1) {
@@ -486,7 +435,7 @@
             grid.innerHTML = '';
 
             if (bookmarks.length === 0) {
-                grid.innerHTML = `<div style="grid-column:1/-1; text-align:center; padding:40px; color:var(--text-muted);">📭 收藏夾目前空空的，快去閱讀並加入喜歡的新聞吧！</div>`;
+                grid.innerHTML = `<div style="grid-column:1/-1; text-align:center; padding:40px; color:var(--text-muted);">📭 收藏夾目前空空的。</div>`;
                 return;
             }
 
@@ -494,21 +443,18 @@
                 const currentNote = notes[art.title] || '';
                 const kws = extractKeywordsAuto(art.title, art.description);
                 const kwsHTML = kws.map(k => `<span class="kw-tag">${k}</span>`).join('');
-
-                // 利用 Base64 處理 ID 的 DOM 安全性
                 const domSafeId = btoa(encodeURIComponent(art.title)).replace(/=/g, '');
 
                 grid.innerHTML += `
                     <article class="news-card">
-                        <img class="news-img" src="${art.urlToImage}" alt="img">
                         <div class="news-content">
                             <div class="news-source"><span>📍 ${art.source}</span></div>
-                            <h3 class="news-title">${art.title}</h3>
+                            <a href="${art.url}" target="_blank" class="news-title">${art.title}</a>
                             <p class="news-desc">${art.description}</p>
                             <div class="kw-container">${kwsHTML}</div>
                             
                             <div class="note-area">
-                                <textarea class="note-input" placeholder="💡 在這裡輸入個人觀點、讀後心得或工作隨手筆記..." id="note-${domSafeId}" oninput="saveNote('${domSafeId}', '${art.title.replace(/'/g, "\\'")}')">${currentNote}</textarea>
+                                <textarea class="note-input" placeholder="💡 輸入讀後隨手筆記..." id="note-${domSafeId}" oninput="saveNote('${domSafeId}', '${art.title.replace(/'/g, "\\'")}')">${currentNote}</textarea>
                             </div>
 
                             <div class="card-footer">
@@ -521,13 +467,12 @@
         }
 
         function saveNote(elementId, artTitle) {
-            const text = document.getElementById(`note-${elementId}`).value;
-            notes[artTitle] = text;
+            notes[artTitle] = document.getElementById(`note-${elementId}`).value;
             localStorage.setItem('nd_real_notes', JSON.stringify(notes));
         }
 
         // ==========================================
-        // 5. 後台控制面板 (直接在前台動態增刪修改)
+        // 5. 後台設定面板
         // ==========================================
         function renderManagementPanel() {
             const sel = document.getElementById('mgmt-src-cat');
@@ -535,7 +480,6 @@
             Object.keys(categoryMap).forEach(k => {
                 sel.innerHTML += `<option value="${k}">${categoryMap[k].name}</option>`;
             });
-
             renderMgmtSources();
             renderMgmtKeywords();
         }
@@ -543,7 +487,6 @@
         function renderMgmtSources() {
             const container = document.getElementById('mgmt-sources-list');
             container.innerHTML = '';
-            
             Object.keys(currentSources).forEach(cat => {
                 currentSources[cat].forEach((src, idx) => {
                     container.innerHTML += `
@@ -565,8 +508,8 @@
             const name = document.getElementById('mgmt-src-name').value.trim();
             const url = document.getElementById('mgmt-src-url').value.trim();
             
-            if(!name || !url) return alert('請完整填入媒體名稱與 RSS 連結網址！');
-            if(!url.startsWith('http')) return alert('請填入正確的網址格式（必須以 http:// 或 https:// 開頭）');
+            if(!name || !url) return alert('請填入完整欄位！');
+            if(!url.startsWith('http')) return alert('網址格式必須以 http 開頭');
             
             if(!currentSources[cat]) currentSources[cat] = [];
             currentSources[cat].push({ name, url });
@@ -584,7 +527,7 @@
         }
 
         function resetToDefaultSources() {
-            if(confirm('確定要將所有分類的新聞來源還原回系統預設值嗎？')) {
+            if(confirm('確定要將新聞來源還原回預設值嗎？')) {
                 currentSources = JSON.parse(JSON.stringify(defaultSources));
                 localStorage.setItem('nd_real_sources', JSON.stringify(currentSources));
                 renderMgmtSources();
@@ -606,20 +549,20 @@
 
         function addKeywordViaMgmt() {
             const text = document.getElementById('mgmt-kw-text').value.trim();
-            if(!text) return alert('請輸入過濾字詞');
+            if(!text) return alert('請輸入字詞');
             currentBlockKeywords.push(text);
             localStorage.setItem('nd_real_keywords', JSON.stringify(currentBlockKeywords));
             document.getElementById('mgmt-kw-text').value = '';
             renderMgmtKeywords();
         }
 
+        // 可以動態點擊 × 移除過濾黑名單
         function deleteKeywordViaMgmt(idx) {
             currentBlockKeywords.splice(idx, 1);
             localStorage.setItem('nd_real_keywords', JSON.stringify(currentBlockKeywords));
             renderMgmtKeywords();
         }
 
-        // 啟動初始化
         document.addEventListener('DOMContentLoaded', () => {
             initCategoryButtons();
             updateFavCount();
