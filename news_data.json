@@ -1,9 +1,996 @@
 {
-  "政治": [],
-  "經濟": [],
-  "地方": [],
-  "科學與科技": [],
-  "娛樂": [],
-  "運動": [],
-  "生活": []
+  "政治": [
+    {
+      "title": "立法院江啟臣副院長率跨黨派代表團出席「亞洲太平洋國會議員聯合會(APPU)」第88屆理事會議及日本議員團晚宴 - ly.gov.tw",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xUFM4MllwYnVqblpMREo5Wjh3X0NvTm1OV2t0cE9qZGloYlRvYnVyaU5pNU1OSkd1SE1EXy0xcDlZdVN4MWF0RTU0MzN4WThKb1JobzR2MFo3TnUxQ2pvMmhPbUpuTS1pbGFpOEV3?oc=5",
+      "source": "ly.gov.tw",
+      "summary": "立法院江啟臣副院長率跨黨派代表團出席「亞洲太平洋國會議員聯合會(APPU)」第88屆理事會議及日本議員團晚宴&nbsp;&nbsp;ly.gov.tw",
+      "time": "08/25 01:07"
+    },
+    {
+      "title": "外交部歡迎美加領袖人才訪團 陳明祺盼加強交流|戰略臺灣 - 僑新聞",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Dc3NaUkZ6M2Y0Nm1pZk02aWtVVmhSQXBUb1lGNGVZOTlKeFdCQlk1emhLdzFoRkhMN1k5UG5nZDhFUHlqcG5fcmJIcw?oc=5",
+      "source": "僑新聞",
+      "summary": "外交部歡迎美加領袖人才訪團 陳明祺盼加強交流|戰略臺灣&nbsp;&nbsp;僑新聞",
+      "time": "08/24 15:00"
+    },
+    {
+      "title": "2026年九合一選舉：青壯世代參選縣市長「討論度最高前10名」，誰能突圍？ - 遠見雜誌",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NZjJUTFlTV1l4dE9WVGJxeFpUT0dGYV9wdnhHcDJJUDJITFpDcVdIeGRUX0J1dVRINVl4bjVBSW5INUhCRkJkZ2ticTRJZw?oc=5",
+      "source": "遠見雜誌",
+      "summary": "2026年九合一選舉：青壯世代參選縣市長「討論度最高前10名」，誰能突圍？&nbsp;&nbsp;遠見雜誌",
+      "time": "08/24 06:05"
+    },
+    {
+      "title": "黃珊珊再選台北市長？粉專1句點破：確定無緣2026九合一選舉 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNMW9rbGRDSVNCTFRTSlZCcXNRVTB3VUNwTUlpaGZtYnR6Z284cFZ2Q3pXOXVRbGZSbWYwbUcybGZLRFRRRFB2bHR6b3hCemt0OW0wUGtLTjRtR05FeUJ4LTYzekpJX2hNWG92dW1OTHVYem5HemNPN3dUSzNGZnhnY1JhMEtkRUJMR290SGQxNGlRZ0pqZlNLdzNzeG1UeTh4a0tSczZwZExWQUItcUM5SWo0dnJVU05NTXVUYlRUOU84MnhEQ0Y0NkhUNkxkcEZ2VW90UUMxQUdwNVM5dWlwaG9PV3JjY0dEaHB6MHpzejhLa3RGSlJfemNnemtSWGdJRlk5MHdzR1FsZVlmbUppcnRPVmJBSGNsUGZpRmRCM1dHT0pNdHU4cVI1U3M1SEN6bDVSYWtibXJ1NGJIWm82OVhGTmYwU25KYnJxN0t2YTZpay1wT1dMTXZsaTF4cjN0U3dJcWZR?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "黃珊珊再選台北市長？粉專1句點破：確定無緣2026九合一選舉&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 01:02"
+    },
+    {
+      "title": "共和黨豪擲5億美元！中期選舉決戰國會控制權 - 新唐人電視台",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82dFBCVl9VakQ1NFNrT2Vac1ljeExwenZDV09jZ2pZSlpDX3dzRjRBc0dNaWVSQzNFZnB2SVJzOF9XQ1liNFByMS1UZlo2Wk1pbEJSSU8wUW1qQXY0VzliMNIBZkFVX3lxTE9aeHBxVXNvMVl5Yl9WQ3lROGlRZmhvWVZLMHAwQmYtUVhEb0ttcFRnUkRSak5DaENXWWRMVTN5YWkyUW11MENWc3hYSTdSSFBhQ29CbVl6MUF3VXpZMmNGbjVENE56QQ?oc=5",
+      "source": "新唐人電視台",
+      "summary": "共和黨豪擲5億美元！中期選舉決戰國會控制權&nbsp;&nbsp;新唐人電視台",
+      "time": "08/25 02:47"
+    },
+    {
+      "title": "五熊日本潑油毀古蹟被逮外交部發聲了：已掌握相關情形- 生活 - 華視新聞網",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXdjhrSWJUR3NHdFFkSUM0RGYtZ1E0MmpDdkFyaS1DU0dtUjhkWndOTXVWR0llc3JtOUpuYkhMcFVlWGVXVi1kVWF2QTZ6elBtTWpNUXB0ZWlwZ05vNThqYzJRd3BwWG44dHlPbw?oc=5",
+      "source": "華視新聞網",
+      "summary": "五熊日本潑油毀古蹟被逮外交部發聲了：已掌握相關情形- 生活&nbsp;&nbsp;華視新聞網",
+      "time": "08/25 01:31"
+    },
+    {
+      "title": "美國期中選舉：民主黨奪回參議院的勝算正在增加？ - 纽约时报中文网",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUVsOWxYeXB2Wk1va3dNSk1WeFMxb2Y1eGFLS1FRUmVoZTc5QkhwWV9oa1lkc2xCZ1RrY20tTFlSODhzLS03bVNDU2Z0MUtXZVM4UGFWdXhJMDE0NmQ2SGota0hEWXp4WDEzTkp1ZEJ3bW9wV0sySXhxS2w5LVZrdkFPdHU4YVctdGtad1V6UkJVeWFCR2c?oc=5",
+      "source": "纽约时报中文网",
+      "summary": "美國期中選舉：民主黨奪回參議院的勝算正在增加？&nbsp;&nbsp;纽约时报中文网",
+      "time": "08/25 02:34"
+    },
+    {
+      "title": "獎狀變選舉道具？畫掉市長署名改簽 新黨告發沈伯洋涉變造公文書 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mLVhVMFk1eWFvZTNfRTdRdWRLQWREODZxaWZIYmNGakRjTEI4RHBnZG5MRTlZY05yZWtCNjJoaXFhUk5rU1UwZUdENE41dXlRVmtB0gFYQVVfeXFMT1JWSF9zVklIWmlUVl9Dd2dPZjdHUUI4SVhGaGkwRGJyMmdnaV9OS1VEa2tfQnVpZWZmSlZtdWF5bkNETXQ4anlseE5DdWdlM19mQldUVmJNQQ?oc=5",
+      "source": "UDN",
+      "summary": "獎狀變選舉道具？畫掉市長署名改簽 新黨告發沈伯洋涉變造公文書&nbsp;&nbsp;UDN",
+      "time": "08/24 03:59"
+    },
+    {
+      "title": "印度商務簽證遭收緊？ 外交部：正與中國交涉中 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSmdBR3pXX2FNTnB1ZV9jTXpSYkZfRllQMHFZSWd2WU9hS1U0Q3NtRzFYUGdDdnUzcEs1Yjk0UWRkbEtkdklVWDdOSHJKNy15aVgwQXpFck5RSTNieUVmNHFKY1llMjRaMTFtdXo4N1E0azZ5c29fQVJYZ0E0M0drM2stSWlPa2M1b050YTBB?oc=5",
+      "source": "DIGITIMES",
+      "summary": "印度商務簽證遭收緊？ 外交部：正與中國交涉中&nbsp;&nbsp;DIGITIMES",
+      "time": "08/24 18:36"
+    },
+    {
+      "title": "中國定調今年下半年增量政策：2兆人民幣國債待發、3000億補資本、財金協同再升級 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sb2VJcVdKVEZmOGw1dnhRR2dhbWpXR3FSRmtQaFVpLVJEbWlWNzd0ZjZkUFVqWkFMWlI0Q21KWDRHY3dfRndabXJmOEM4OEE?oc=5",
+      "source": "news.cnyes.com",
+      "summary": "中國定調今年下半年增量政策：2兆人民幣國債待發、3000億補資本、財金協同再升級&nbsp;&nbsp;news.cnyes.com",
+      "time": "08/24 09:00"
+    },
+    {
+      "title": "美最高法院允許川普限制郵寄投票 期中選舉規則添變數 | 中廣新聞網 - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOM3VpQkMyWng5a0pOLUd0b2hVZzRpdTM1ZDNfcU5IZlI0RnFaVzlsbERVM1FZMlpUclVQSTI4WDBON21pWVRVT0t5enYwWHlCaUg1TEdn?oc=5",
+      "source": "LINE TODAY",
+      "summary": "美最高法院允許川普限制郵寄投票 期中選舉規則添變數 | 中廣新聞網&nbsp;&nbsp;LINE TODAY",
+      "time": "08/24 22:32"
+    },
+    {
+      "title": "【新聞稿】邁向 2050 淨零 地方政策要前行 【啟動2026年縣市政府氣候與能源治理評比】 - 公民行動影音紀錄資料庫",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ILUdJb0dFa3dkaERLb1RXdWFHVDhfTzZsN0JreHd3bjl2OFRNTGZCVHE5Y1BOYnRycG4wenlyRHFrS3RkZ213ZWRVcEpKck92dkNv?oc=5",
+      "source": "公民行動影音紀錄資料庫",
+      "summary": "【新聞稿】邁向 2050 淨零 地方政策要前行 【啟動2026年縣市政府氣候與能源治理評比】&nbsp;&nbsp;公民行動影音紀錄資料庫",
+      "time": "08/24 11:50"
+    },
+    {
+      "title": "立法院副院長江啟臣率號誇黨派代表赴日參加亞太國會議員聯合會 - 元丰傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLcW9YbnBHYzd4TkhIeWhzbDFFcWotVHYtMU9oYnVGVU41SmZ6anI3VUF3QWtOVFdRR2F5WjFnWG1nZW1Gbkxtd0hwa2Vjd2hCUmlpb0hPLXlBdmhwOUNHUDJvVlVwMkpB?oc=5",
+      "source": "元丰傳媒",
+      "summary": "立法院副院長江啟臣率號誇黨派代表赴日參加亞太國會議員聯合會&nbsp;&nbsp;元丰傳媒",
+      "time": "08/24 14:23"
+    },
+    {
+      "title": "新北巿中和區東南里里民活動一行參觀博物館 - ly.gov.tw",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02Rl9QVWZxSEpIaDBsNnRRRjdCY0piZDRydVAtdW85MFNzZUdhUEt0TnZlYVdRUmpObmRwbXNXN0tmSnhqOU5SNFBvVXFFODRnS1QweTNOS3NLSGk2eVM4Vm1KdTAzS2ZWNDh2UTFB?oc=5",
+      "source": "ly.gov.tw",
+      "summary": "新北巿中和區東南里里民活動一行參觀博物館&nbsp;&nbsp;ly.gov.tw",
+      "time": "08/24 02:27"
+    },
+    {
+      "title": "出口民調：哈薩克親總統政黨國會選舉壓倒性勝利 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxTzdORWNYaTluUmIycHdGQ3oyNnVLM2RpTWpPRG5SSmxVVkttS0t0cXdvaXc1NXB0UUlyRmMyX0NVWHVaX1lLZEVkRXg1VVgzZHVDUnI2UHdMd9IBX0FVX3lxTE96TEEwT0k5ZlBoNS1VWk1FN21FZVBSQV9YN0RpdmdqcDJPQ2JneVJxcDNGa1RqdFRPc3A3WFVIZ1BnT0V0c2lKSFJMS19VZDVXZXdxbm96dlVJcnNTQzd3?oc=5",
+      "source": "經濟日報",
+      "summary": "出口民調：哈薩克親總統政黨國會選舉壓倒性勝利&nbsp;&nbsp;經濟日報",
+      "time": "08/23 23:00"
+    },
+    {
+      "title": "歐洲股市盤整，地緣政治風險與關鍵數據牽動市場神經 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQaFJEdnFvdS1iMVNlLXpfaTRvcXdoNFh4cVR4YXBQNVVVZlFSSkN3TE9HRV84REdBVmhzRGg0S2FCUjRzV3BxSXBUSnRaQmxwaU1JTmpTWU9BSjc5MlJpTDJZeHBVVGlSbkxXZ3JqQ2Jmb2tYUWFhNV9pTlVIWjNidUZUbDRDdWNBTHR5U2VyRVJ4NkQ2ZFRSZ21oWXhiX3I1NDFTUXFlemN6dkR0Sjd5WEx0RmZIYm1qX1E1UUJhN1NWVEJNY2l5dC1pVjZZdDVRZExRVG94ZTlOSWpCMzlfWUI3WGtjbTF0X0pEWG1kX21oV0dXNkhmYWdvN0s5Z0ltUVBiTGNPc2dCVjRFbGF4S0tabEQxMDdXT2lGd3dtYjV5Yl9hUm9xcDVYcUtiWVU2emRYZ1FlLTZfVDdRcjN0TXcxYW5sRzFQLUFSdXoxQTZERlZZQTIwd0Q5Rmc5cnV5MVZxSG0zMjJ2T25aRVlEUg?oc=5",
+      "source": "Yahoo股市",
+      "summary": "歐洲股市盤整，地緣政治風險與關鍵數據牽動市場神經&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 02:49"
+    },
+    {
+      "title": "賴清德拋「立法院、行政院遷址台中」夢碎？卓榮泰：總統沒有這個夢 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQNFJKMXd1LTZvcEQyZGFLNWtoVzctT3ZVa3l1UnBvcjlXOTRhTlRlOHJ6N2lqX3BqdVo3Unl1SWwwcklzYlptUHZLVHpCYTg3bVlzaVY1MUNwbmt6TjN5TVdvZlNIM2VibVZ3RTNRVURTelctV1J5RElwLU5oMkdreEFSV0h3WTdSb25aWDFtMnZzNTVfSDVCSWRTWDJIS01mVW16N2JZejF5eTdHdml1NUxlbDJCT0tlcWg5UEozazdUSGdWX3Z6TVpQZ3pJYUFxckJ1a3FHVzRrMlc1RGdaZklhcXdTak9mTGZIS2ZKeVFrYkVVeWxmRTFycnl0ZlQtVHlNS0M2amw3VnFTaERNZzdVV1JGTjJwcjRYRkZOS2wwS2Q0blVfWkRoNTA5WDVGSG5lT1pnUTJGUEVq?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "賴清德拋「立法院、行政院遷址台中」夢碎？卓榮泰：總統沒有這個夢&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 03:28"
+    },
+    {
+      "title": "工總2026白皮書盼政府停止「重科技、輕傳產」偏廢政策 立委質疑「台灣只有AI」 - FTNN 新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5NQlhuaEZaYWdRdU9KWlk4b0VjRUU4aHlYUzNRVGl0ZHBrNTBWMzBWNG5PN3VYNTRSTzFPUnJaWHhkQnNxTWxsZVlqYw?oc=5",
+      "source": "FTNN 新聞網",
+      "summary": "工總2026白皮書盼政府停止「重科技、輕傳產」偏廢政策 立委質疑「台灣只有AI」&nbsp;&nbsp;FTNN 新聞網",
+      "time": "08/25 01:10"
+    },
+    {
+      "title": "川普加碼「非公民投票」與千人監票！選舉專家憂白宮為期中選舉「緊急權力」鋪路 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiwANBVV95cUxQdllSOUxTWkwzMXktd1NYZ3ozMWk0Y3lNdko2dzRoSk5keV9nel9ST0xTWjNSYVRBN1pjUkRxQmRPYWQ4N2NLYkdZT3VXcVFqajBTM1hQSmdlZzlza0gtY3Rpd21KSFFVV2Q0UXpNT3ZYYjh3WUxzcURWVXMtY2hLblZSZHU2ZlRKUnNGWTRWdVN6Z09TNzhEMkc4TnBQeXpyMWNwSXlOREVGbnhVOVBULWhYMkhDUkNBMU5JQmM0VDdJLXBOSjJRNUsyY2FaVFdHcDB0SVBxMU02YnM1TWVtUFQxdTRSWXdxakExbXE1NW1ZUnFRS3pDbzhtSHBMZGt6YmMxZGJiaUpEaFlFN2NKU29OdWtta0dQM2hTamIxdjEtT0UtUWI2d09ublRjOHdwZXRvZ2w0V0dMRmVJSzJ4Y2NxVHZycnp2U1czMnl0MlZZYTBpTjZJMHFab21zSEE0bThjNUZaajBxNnBzVGVFRnAtZFFoLWU5Wjk3WU1YODk0U2dZOERfalh1dmotcl91czJjQXYwek5TUWVMRlBTMUdSZVhRdkRlWktLbDBKVi10SEJNVFZGM2JoZkpaYU5x?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "川普加碼「非公民投票」與千人監票！選舉專家憂白宮為期中選舉「緊急權力」鋪路&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 06:47"
+    },
+    {
+      "title": "【直播】兒童營養新投資和政策 羅林斯與肯尼迪出席集會 - 新唐人電視台",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IRk1lUnBaX0ZDYzF6WVRGZVJJWk9VN0lKeThTb0JUYWdYTGNWWEFfNDU0TjlQa1g5aWpCZmg5MExxR2pwZl9fTy1IY1ZLSzRvdnVhY21oQU4yQmFhNHFXONIBZkFVX3lxTE5BUjhLcGZZSW9WMFdUb1lMODE0d3N0SmkyOG0yOGlMcFhuNWhzMDR6QnMxWDdzZTFmN19FNTBxaF92VnJLTjYtOUowcU5FNFZfQ1lRcXJjcTlqeEozdTk4VWF0UVprdw?oc=5",
+      "source": "新唐人電視台",
+      "summary": "【直播】兒童營養新投資和政策 羅林斯與肯尼迪出席集會&nbsp;&nbsp;新唐人電視台",
+      "time": "08/25 02:47"
+    }
+  ],
+  "經濟": [
+    {
+      "title": "美國通膨數據、聯準會主席演說前夕 黃金攀至三個月高點 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQSXJWTkNJTGh2S2RjcEJuTkp6eXRWRXlTUnFRNUY0LVFaeWJJRUEyNWRyUGE2SFlNM0ZfS1B1QmZSMTJPVUtjZVN1NW0xeW9tWE9Va2hvbHRhZHdFdnBqVGFYbEVoTllUcXJIcmtPRnZkYkNlWERNNFJXWk83eHVnSUJ6bG4tc1p3X2oxbGN4VEp5dXY4elZSNU5yYUVra09vRm4zYVZvUmdTOUNKbEVnTVNtcno3WFlhVjdVV29OdFAwUlM0dmN5anNjN2l1QTVKTUg3NGRmM29jTzlqRlN3WFhWM19CdDRkRGFHclBjeWdQV0pxQ0QyUG5ydndWWWF4cS11SC01MlpReC0td2ZUdTF6WF8zWjM1SzFrWHZDVEtoSjRlTDlFNU4xblVHajBBTGMyOWdYS3hCQllxWDdfemh2S1d0eDZxVTl3anR4TVFzTmRXVHE0SDFJMEtsSmpuZk1DV25fWFNzMXhsTzdoeWxrTHM1TnJPOWZKd3hR?oc=5",
+      "source": "Yahoo股市",
+      "summary": "美國通膨數據、聯準會主席演說前夕 黃金攀至三個月高點&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 01:56"
+    },
+    {
+      "title": "投資人權衡美國經濟施壓伊朗華爾街股市多收跌| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uQ1QzVm9sQWx3c0FEUUNIZTVydm9ScG5rT2ZsRWhXLVZ3QU5DeTNrb3BxMFFhMFppQVBXWGU2dFV1b3FNTTV0bWN0NmhvclZk?oc=5",
+      "source": "UDN",
+      "summary": "投資人權衡美國經濟施壓伊朗華爾街股市多收跌| 全球財經| 全球&nbsp;&nbsp;UDN",
+      "time": "08/24 22:34"
+    },
+    {
+      "title": "中美供應鏈博弈：半導體之後是光模組 - 日經中文網",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTVpiZVA4ZFUxcnk2alJadmNjR0ZXbUhPVnRORGxiN0c1NlBOV3FDSG5aaFR5WUJTRWJmYTBmdFJ6M3lvY0VISjJpQUN3d1BFTWE1SlhCQlNORlh2aFlhQW5kNXZPYXdSbHozeFYxWTJDcmJablNDQzM4dGhMWkdxT1BDZTU?oc=5",
+      "source": "日經中文網",
+      "summary": "中美供應鏈博弈：半導體之後是光模組&nbsp;&nbsp;日經中文網",
+      "time": "08/24 21:03"
+    },
+    {
+      "title": "都更能解高房價？學者批政府「裝糊塗還是真無知」：恐加速「天龍純血化」 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUZFozME4yWnNqTC1LWThDWVdxUGlLZkkxU0tFUEpySzBtRW1WWDNENlZhNXpzVWJyRVlmQUpHWjN6eEllZW81b1h6bTAzZUw3?oc=5",
+      "source": "自由時報",
+      "summary": "都更能解高房價？學者批政府「裝糊塗還是真無知」：恐加速「天龍純血化」&nbsp;&nbsp;自由時報",
+      "time": "08/24 14:10"
+    },
+    {
+      "title": "鉅亨雙週報》通膨趨緩但長端利率承壓，投資該怎麼看？ - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XbXVJdFJkRngxalFzR3FyQ05XemhSQUplbHVXaGVpcXp3SzNNSE5vb29HdmJQV3FJeXRMSlp1QlZqN182NDdqNVZ1VGhhWHM?oc=5",
+      "source": "news.cnyes.com",
+      "summary": "鉅亨雙週報》通膨趨緩但長端利率承壓，投資該怎麼看？&nbsp;&nbsp;news.cnyes.com",
+      "time": "08/25 02:22"
+    },
+    {
+      "title": "投資人權衡美國經濟施壓伊朗 華爾街股市多收跌 - 東森新聞",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Ma29LS0xJNTFWcUgtTy1vRW02OFdQRnFPaHNMUzBkdlNMOE00OWdtM0tuR2d0NlVoUDlxTXVtUjROckt2cmlqVE14azdJYTZqSnUtTm9qcw?oc=5",
+      "source": "東森新聞",
+      "summary": "投資人權衡美國經濟施壓伊朗 華爾街股市多收跌&nbsp;&nbsp;東森新聞",
+      "time": "08/24 23:58"
+    },
+    {
+      "title": "高房價逼購屋坪數縮水！台南60歲以上少25％、「這裡」房價翻倍卻成例外 - 好房網News",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxWi1fbkdGdXVKaUdTb09xMWNlT2V5UDhlOGRqb3BCMnl4R0UwdkxpZHROTmI5TlFrMFc0QjJDN0RGZkl2aUVyQnlnT04ta29ncXRJbjBaaXdlMFRNNzFEMURFY0FDZXBELUlN0gFwQVVfeXFMTUYwOHY5VVdNUFcxYjFpQlJYZm9OLV9sQmQwVlNfaUM5RnRicnJsaXB0SjZLYXFNdEdLeGNWTER6ekNaX19YYlZMWnR5NGFxajAzYWZYakVXNjIwVng3YnBWRlF4bnRNdXBsM2FObEFYTA?oc=5",
+      "source": "好房網News",
+      "summary": "高房價逼購屋坪數縮水！台南60歲以上少25％、「這裡」房價翻倍卻成例外&nbsp;&nbsp;好房網News",
+      "time": "08/25 01:26"
+    },
+    {
+      "title": "AI、半導體產業融資需求旺 韓蔚廷估動能延續至2027年 - cna.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5YkMxNXRhUWNMX093dzFKbmpIbTNjT0tqOS1OeWhjR3ZNcGw3Vlo0aHpaTzljaEIzVW9ocWZnZHNPWkg4cTQwV1Bnc2Q3WldMakRVWE1ZNTl4aVJGSEE?oc=5",
+      "source": "cna.com.tw",
+      "summary": "AI、半導體產業融資需求旺 韓蔚廷估動能延續至2027年&nbsp;&nbsp;cna.com.tw",
+      "time": "08/24 13:44"
+    },
+    {
+      "title": "市場回顧與展望- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XQWFpMl93QzBxT21IVk5ZRlNFeEtUOTQtZnNYVGl6VTVvZmFBbVc3LVFLcUVaSkNpNkh5d25md2ljbXB1akh1VERTdkJKWVJQRlFhZFZlQkk?oc=5",
+      "source": "CMoney",
+      "summary": "市場回顧與展望- 股市爆料同學會&nbsp;&nbsp;CMoney",
+      "time": "08/25 00:16"
+    },
+    {
+      "title": "半導體類股疲軟拖累 那斯達克指數週一下跌近 0.8% - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQV0l4N2lWQVBHRnR0cEJtOENTNl9UNG0zWFo4WDBfUEFCUmlPRW5sLVlSNlExVHI5UzI2Z2tramtUMVU1TWZTaUJQYTA3UUM1RUdmVTI4cGZWR1duR3VzWTZncUhJTTladklDcFI1R0t2MW00QnlwRXRxWU9ZVlBuUi1FWHBEaVdidkVCY0huZnB5X1VQMnUwUm9ScUt5WDMyMnJCYTFRZG5kM2I2OWJrNjNWMDFpT04yZFlMSXRHNWg1VE1MSWhKcG9rUmw4VUZ2V0FZVldCVXVTNGhzQ3g4aGluSlJyTmlHLVQ1aU1nNU00QWE2Q0tSV3ZqblN1a3dTb3c1ZmVVU2pyOGVtUTFDVEZGelcwSmhEcjYyYVVoODJ4VzJEM2wxTnk3MU12NjRTc1otSC12RWtpS1JqR3ZyY0N0MnJxb0U?oc=5",
+      "source": "Yahoo股市",
+      "summary": "半導體類股疲軟拖累 那斯達克指數週一下跌近 0.8%&nbsp;&nbsp;Yahoo股市",
+      "time": "08/24 23:46"
+    },
+    {
+      "title": "產業有邏輯股市沒有？記憶體低PE再破底…網揭AI供應鏈估值殘酷真相 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3dEhlcFNPVUpSd3pGUHpYUWs0bW1RRTRZbVhUcXM2MTVXbU1WdE55MmZKdmw2YWs3ZTVTM0c0V0xra3JiLUVoWGtXQUphNzY3Q2fSAVdBVV95cUxPOVhjR1I2bk4zU08wLVhDVjRDTW5ZNEdnNUM1b0tsUWVObm9OMUMwOWFVSGJRQnpneGpmNUc2Uk5ja1hfR1gybVVHZHlSYmFqVmdOTERaREk?oc=5",
+      "source": "UDN",
+      "summary": "產業有邏輯股市沒有？記憶體低PE再破底…網揭AI供應鏈估值殘酷真相&nbsp;&nbsp;UDN",
+      "time": "08/25 02:21"
+    },
+    {
+      "title": "房價風向真的變了！2025苗栗年跌8.7％、2026雲林逆勢漲3.1％ 全台16區最新漲跌曝光 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNSkUyVVhramltOGtmYlF5QmhlQURZWGZrMnpzamxyOUZkM2phc3A1UnVHRnFidWs3WDZLOE1YU3dkX3NnZDJXY3VFU3VMUGRvTmRQWHQ1UE9ZYzdTZVBJR3lkUDRUckxMQzlkWFp3czA2U2h3bDEyMzlEbDZ2Yi1wbTV4Um1nUU12MDJIUXhySXJ6YkxzZ3dIRm40b2Y4NUR5UWdLZ3hRcnZzMGdGakJFbGk0aDN0YXl4ZTFvY0gtc0QyQVIzMjRyTGc0MkFPNVBUS3FtS3lfblFVVS1ydzZBMnAyeVpLS3pwZ0Naelhic2FpSTF5QUJsTG5uRnB1Y3FSUFF6Nkp4OEU2TWtNNEd2aUlELUZYYU1NTWlGaDItZzkwbV8tRllLcWlmN0VzUk5IVm9PZUZxNXdHUndaenZVdFN4MVB4Ujg5NFBRaHZGcElfMEVqcTlMcHlPQ1dybTB1MG1yaGVvWUVLRDRCQ0V2UldsdUhjd1JLcXl2UGZuNzBLaDhPN3QtRHhrRGh4OEM5czNuZDhBM0tvc3VqUGNYM3ZmQW5QblhOcERlcXRFNzhlanZUU1hXVTE4TlBPMnc1ckhoNk1tMnZXUDlsOFotcDZkckZySTA?oc=5",
+      "source": "Yahoo股市",
+      "summary": "房價風向真的變了！2025苗栗年跌8.7％、2026雲林逆勢漲3.1％ 全台16區最新漲跌曝光&nbsp;&nbsp;Yahoo股市",
+      "time": "08/24 23:00"
+    },
+    {
+      "title": "達興材衝刺半導體市場 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56UWk0aTEyNTRoclFVMG00TGQ0TDhWM215Mmc1UEh2SXppR2c2OUh6d2lBbU5YSnlaS0MyY19PZ0VqdV9vQWRXRTBiMmVfcFVa0gFWQVVfeXFMTUlvYmpxcWYxTkZ5eF8yNldHU2Y1QUVnZms4cnJ3MDBLU3ZyQW5SZFZOQUNublZkOGZBbFJvcjR3UW9GR1NPbWVYaVd3bDdQM0dLWmRaYlE?oc=5",
+      "source": "UDN",
+      "summary": "達興材衝刺半導體市場&nbsp;&nbsp;UDN",
+      "time": "08/24 15:35"
+    },
+    {
+      "title": "美股承壓科技股重挫 輝達財報與通膨數據成焦點 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPVlV1VHAzdUhIUnBWaGVYMG9qVURqQW1sd0E3Y0RDMGE1Nmc5MnNKUlNpdlFqTXJrbm9IODZPbllTc2ZZMDRKUTkta2VwRG9tbWc3X2J6UUp4SWVtZ2dBWmV6cjVEdXpsTmFRM3RFTVdUQlpDUjUxRU5EY3ZvWUZ2NC1jTEJreGUtajBMcGlaZXVkby1kQ1dMWGZjV01EdmFsNWF2Y2NwVXpTVlRYS3J2MHVwSENlMzBtQ0dGcWx2WDQ3Y1JKNGgxbUhFUERPR0hVcG9mdFVicXY1VTg0NFpqQ1lpLVZIYXJvcjIxMVRQWHNpTXlwb3ZhQm5WVUg4QzlZU2ZpYWt0V29GYzlyV1MtY2o1RDF6UDRDZ2hHeE9VRm45aGwwMnFDMDJIUkxBNjVQdmhJc3k1cDVWX25WTXl5V0oyaTQ1dTVJR2F6ZDRqVEU3UWVpRkRubA?oc=5",
+      "source": "Yahoo股市",
+      "summary": "美股承壓科技股重挫 輝達財報與通膨數據成焦點&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 01:36"
+    },
+    {
+      "title": "弘峻綻高鐵1／11分鐘房價省一半！竹科新貴買盤外溢 苗栗高鐵特區3字頭有找成新寵 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxQdnhkOTRtYTU5NUZuaGpSU1NNWmJhSWpNNkJ1Mm1xVFFzNmtEOW9COVVTSFc0WktHRjJqaDY0NEtIWjR3R1FBQ3dnRkpxdEt0ZmVKakZNUzZZRzFHSHBtVDF3US1JUDhqQkhrWnllT3BxNThicEg4N3dfUVkyRWJhcFN3Zm9tcEFzekdYUU01VklkMkRFYnJhdmlGVFktX21RWENXaVBEU1dSVWtuWWR1NHF0LWIzMjNEM25QS3VkRTFmQmVnVV9HWW5FUkEyczdVdVpzTHFiZk1WYV9fSHkwWm1pSkFQRnUtZ0V3N0p3Q1ZKaW1POHhGZ3FfVE5zSE1zRG1YbC1MR3NVMk1XOExOcUVfRG1fMUpxZ2tobkUxWlRBNk5mRjVPRGxKcmUweXFlbTRGVmk1VDZRMVFfanVwN0pUM2xvRU1ndndmNkUxUXN1STNlcmFhV3A1Uk1lMFRKTkNyZ0tLemIzbldqMHczZVRIdlY0akN1bjh1bkdPZThNVEJjcGpFNEtTSWRqbGwyYWtnYTE2TjlZcXY5RXNhQnBoTll5b1RDRS1Qbzl4bjNPYW1sMWtJUzVtOEJOLW5qRzVIal9xQzkwcWVfcFNRVTFic0JyTWY5eGl3YWlR?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "弘峻綻高鐵1／11分鐘房價省一半！竹科新貴買盤外溢 苗栗高鐵特區3字頭有找成新寵&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 02:03"
+    },
+    {
+      "title": "半導體族群承壓 美股四大指數漲跌互見 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOUE5XNkpYY2NkaGplamNtOU40TTdnVHFlYkR4YmFBSVNHV3R3elE1OU44RUV3SDZuTGRFdmRJWHJBd3dKYUFhRm42MlZSRnl5WVpuUXNpNnVLQ1QxV1NSc2hpQTNfRkE0RTBETVZiOWxBUERWSWlERm5xeHVsTG10VHk3a0pYSTY0UzdXTWtfNUNCWGp4UlYxSmlSNWlzUW9DMGI4Z1JvMVJWUGNjczJJSjA5WG5xckJJbThTcmw1TUNpbmJtYUlJa2NKZE5BaTB3MjlTelJFd1NTd3JJT0N2a0RqWmEtRHJFTFZ6VWJsdDBKakk5TmZaLUpqV3B3V1JFZjNNdnlfY1BhVmJWM0lJYjRVNWFnNGNmVkg1Tmh5Zkc?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "半導體族群承壓 美股四大指數漲跌互見&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 01:28"
+    },
+    {
+      "title": "通膨與物價上漲夾擊 美國信用卡債務逼近歷史高點 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPRjZGWjRYclRxenR5UE9weDRmc1M5VzlJclV1dFFHS21WUVJTNnNpR1l3dnFQN0s2Zmk4aXAtOXYzU0puZFVGRWxGQ2VTelIzMGZCUUt1VHdkVXFJQnZQTkdtV3NJODJGaHZibWFBdzZCM3FHVWRCa19DWlpoREhGc0drcmE2Sk4yZzZVb1BlLV83QmdJbFhuczEwcV8wUU1jS2pJbjFLbkpsWVFxd3dsUkVST0J6Nmwwa3laSW1KajV0VzJfTC00SmlnR0V3RjVXY3k2WlppcEtyS2dVT3lGZkRqNDJsdzB6SUdJT3RyYWtMQUthTjNXZ1FQcXRtaHBUNXJjamo0WkF1dnJCcWd6VmZIX2lTejQ1RDktaFRQNC1ZNnplQ0d1YTNiYjR1ODFUak5vRFhMUHdpVmRlT0VlQmZ1S1M1ZTRNc0N3YWVvcFIzelFzN0d0TGJKU0JPZFItUTVJVw?oc=5",
+      "source": "Yahoo股市",
+      "summary": "通膨與物價上漲夾擊 美國信用卡債務逼近歷史高點&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 01:13"
+    },
+    {
+      "title": "通膨數據、Jackson Hole峰會前夕 黃金價格飆漲至三個月新高 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOdGV5ZE5sNTZGYkdtVjRqZjZwUXFRZkttNmc0R2EwY0doLUcxaXgtU1lKQlRPT3pDNjRyWEF5ckZYc3dUNzNmUkw2alB5aTh4N0JYajhLd2pza1ZGdVVXc1lRaTB6QjItMkVaRzRLTGhXVDlJTjFoM0dKYmtwRkRoaGR2ZGoxU3VCNDA2RnNCSzQ2REJRb0Q1R09tUnFQcEZQc0tBS0l6c010NDl4M0V5RVplRUI4aVRISXZwaTFqXzRRSkthUDV0Z2lhaXlKVFFaOXExcUVzbWxkMHpDU2hISWljSko2WmQ3RGVKY3dHMi1RRkxCQ1F6dGlMV0luYjBtV2dGaUpIS2EzalY1MmFWT2Q4T0xfRU5pQnVqZlBNSHQtVFh0NmVRd2NHMlAwTXBSRzM4UlVxZ3Q0ZWlodDdleUNmOFRHbGM0a3p1VjNDQVh6bERPcXJLUzgwVXNpZw?oc=5",
+      "source": "Yahoo股市",
+      "summary": "通膨數據、Jackson Hole峰會前夕 黃金價格飆漲至三個月新高&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 02:05"
+    },
+    {
+      "title": "實作學習接軌產業 大葉半導體學程、電機系線上新生說明會 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNS243WDg0S0hLbXcyQWRnazhjZGU4VVZUZkFXeVFRc0E1LVJFdzFuSWJ5bkFoZTNIazM3ZW9PRXYwNEE3cFFrODYzSGNQd09rZW1LZjFDQXY5WHB4REs5NC0zcFZZOEJaYW94eUs4UEVlWkJBZ2lIZUFIUmJ3X0NjRG8tSlJGeUJ5VGFlMUNpX3lIcjZYNXVZWkM5d0xUNlNHQXBGeXFaNWdEN094Z3RMc0ZKNV9WTktHZkRnSUQ3Tlc2d1QxeTR3WnRYNUp0YmpJdlgwQkEwTkM0YktuWmpjTGM0d0ZQWE90MGJFQVVqRFVHSTVSNHZaWTZNcTh4MHhRV3A5SmlKUU96SWl1NENScXd1WlMwTXZZNTdRWmVPdk9TMWRqdnJVMUdvQk03cGZCbG53dkNDci1wWEx0TF8wQl96YktpeHRUWV9GVmkxT1pQbDRpX3hDRTRjUl9HTHJ0TXdIUmNLZ1I2WjVzekdJVXd5T3ZLRXhHRE9pSEtIYTV0Zw?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "實作學習接軌產業 大葉半導體學程、電機系線上新生說明會&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 23:40"
+    },
+    {
+      "title": "美國傳不滿南韓砸800兆韓元建半導體聚落 首度以此施壓赴美投資 - DIGITIMES",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TeG1zY0hvY1VrbEI5ZDhBbVZSVnQ4Mk1oTWpJdHJKU2x2YmFmUXVTMmMzX0V6XzhRS21kcW45SFVBeVdheWlLSFNZcEFaYlFWR1BRQzJERjVfZFljTXZETFJPNEtNLVFEMWs0?oc=5",
+      "source": "DIGITIMES",
+      "summary": "美國傳不滿南韓砸800兆韓元建半導體聚落 首度以此施壓赴美投資&nbsp;&nbsp;DIGITIMES",
+      "time": "08/25 02:09"
+    }
+  ],
+  "地方": [
+    {
+      "title": "豪雨釀災 多地淹水、臺南古蹟受損 - 國語日報",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ocy05Qk9UdmxtUTF4WkhvMTlEaHdyUS02bVQ4azdSLXk1S21jM0kxM3dlUEVWRS13ZDc5RGZmcGNJOTdtLUZXWXY5WHdzRVNOYmJmdjBOczdZMlBiOTRtdm9mNWZMN2VPMFhFOUotNWJIUQ?oc=5",
+      "source": "國語日報",
+      "summary": "豪雨釀災 多地淹水、臺南古蹟受損&nbsp;&nbsp;國語日報",
+      "time": "08/24 21:01"
+    },
+    {
+      "title": "【有片】桃園原民局LINE官方帳號互動少 王仙蓮建議打造「數位幫手」 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1kSUJ6OWNVdXMxcTFreUxjeUY3NEROemJuUUlpbE5SbE82c05QZEtTSEpOZXRjYmM1bzZGTzBPVlhPNjhPYmxsWmJvRFo?oc=5",
+      "source": "桃園電子報",
+      "summary": "【有片】桃園原民局LINE官方帳號互動少 王仙蓮建議打造「數位幫手」&nbsp;&nbsp;桃園電子報",
+      "time": "08/25 01:00"
+    },
+    {
+      "title": "豪雨衝擊古蹟台南東門城塌、美國內華達野火9萬人撤離、新加坡砍伐森林擴建公宅 - 環境資訊中心",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE54LTZtbW1vbmRNSEVkVllsRlJvWktDc1EtODFENnJCSF9IQ19CaTRTNXJtdkdzaVM5emI4bk5TTjBwLUtEQVRKMQ?oc=5",
+      "source": "環境資訊中心",
+      "summary": "豪雨衝擊古蹟台南東門城塌、美國內華達野火9萬人撤離、新加坡砍伐森林擴建公宅&nbsp;&nbsp;環境資訊中心",
+      "time": "08/25 02:41"
+    },
+    {
+      "title": "五熊「到此一油」前輩還有這些人！ 日本古蹟「遭潑油」嫌犯下場一次看 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQVEV2dG9aQVBGUzBWb1pjRkFUMXh6ZUtIRXMwSC1UUGNoenNDMG5aSGxWX1czTHVZemJPZ2k4a2hvMFQ3V0xheXFSVTI0R2J4X3oyOEdDVTVzeGpUUlM3THhIX1JtWmlfRmJsUGJuaGYtZG5iVC1LRXAycHVjY0hvc2pxOWxIZmUtYlI1UUNkaTVPMnRHR0J2V1lZaUtZcjFpY2ZwV2RieWNLdURmbW9FSk1fODhaYnVsbFBsdXFYaklvZFhUbkZ6VkdpbnNCdkJlNDJDdEd6Qm9IWnBOUmxKLWY1aUh4SDVOV0Q4WXMwbVI5ekVuaUtDeHhTQjhCcU9HS2Ffbm90NURsdV9BQ0ZrZnJMek4xZXlV?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "五熊「到此一油」前輩還有這些人！ 日本古蹟「遭潑油」嫌犯下場一次看&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 00:09"
+    },
+    {
+      "title": "五熊日本潑油毀古蹟被逮外交部發聲了：已掌握相關情形- 生活 - 華視新聞網",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXdjhrSWJUR3NHdFFkSUM0RGYtZ1E0MmpDdkFyaS1DU0dtUjhkWndOTXVWR0llc3JtOUpuYkhMcFVlWGVXVi1kVWF2QTZ6elBtTWpNUXB0ZWlwZ05vNThqYzJRd3BwWG44dHlPbw?oc=5",
+      "source": "華視新聞網",
+      "summary": "五熊日本潑油毀古蹟被逮外交部發聲了：已掌握相關情形- 生活&nbsp;&nbsp;華視新聞網",
+      "time": "08/25 01:31"
+    },
+    {
+      "title": "鄭文燦涉收賄案桃園地院傳喚前都發局長盧維屏- 政治 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xZDRNMk1UQlhMYUZDTGh0YXRCVVFmb282YXgyU0RoUnoyZVR6dGlHaUhkR2djREFzaEFGODJFTmctczIxV3hXYm42bDZfdjZtMzNvblFRNFp6Qm01RENTcmJRVnhfUkw4dWc?oc=5",
+      "source": "自由時報",
+      "summary": "鄭文燦涉收賄案桃園地院傳喚前都發局長盧維屏- 政治&nbsp;&nbsp;自由時報",
+      "time": "08/25 02:16"
+    },
+    {
+      "title": "2027桃園跨年晚會在「荒地」舉辦 桃議員謝美英：民眾不知「A16站」在那裡 - 台灣好新聞",
+      "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxPel9uZnhkWGdONWJSMncxcUVJQ2k1UFpwVkdNUzNDaUlxZjdERlBUbkdyZjRYNEVrSzYyMUV4NTRRYmFMRlhUUTBTRU9wQlVRcHBycWFONDkyMGF5V19WOUh0cl9KM1R0dXFJMXZnak1BUkU1dC05UEVaTi1QMEdCbzVlaDFXNVpWYV9NemthZzlDUnphT1Z3RC1hQXB5Q3BOM1pSVTd6MEJrRm1JbFNIV1FUVXpDcjJCNXVGei1lWDFHNkxvN3RLUEdKZktpMEYzWG5LUjd5X3lLaU1MZHR2UDBrOWphTTZWalVvbTVPMHJ5YXNuMVVjVUtSSkI2cFdXOFlXVTNhdnZDWFVQcmlQSDZpcm84ZkRGdzQyQUZZWjhfT2tNWl8xT3NJeGNvREh2TWRlWUJFSnV5QVZoTWp4OUpqank2UW9TR09Sd0x3bkhTMWhpSVNaZFR2Q0YzRnNyT3p3VzN4azVkcURnQ0ZvLUxyTDd6ZUo5RXowYUc4dWtWWkI2Zk5rRkRYWVNpNk1WYWhFWC1rM0dOcTBES05uLVRyNFIxaU00Y29JRHJUWkRCN1E5V2ZvNzF4NFdfTEhGUmhn?oc=5",
+      "source": "台灣好新聞",
+      "summary": "2027桃園跨年晚會在「荒地」舉辦 桃議員謝美英：民眾不知「A16站」在那裡&nbsp;&nbsp;台灣好新聞",
+      "time": "08/24 10:37"
+    },
+    {
+      "title": "影／大雨狂炸！台南國定古蹟大東門工程倒塌土石傾瀉 火車站成河 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mVG9XdFQ0WkdLY2gyS19VN2hrNTI5ZzhyRGRZMVFSS1o0Y2huYVBvTEo4YmF2cV9XdFdyM3JmLXpTMElBTVZrNHE1dTVJMWhF0gFWQVVfeXFMTjRmdTMxMVY0Y2JjMlY1dUZ3ZGlHRUx4UmxfNlZYSEprOER3VEVzMFM3ZDFEeG9mRmdLZy0za3pmVi04QlJzYWVuMFA5aEZFQnlaVFdKSmc?oc=5",
+      "source": "UDN",
+      "summary": "影／大雨狂炸！台南國定古蹟大東門工程倒塌土石傾瀉 火車站成河&nbsp;&nbsp;UDN",
+      "time": "08/23 23:22"
+    },
+    {
+      "title": "出生率前段班也淪陷？桃園開發商「砸2.94億搶進幼兒園」 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15RUVRMDE5cVlfcGRyNkpzNk5qXzJ5eEtiYUp1TjdsMk9jdnZPZ0xDUElNOWxBREtBNG1na1loZDUwUWJhdjkwWkNTeXllalduTzZkWFk1RzRvREU2QkE4?oc=5",
+      "source": "中時新聞網",
+      "summary": "出生率前段班也淪陷？桃園開發商「砸2.94億搶進幼兒園」&nbsp;&nbsp;中時新聞網",
+      "time": "08/24 10:53"
+    },
+    {
+      "title": "桃園市政府各地政機關測量助理甄試圓滿完成 - 視傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZbFd3aFNvZ28wUzdCamE2S2p4VjNIdzRjT2xHdnBzNDRycFNUUF9raUJ3OFh2RWRVLVFoMHp4NTZPalhrZ1ZkMkJGbFRrTU85V2dEQTlsbWJIY3VBU2dOR1UtYnVWenQ5?oc=5",
+      "source": "視傳媒",
+      "summary": "桃園市政府各地政機關測量助理甄試圓滿完成&nbsp;&nbsp;視傳媒",
+      "time": "08/25 02:32"
+    },
+    {
+      "title": "桃園藝文廣場周邊夜間照明不足 凌濤爭取將增設8盞燈具 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE10UllYSHRXWTJ3S2NKWnFpbFNRWmdBNFl4b2N1LXBwY2VNQ0ZCTWM4b0JZOEFZVFRiTENoS1BfX1VYOWVxbUJCVGxnMGg?oc=5",
+      "source": "桃園電子報",
+      "summary": "桃園藝文廣場周邊夜間照明不足 凌濤爭取將增設8盞燈具&nbsp;&nbsp;桃園電子報",
+      "time": "08/25 01:59"
+    },
+    {
+      "title": "Swift Current Energy獲10億美元融資 加速北美太陽能開發逾10GW - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNWHFTOVRCb29EMkJJaU1YbkxudjFOQTRiQUQ3Zkl4QlVYd1EzU3NFUDJxbW9WekJrXzNpaFRpTXNxQ0tGN0tPUFNQU3VFYXVqSEs2STdJdlowRm9rWVZIbUE0YzJqZDg2cUVrREo4WkZicmhMWXljcUhjUDJxaG9rMUZEbnkyMnNheUZVMFVJN3M5cEJkV0tIR1lPVUZjbi1GeHVtMmJ5SHFrNEZwZG9vTmptSktWY0hJcDZfZXVwQzMtaGRLR3U4cHZPaXBjeUs2bHNKdlNfaXgtWjlDbDIwNEtkVVZsNVlMZW1oLWZsNUstajNHN3FWOU13ZjJZUzNBSEhRd0Qza0NNVXI3YTdJY2FpbGRyZnRucmJCUVRuSHVXckZYUjl6TFdQR2duQjBLbWRITWdYbDF4OTVrcGZJ?oc=5",
+      "source": "Yahoo股市",
+      "summary": "Swift Current Energy獲10億美元融資 加速北美太陽能開發逾10GW&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 02:37"
+    },
+    {
+      "title": "每年669萬人「過門不入」 桃園推半日遊、消費券留住轉機客- 生活 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XUVZybVJGU2FHVVdDbW5iMjVqMFlDUkdHWjhobEFyYmo2X1pvR2pVU0JpR1RCOGJHQW1wdFZuRWlOY3JiUXhBdmJnX0s4Q3hpLWxmWC1VVDZYN2Qzdmk0WTFvVTA?oc=5",
+      "source": "自由時報",
+      "summary": "每年669萬人「過門不入」 桃園推半日遊、消費券留住轉機客- 生活&nbsp;&nbsp;自由時報",
+      "time": "08/24 13:04"
+    },
+    {
+      "title": "火災逃生第一課：別再躲廁所！桃園消防教唐愛學員保命觀念 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KRGxpRWtkVjJmQzlGaEdyU3M5LWxsVkswY1F2aldwQWZ3R3FfMTg2ZzJXdnAzSnlXcmg3MU1vOS1HRkt4NDFjNEhpQ09Qd2940gFWQVVfeXFMTXJ6TV9ZU2RESnFZa0NIUlVfWW4zWHdSSi1jRHJGelNXRmQ3RWNiNXQ0Y0k4UWp6N0lzb1ZtenF2QkwzUzBIR3h5eGNzUjk1THEyLXpuSHc?oc=5",
+      "source": "UDN",
+      "summary": "火災逃生第一課：別再躲廁所！桃園消防教唐愛學員保命觀念&nbsp;&nbsp;UDN",
+      "time": "08/24 21:59"
+    },
+    {
+      "title": "【有片】桃園歲時祭儀轉型引不滿 蘇偉恩盼循序漸進維護文化傳承 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwU2loWEktWWVLTmRrOGJrSHJaeXBIYTBRUkJlZ0J3S2V0ZVJCTnJmRzIzeG1YYW5VWFdyOXBVZnVIbkdVOUNKWHNKVDk?oc=5",
+      "source": "桃園電子報",
+      "summary": "【有片】桃園歲時祭儀轉型引不滿 蘇偉恩盼循序漸進維護文化傳承&nbsp;&nbsp;桃園電子報",
+      "time": "08/25 01:00"
+    },
+    {
+      "title": "巨響嚇壞居民！台南國定古蹟大東門遭沖垮 網哭：我的童年 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPZDFBWEJQNTl6MDcxbVNCMkJGdlMyOXRmYjFOQVFidGY5S21MS2dVdHBoQXNmNXZhd1FoUDV4SE9TTkhObGo0d21lMGsybl9wUXlxVEdiNkJyUTF3ZXVVUGJPSVFUMzR1dXU1Z2czRGlFZDBlekJBUTF4TS1KVFdVUXprNk85OFR5Y1FDdnRpYVNJdmYzWUpmbXBYM1JEZVpTLU56X2VjMlJfOE1EYXlYeVp3dXI4amtzTU9jN2VPWEF0eGMzUzl3MV94X0E2czFheFp0N2doeVBodTg5eTBVNEd6dkg4WVlqMU1nTlZPYjBqR3p0THQ1eHZ4LUtYRUp1SDdhX1lGQ1JDaFZYMXppdExzT19mV2x6V2I0UEZVSHhpT3A5bUdZZUs4QjYtdnlvT0tzMkZxeXU5MjMzczVKbFMtRUtwOUJUdjNaUmpjLXlxMHJkQ1JFdURIN1pKRllGZnNTdzlFcW80Q3l3aGZnUGJOZVQ2Ykk?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "巨響嚇壞居民！台南國定古蹟大東門遭沖垮 網哭：我的童年&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 00:23"
+    },
+    {
+      "title": "【有片】林志強盼強化桃園原民權益 促市府跨局處整合打造支持網絡 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1QWjJxdVM4OVVUUG9qSGVQeTNlYUZSY1lvak00V1NoMUcyTUJTRVluREx3VFpfOTRzcnZVMmNlU0w5Y2huT3VaZWRSRUk?oc=5",
+      "source": "桃園電子報",
+      "summary": "【有片】林志強盼強化桃園原民權益 促市府跨局處整合打造支持網絡&nbsp;&nbsp;桃園電子報",
+      "time": "08/25 01:00"
+    },
+    {
+      "title": "新國寶出爐！陳文俊與黃彥霖成彰化無形文化資產工藝師 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNS0RwejBwQ21HQThpQUlCRU5xN3FBV0NMemF0LW5YeGhYTDVWN0RSaW9oLWFVM28yYzcyYXlBWEQ1RW16MkdIejlNUzQ2Qk5ULTJoWDZhUFFTcDF6cVE5cjF6ODdzLVE3ek91dE1hNC1PN2xPMXNGSk11YzdkTVJ0bVVOZDhaSGhTWjA2eVFjZVBzVDEzM0h2M0FzYVNBUkw1UFlTYnVSNzYzYUhfenpZckJkbEYzNk5XcWExRE1FejZ0eHA5RFE3NDdyYjk0OWFWRllFajQyZU1rNVhLelI0Q01zWTFNXzBVOHpyU3ktMDFCVWxEZ0xkS3BUQkRXOFFlaXdiazlJMlFfV01DOERQaWY2MXFxeUJzMXE1Yk9RMHA1Wm95ejNpekYyV0JzcUx6UjlubEQ0Z29NUlZUdnFOWnozSFJ1Y296NF9STXBYWkdrVjFtc0Z1OUV0VmoxSzBQOWNiZUhnSDJFVm5mSlZ6UHFGeW8?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "新國寶出爐！陳文俊與黃彥霖成彰化無形文化資產工藝師&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 09:18"
+    },
+    {
+      "title": "桃園中元普度盛事接力登場 四大宮廟活動一次看 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9xNzZwSkd3ODJrQ1NpSXFJdnBQOHdkMXJGYWN1aXE5WWs2UGJ1VHdLQ1NHMEthTXY1UG9qT1JUTjRPZm1LckY1RmR6eFI?oc=5",
+      "source": "桃園電子報",
+      "summary": "桃園中元普度盛事接力登場 四大宮廟活動一次看&nbsp;&nbsp;桃園電子報",
+      "time": "08/24 12:14"
+    },
+    {
+      "title": "【有片】楊進福促桃園原民意外保障升級 盼提高補助上限、納殘疾給付 - 桃園電子報",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UeWNDLVVocGdLbWswZXRPT3hhSTBneEg5TU9pXzhKcjVmSFY3b3ZhdHo0dTJ1TkZJb0JJNWlsYUtjV1ktc2dWSjdHczM?oc=5",
+      "source": "桃園電子報",
+      "summary": "【有片】楊進福促桃園原民意外保障升級 盼提高補助上限、納殘疾給付&nbsp;&nbsp;桃園電子報",
+      "time": "08/25 01:00"
+    }
+  ],
+  "科學與科技": [
+    {
+      "title": "AI會寫程式了，年輕人還要學什麼？ 少年圖靈計畫：不只程式，更重創造 - 台灣光華雜誌 Taiwan Panorama",
+      "link": "https://news.google.com/rss/articles/CBMipARBVV95cUxNcXV6WlN6VF9hUEg0bEdTSEhUT0pOajBBckRGTWYwME9lVUE2RnZ2VkRJbGg3bzZjVXNpSlJRUVRMRGJIREFjeGZENE5ZN2llUlJ5Y19IcE9RQmZDRURYQ25ReEdxenFlYXpfSFRjOWhuaXZhb2R0Y0xXTjBIdXBMTEprN3RVOFcxVVF1YkdLWkZKWG9CR0hJNUxKbk1TTng3MXdnZFlDWnZGOUNFQTNYNGdLaTNvdkNDWFlnYkktdG1pMzVVR2FwUjJ2Z1FFLVBQNzJVLXZfb053d0VQNGtnNFRJTzBjVk5HMFVUUnRvLXI4bkdEUDF5YjVyYVdFYWdhLVBJSjlwYVI4MklOVEhDb1lZWHRoR3RkOEo4WjZRYmVlSGNGeGs1anJQT3pZMGxPVzVFTS1rZlNHWENqcFJodGhFa1BkeGg4SWZwUi1zcFd0NHh5Wm9BMVk0VURNUDdBcV9qMEdET2JfV2UwOUo2V2Vzbjl2RHI3VndITTNBczNMdlBHZ1l0SHY1SnRTaGxIbjF5OV81THJtU3VldVloNy1NUUliMFZvZVZMY2hpVFlTbmx3QjFkRGFqVmNNRWE3SXFyQTV2dEVCTHFsV0RsbnlPalZULVdqRno0VjBfWUN0YS00cUliNW1ValJ0UXpEX3RhOTgtR3dnYjkzdjgwUDdMOEYzZWN1NGNzRDZOS05INEpONWZFU051Si1zX2ZqUlo0aA?oc=5",
+      "source": "台灣光華雜誌 Taiwan Panorama",
+      "summary": "AI會寫程式了，年輕人還要學什麼？ 少年圖靈計畫：不只程式，更重創造&nbsp;&nbsp;台灣光華雜誌 Taiwan Panorama",
+      "time": "08/25 01:52"
+    },
+    {
+      "title": "SpaceX計劃明年將搭載輝達AI晶片的衛星送入太空 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wMFFISTVrVFVCbUVzVWg3OXQyV3JCOUc1ZGpNVWNRbVMzVW9sUlJxRHpGal9Kam5neXZNOU9YbThJNjhKWVk2MDBrZXVaUWM?oc=5",
+      "source": "news.cnyes.com",
+      "summary": "SpaceX計劃明年將搭載輝達AI晶片的衛星送入太空&nbsp;&nbsp;news.cnyes.com",
+      "time": "08/24 22:17"
+    },
+    {
+      "title": "AI熱潮是「好」泡沫嗎？ - 日經中文網",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUTJwRkNTZkN1NDhIMVMyT0RWYmdMMFVWSk53VVJvenpvd3NESkt3U053Y05BUlE1aVo1LXlyUmlyZV9BQ3YxR24yWjJqeXR5Qkx3T2pYVTlVdFhvRXVWdGp5Sno4eTBaSmUyQU4zejlDRzF2RDI4MXhmYV9SVUpzNEpkS1g?oc=5",
+      "source": "日經中文網",
+      "summary": "AI熱潮是「好」泡沫嗎？&nbsp;&nbsp;日經中文網",
+      "time": "08/24 21:16"
+    },
+    {
+      "title": "輝達重金打造最強開放權重AI模型 環時：歡迎抄中國作業 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUTGZoS3drR2dYbUdwSjVfTjNZakxSa0dpTzRUNkJ2RUdBRTRHQ2cwWWFnUVRUbklMUFppSHdDWVRqcXVwLU5rSHQtMXJuVWVX0gFWQVVfeXFMUFdNVF9ha3g1Sm9uNWxXd0JsXzh2cW9GMU1rZnk1cFdwRkFSanlFWTYzLTBMZ1FEZklLZEpsaUVQYnlzY2c2S1pqT3RsNWFaa3FCUm56b1E?oc=5",
+      "source": "UDN",
+      "summary": "輝達重金打造最強開放權重AI模型 環時：歡迎抄中國作業&nbsp;&nbsp;UDN",
+      "time": "08/25 01:45"
+    },
+    {
+      "title": "輝達AI伺服器傳漲逾15％！台鏈提前暴衝 光寶科亮燈、10檔逆勢吸金 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQUEV3ajJfXzdTQlNYaE00bGVHUDR5Qnpxem9tcW9JajlKN0FyNGc5TUNlQUJTNDV5dkkwWTVXY2E4c2paamlIV2RwdElvSUNaOGRvX3NVaFFhRk9CRlp5ckFUMlo0UzA1eTNtYVppRzZrSmplczNfYmNuX1lURWhqcmZTLXFTaDFNQlY0Qk1MWDNIdVMwTjE2U3pNMC1YQ21aYmdpdjBFdmJyV1J3bXJ4WGo4alZLMDZPNllCV3BLTU5QLVl3bENpN0xKMUR3T1BmNnp4aXBUaFpaeHpxVG5BVHBmOTY2NjVGMGRCcy1KTnB2UzczRzRwZlI5VF9uN2puX1N5bV9KWV9kZ3RzZ0FQWktuVlNlTW1JTzhyeDdxSEUyWGs2T0QyUVlvazJHYTFwTnRWOWV4TzRIVlNDRHhhRWJpbVY1QTh2cDV3UXhhTV9lZVlQRjBGakRZQUliUGFMWHd5LTJBVkZfa0g1cU8wUXZEX004ZHRLSHV5T2VfYmlFQmtBQmZr?oc=5",
+      "source": "Yahoo股市",
+      "summary": "輝達AI伺服器傳漲逾15％！台鏈提前暴衝 光寶科亮燈、10檔逆勢吸金&nbsp;&nbsp;Yahoo股市",
+      "time": "08/24 23:20"
+    },
+    {
+      "title": "AI會搶走辦公室？調查結果逆轉 61%亞太企業反喊「還要擴編」 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9heEI4OVVMaXk2SEpOVk1SRDNBNEpTWllwM3JGVXlaMFFFaUZ1elplVlc3eHU2dEZ6Z1FBbVY3RkNBRFpFN005dzhsN09vRW02?oc=5",
+      "source": "自由時報",
+      "summary": "AI會搶走辦公室？調查結果逆轉 61%亞太企業反喊「還要擴編」&nbsp;&nbsp;自由時報",
+      "time": "08/24 22:19"
+    },
+    {
+      "title": "東吳推高中生AI教學營110人取得輝達完課證書| 生活 - cna.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XZFBFbUdDOTY1Q0dMZUlzUVktZzV6TU5yT05kVHBXSHFWcU4tZU9Kb3lfNDE5bnE3M1dvX1dhMUo1WC1ETXRVSGlPOTY2NXNNR3dPS2h6dWp5NWpqYnJJ?oc=5",
+      "source": "cna.com.tw",
+      "summary": "東吳推高中生AI教學營110人取得輝達完課證書| 生活&nbsp;&nbsp;cna.com.tw",
+      "time": "08/25 02:39"
+    },
+    {
+      "title": "成本失控、部門各做各的⋯⋯企業AI治理才是真難關！MaiAgent如何幫企業完成AI轉型拼圖？ - Meet創業小聚",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jbDBMUWw3cDVQNENVZzhpMWlZVmQ2Smh3VkhSQ09JaWctNmxnZmVkUmZneUlZVHVnc3RYTkh3SFQ2UHp6WjRKVGdqenV0OWFaSHZfdHJXN1M?oc=5",
+      "source": "Meet創業小聚",
+      "summary": "成本失控、部門各做各的⋯⋯企業AI治理才是真難關！MaiAgent如何幫企業完成AI轉型拼圖？&nbsp;&nbsp;Meet創業小聚",
+      "time": "08/25 02:47"
+    },
+    {
+      "title": "AI 減少白領就業機會，德國青年重新擁抱技職教育 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZzdWZm12ckc4QUw5YTl5ZHNfTW45dTNLcFJlVlVHN2JDdXpIRVNkbDhNOWRIdmwxUXp0NlNFcGUwc3A1TmIyLXB4eTMwTTM0TmV2aHZoTXdNdG8tak9uRmR6T3NGYU5PcVZxT1ExU2JhM1VGcHZRV1J0TFMwajRIaFVZZDhRN0hOcGVCQWZtaGZZb01hdEpkSnJuc1VsMkNSclYwQlJFX1o?oc=5",
+      "source": "TechNews 科技新報",
+      "summary": "AI 減少白領就業機會，德國青年重新擁抱技職教育&nbsp;&nbsp;TechNews 科技新報",
+      "time": "08/25 02:54"
+    },
+    {
+      "title": "國土綠蔭苗栗再出發 彭啓明倡校園圍牆改綠籬：讓校園綠成為都市的蔭 - 環境部新聞專區",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mWDZ5VGZrZzhnR2VmT0FFeWRaeWVFbU5ValhQOWtUY3dsbFhON0RCQjlCXzBUdjIxWlB5ZHRzV0hFNWFQbDlHUlpNZWNWVU5YcG92bU9hTVM2MmJra0NHVUczbDg?oc=5",
+      "source": "環境部新聞專區",
+      "summary": "國土綠蔭苗栗再出發 彭啓明倡校園圍牆改綠籬：讓校園綠成為都市的蔭&nbsp;&nbsp;環境部新聞專區",
+      "time": "08/25 01:33"
+    },
+    {
+      "title": "企業主權AI商機升溫！昕力串聯台廠推AISO一體機，打造企業「AI指揮中心」 - 城市學",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iYjRwMXNvNVQxREx6WkhDc1J2OWg0aHpLOTBhcmE5VTduS0hPY2dQaWNaci1pN3JPMjBReEhxUHpfN19Uc2R4cV9QRTRNY3c?oc=5",
+      "source": "城市學",
+      "summary": "企業主權AI商機升溫！昕力串聯台廠推AISO一體機，打造企業「AI指揮中心」&nbsp;&nbsp;城市學",
+      "time": "08/25 02:49"
+    },
+    {
+      "title": "SpaceX攜輝達馬斯克：太空AI資料中心明年升空- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT05QX3lDc3ZaZnBMX0lGVzNPMkI0ODRndXEydmZHS29BUkUyTXZ3eXg5N2hPMzlHOXp5UW1HZ0pKTXUtdnpjY3pDb0ZWc0FPTVppV3BkVExWREtRYWdfY3lmNXI5X2Y2em5NMHoyUnU2cXhIaHhQYzBkQlQ3QkNNMkFoUEYtRFNiQ3NJdEtTYmZPdw?oc=5",
+      "source": "MoneyDJ",
+      "summary": "SpaceX攜輝達馬斯克：太空AI資料中心明年升空- 新聞&nbsp;&nbsp;MoneyDJ",
+      "time": "08/25 01:14"
+    },
+    {
+      "title": "馬斯克：SpaceX搭載輝達晶片「太空AI資料中心」明年第4季送上軌道| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlSmhEVmY4VWtGVUtLYXM2OHR4TkFRZTRDeWw5RXRIQV9GNnFQRE5ZT1VvTlJ2Q0tSQzBqeWFmU0RpaVpEWnVXRDNZbXRVLUJV?oc=5",
+      "source": "UDN",
+      "summary": "馬斯克：SpaceX搭載輝達晶片「太空AI資料中心」明年第4季送上軌道| 全球財經| 全球&nbsp;&nbsp;UDN",
+      "time": "08/24 23:21"
+    },
+    {
+      "title": "SpaceX攜手輝達攻太空AI 2027年第4季送資料中心上軌道 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNX0tRSEhuT28xaHNJNllILXZENFpQdzVmamNTa1JVWEt4R2RWMk43d3QwR0hXb0gtbTY4RUcxN0k0MjVNbk5VMVRBSmRGc295em1sWVVPLVBjeHJHSmEzb3A5dERkSnFJdFNCMDY2dHRBMU9BM2huWjB1UU9EY0hfelRLUHVjeEtVLV9UNTZOZXB4cFY4WW02SjNOQ3p4bHdSWG5RSEJac2F1dXNFSEdJQjFnV2dKMWQ0VGJTY0dnbWFEdU5kdVEzYi14M1ZpYTdUSXZpM0lDWGJQdEtPd2xLYmZ0QS16NTA5V3ZFTWVpdUFwRV9KdURaZmIwSUlOOGxoWTJlUHJ5bE5Ua0FZWVp3cFNQZUE0Z01tSFM5b2tFWm9LVEw1ek1RVXJpb1FrOTd5NXJOYi1IUHNCUkYwcmc?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "SpaceX攜手輝達攻太空AI 2027年第4季送資料中心上軌道&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 00:34"
+    },
+    {
+      "title": "AI 借貸過度榮景只剩一年，經濟效益不如蓋匹克球場 - TechNews 科技新報",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hNDRIcnMyWXBQWUxZbXBPbzVvRWRpQTJJTmU0S1ZjRHZ3UUNjMGF2SWFpVVpBOU1WR291UFZwWTA4Ql9mUHdkYWs0TXhRX0lGZGk1ZTJSWm5fbTdyQ1E?oc=5",
+      "source": "TechNews 科技新報",
+      "summary": "AI 借貸過度榮景只剩一年，經濟效益不如蓋匹克球場&nbsp;&nbsp;TechNews 科技新報",
+      "time": "08/25 01:59"
+    },
+    {
+      "title": "AI合作協議英國率先取得烏克蘭復仇者平台實戰數據| 國際 - cna.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WdjJjT3ZFT1BxbmRWVmZIbE5vWVlUSHo4enZ1enlnX0Z6TFY3bHNyN3NjR1J6MzV3Sy13QVVscm1MRXhlaTBibk1MVUw5Y3dnNDg3anNMTV84TTdVcVo4?oc=5",
+      "source": "cna.com.tw",
+      "summary": "AI合作協議英國率先取得烏克蘭復仇者平台實戰數據| 國際&nbsp;&nbsp;cna.com.tw",
+      "time": "08/25 01:53"
+    },
+    {
+      "title": "AI工具貫穿培訓流程 Skillable優化實驗室學習體驗 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPSzVmUGlrNWN4bVdDaENqc1lyZ3gzamJZRDVxR0RCUXgxeTVrdEk0eFF5VzZUSG5YcTNPMkpQanBlbUg1c2M3RWZ4SDlBVUQ0LURjOHo5UXRNSWlYMG9WTDFwVnU2UkdVeUFVeFlhVk1OX1RwZTg5eDlLc0Z0dDdoSEFHZk9lRGtwVVJ3WVNzU1Roa1lsNE5pYmVHX05ZQTBYdFdqTDlQVS1xRzkyNW44eEdSSk9vUllMZHcyV0sxWHFDX3dXZWhpRFlITlFUaW1kb2NWc3l1ZmgtYzJZd3VRSnFVdW1DZHVxT2JoNnhkVE1uWkpRSzJvWm1NaDVaSmI1bkhxQ0hwLW9JeGVEdGlwNlJTMTR3YnVPdUpJbjgxd1cxUlJsdHhWRlZXcUE2RmlEaDlFNklQSQ?oc=5",
+      "source": "Yahoo股市",
+      "summary": "AI工具貫穿培訓流程 Skillable優化實驗室學習體驗&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 01:47"
+    },
+    {
+      "title": "華爾街搶用AI如魔鬼交易高盛憂年輕人才思考力退化| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA4YlFQb0NFdm9wUWJMQmhpTGFnQ1NoRVlKaTZfYzVBUTMya080elNIX3J0NGVtWmt2ZlRDcG5OWmEtUGR5YjdXY2prUGw2WFVp?oc=5",
+      "source": "UDN",
+      "summary": "華爾街搶用AI如魔鬼交易高盛憂年輕人才思考力退化| 全球財經| 全球&nbsp;&nbsp;UDN",
+      "time": "08/25 02:07"
+    },
+    {
+      "title": "Verizon與Google Cloud深化合作 導入AI提升客服及網路效率 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQTDZnLWxXNnV0bFRxTi1ldk05ZUJUeTBibGJwLU1ySTJqMkdwTlFUODJiVl9HVHdmNU1PME1BUTdCeGpTbFo2SmZXbHR4NnNxZjcxUV9WakZiRUE4ekZSbDBmSFIteGtsR2p3NkRIS0JlRnVDdE9xcmUyUUt5ZmgyM1VCbmVhcktmQzNTZ1JjX3ViN0w4TkVWQXhnbFZaM1BfZEJhdWhvSDF3UUwwZFI2WVhjMnFCV2hxUWhXQThyX0Zhblk3TFcxSVBNTFVhcmdjQUwyTjBjVVlReHhRZ1pueU1pQURrVV9NM2w1QWY1cmRaNHNmS3JjRDBuY25EWUtOS3Eta2FoU0N0VzhnNmxrRVBsbDhhRWFYRWs0UXpiQXg4ZVN5OGszSUVoaEs2SF95anhKWmR3QmI?oc=5",
+      "source": "Yahoo股市",
+      "summary": "Verizon與Google Cloud深化合作 導入AI提升客服及網路效率&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 02:26"
+    },
+    {
+      "title": "台中布局AI機器人產業鏈 搶進Physical AI全球新戰局 | 熱門亮點 | 商情 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NcGl3ZFNzX3VIdGlTSmQ2QzNxcFMtUTZPcHloYVpiSWtvMUdPbHg0NVpTLUttaGNpcGN0VzJrekxGQkFhclh1bmlHSExjdzg1RmFEUU9Xc1c2Zw?oc=5",
+      "source": "經濟日報",
+      "summary": "台中布局AI機器人產業鏈 搶進Physical AI全球新戰局 | 熱門亮點 | 商情&nbsp;&nbsp;經濟日報",
+      "time": "08/25 02:02"
+    }
+  ],
+  "娛樂": [
+    {
+      "title": "Steam近10萬款遊戲銷售數據分析：前1%吃下逾8成營收 「沙盒」長期稱霸 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWh5b3NNaF9IMnlmODV1U1BZQXo3RHN5bERkRy1ST25VN0RNcUFReEo4ZHRTMERVSDJra0lwSGo0QklyeU91LTF0NjhRSFJxT1B4S2tZZGpyRVY3X1R4anl6ZHFVOEw3UFdiVlV4NC14M2dnMEF4eWJuTEpoVXdMVUh1NThRNTlvOElVZzMxNnBWWkNHbUFsa085dGJ6NG1ROENZ?oc=5",
+      "source": "4Gamers",
+      "summary": "Steam近10萬款遊戲銷售數據分析：前1%吃下逾8成營收 「沙盒」長期稱霸&nbsp;&nbsp;4Gamers",
+      "time": "08/24 08:13"
+    },
+    {
+      "title": "Netflix大尺度古裝韓劇《挑情醜聞》定檔9/18上線！首發預告：孫藝真X池昌旭X林珍兒大玩禁忌愛情遊戲！上演情慾「多角戀」羅曼史！ - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi6wVBVV95cUxNXy15XzBWUmFzMnBXdzJTcVREWnRvNHB2bVFDYXhvcGEtLWctWlpLMlZGMEdzMndBV0cxLUNfdFV6Zklob215em1hYm5icE1vbW1WMk9TSUh3TldlU2hGWmtDOERBSlZoRVlERnhYS01XSlNtZmV4Z05vdnNpekFnVmM3Zld3WTNUM3hNRGpDTG1nNm93TE5YRGpaSWJxVXhhT2dYX1h0NkE1bWZQRHJKWmh0bm14Vm5tdGVYdW1RSE5FdmdSalF2Zk1hczE2ckxJZkc5Vlcxb3hEVEkzODB3OUZGWGZIazVWSzVkcThULW9tQnFNcEU1WjNqdFNydGNFQS1LWjdMcVpyR1BncXNVclprMEFTV0VmS3U3THNMdDMxLVhKOWZ4U1llTDE3SldwVHBFQkQ5N2sySkpnMzBiaHdfeW5ZdG5KZFpvZzdIdURHREt4TWV3MTZtWlJrZS1YX05CYlJpLU9NSFI4MDNhTmc0TEFFaWN2NG5qRzlURFNNekdRMFY5ZnlUZTZNSU1mSVFmaE9WOVBOVnVQdktZbXJudDRFRWJSVjVCT0NDNmxYUC03Q2VuSHhrTnM1M09RWG9YemR2c2ZUMmtTS3AtQXpTLXZPLXFwWXVYRnRHb3VLeUY2Z0U4Qm5XclZiMDcweGNaUHM3SEVVNmFteHhmbU9pcWhfTnVjeERGUDdVa2RuWFVaWTQ3Y0lDX2dfT3B0RmQwQW1YOXNwM0YycktPZTk5enA3QUwzU3I5WUZTaGlMRHhncDdmQUxTS29obGlxQTg0N1FvWDRBR1JMMEpuVXFVVHFfLXdaVS02M0tmVGo1N0xBZVkxUTJjMnFxcGcxRndneDYwS1F5TVB5aWxfZ0NvbjNCT2VyZmF3VlRwYkNTTW1CbElmWlNfY0JuWlMweUlXV0kwdEJqZGRtMTcyb2hCRFVrSXFvQUg4aklkQTQ0Nk45X0lsNUZZa01Cek1ZSlNkN05uSzFfd2M?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "Netflix大尺度古裝韓劇《挑情醜聞》定檔9/18上線！首發預告：孫藝真X池昌旭X林珍兒大玩禁忌愛情遊戲！上演情慾「多角戀」羅曼史！&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 02:29"
+    },
+    {
+      "title": "【Netflix 2026 8月推薦】編輯精選10部必看影集和電影片單不踩雷 - mrmad.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5NTdGWW5wc1NzQk84NjV3V3l3cmRXQ3FzQVZCMWFKRFVaejQxaHNNYVdDZ3dOSmxtczIzcEFVYWJ6M1hjWDRpcWpvc3J3TWtoaE1lb0VfaTR5ZE9RT2dvVkFNaTk?oc=5",
+      "source": "mrmad.com.tw",
+      "summary": "【Netflix 2026 8月推薦】編輯精選10部必看影集和電影片單不踩雷&nbsp;&nbsp;mrmad.com.tw",
+      "time": "08/24 08:24"
+    },
+    {
+      "title": "劉亦菲李現《去有風的地方》輸了！Netflix近5年最強陸劇TOP10冠軍是它，評價超越趙又廷《問心》、 沒追過太可惜 - 風傳媒",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91dWxtdk1zMHRncndjM0VTWGZRMVVNN0lpSEM2eXllSjg2Z1ZSVENhdWlGb3dtNy1SMU5rSWRhMnVjY3l5alhlRmhoY0Zqb3VB?oc=5",
+      "source": "風傳媒",
+      "summary": "劉亦菲李現《去有風的地方》輸了！Netflix近5年最強陸劇TOP10冠軍是它，評價超越趙又廷《問心》、 沒追過太可惜&nbsp;&nbsp;風傳媒",
+      "time": "08/24 16:30"
+    },
+    {
+      "title": "Netflix廣告業務高層異動 關鍵主管離職，廣告主管洩漏備忘錄曝光 - Business Insider Taiwan",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wZ1Fra0hORE1vcUx3ODh2Z3l5M1pQRW5rUkdSOUdKRUp5ZUh0cUM2QlgtdVJuV1JrWDBiZTNmUzVvb2swUTNHbGJMZ0M5bWljbE5teW5B?oc=5",
+      "source": "Business Insider Taiwan",
+      "summary": "Netflix廣告業務高層異動 關鍵主管離職，廣告主管洩漏備忘錄曝光&nbsp;&nbsp;Business Insider Taiwan",
+      "time": "08/24 22:19"
+    },
+    {
+      "title": "Netflix《早春晴朗》8月26日開播！井柏然、孫千大談禁慾系辦公室戀情，親密指導打造「慾感天花板」 - udn 女子漾",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HNkRhSTY3dEp0RjlGd3llTXRiYWR4aGE5VHpTRDFFWHQxYnBlcURTaHZ4dHdoS0N3UVBNOTdaTjdpZ2VrT2tCSUkzeEhiU2dtVDRNMVFUaC1pRG5IMlNVeHd5SUpyUnliTkNFNzhKakZnejd5eVF2NjJqZ1RnZ9IBYkFVX3lxTE5FZFllcWVnNDJXejlUOHVhejdMdVRzWHJqUEZtWnRUUmVVbUg4OHg4MFhLSGVVUlVyY2laSzdCekJFdXd0dmVSSl90a2FKeUdnYzdrWmlkeElqVk01eTVSdjZn?oc=5",
+      "source": "udn 女子漾",
+      "summary": "Netflix《早春晴朗》8月26日開播！井柏然、孫千大談禁慾系辦公室戀情，親密指導打造「慾感天花板」&nbsp;&nbsp;udn 女子漾",
+      "time": "08/25 01:51"
+    },
+    {
+      "title": "孫千、井柏然新劇《早春晴朗》Netflix播出倒數 兩人談辦公室戀情3大高甜名場面搶先看 - 上報Up Media",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MSmFPN2JJZU1PR1BTS0FydFRFZHR0a2dnbzRFWjdnVnc3VkxWeFUzOVljYTg4Sk1XQnZoaXVYb3ptYjdpblVGcDViN0pOVGRLaWRjLVBiMDFRcHUxN1dfSUw1TXpnVm1GZ3c?oc=5",
+      "source": "上報Up Media",
+      "summary": "孫千、井柏然新劇《早春晴朗》Netflix播出倒數 兩人談辦公室戀情3大高甜名場面搶先看&nbsp;&nbsp;上報Up Media",
+      "time": "08/24 02:30"
+    },
+    {
+      "title": "Netflix《航海王》第三季卡司！寇沙、貝爾登場　阿拉巴斯坦開戰 - NOWnews今日新聞",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kRFp1eUFzZ0NiMEpBU3lJZW9VUm54SkR5cnVSOFBHWWpwb1ZwY2pCRUpQWXh3M2dZNGphX2ZNMFJOTk1qYi1Qbmt5WlTSAVJBVV95cUxQLWhuUlRWaWZmNmk5NW53QWN3cUV5Q3ZCTS0wLVc0Ujh3b08yYzNjUW82Y3NwTlZnRXQyNTJaRVFTRHhRTGJzNzFnOTNwa3daejZR?oc=5",
+      "source": "NOWnews今日新聞",
+      "summary": "Netflix《航海王》第三季卡司！寇沙、貝爾登場　阿拉巴斯坦開戰&nbsp;&nbsp;NOWnews今日新聞",
+      "time": "08/24 21:00"
+    },
+    {
+      "title": "《TIME TAKERS》Steam 全球試玩測試準備展開 - gamelife.tw",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTnRLcEZhTUtuNG81U0J1Q0lmQU5fdkNpVGhpSmNCejNSbGVaOFB3TzBMMXBuSGpPbU1ldTFUNjdIbjZVUGNyTDcxRzgxRTdkcWF4Zm80MFR2UTBMaUFfM21ZN1BBTng1ZGNSWGJNNXpUbzkwdjJ6X3c0SHFYQjZ0THpmRnk0VjVFSzVrSklZZkhjZmVVSUFVbENkWk93VHF2S2JRa1ZFUFZNWHpvTU83YTVQQ0cwdGlmZVF1SS05cTViOVVCSEY2aG92Vl8wUjNUWEFva1Fia0pydkVLTGtNVmgtLVpHa09mbE1j?oc=5",
+      "source": "gamelife.tw",
+      "summary": "《TIME TAKERS》Steam 全球試玩測試準備展開&nbsp;&nbsp;gamelife.tw",
+      "time": "08/25 00:57"
+    },
+    {
+      "title": "Netflix《陽光女子》二刷更好看！誰說逼哭觀眾只靠灑狗血？正港最佳女配角是她！感性劇本+用心剪接：比原版更好看衝TOP 1！ - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMixwVBVV95cUxPS09PRlJJQThjN2EwU3JldV9ac3Q4YzNIYXZuS2JZNmIxcHBiWU5VSXN3a3FLV3dnUVZoN25XVVNXWTlFNFRmWDBEWTJtRG95VF9paTREMnhnSUlfZUp1SEh1QTBlc3hOU2VHUEdrMVNYanAyRjFQeFJvOFN3NUo4TkZsUXRLdmVxYTNYMy1oUlNXaFpUby05NC0xdEF3alo5MHN3enpFQVBpSnhYUlViRnNySWI0d192X0FrRklxQlB2TUJ5VXVEVEVEZzQ1eEdsT1VRVXhQQ2FtZGFaSzRRajhudExFcUgxUF9PaFZyemFiUWJwNnFQYlVSenRINE1BTndTTmYzT1lldWdFVlc2UWcteUNMR1hnTjhrZl94YUdhUnVJZHl0ckVEOVIxaDVuWlpIYm93Y1Z3X1VjNmxEblZYUTN4WW92VXFHeGpHRUxrQXhLOFJjWDhfanc5anpFUzl1TzJSZnJORmtNUG92bzRXbkZReEtDbnBOc2sxeXZVUEpXYnlmSDlrSHZyaFZQZWttdjhoSGVhZ2t0aklKSmk2OEFvVmNjNE9OdWJEWWs5aUlPX29tbFgyQ0FMMm84ZEtybjRYYjU4eGJWcWhmamRwV0lNX0JKeHdOWTQ0UmduTk9uSnlNSnI4d2NkNU15VmM3cmllSHNiRHJnZEwwT2hwT0NQMWg0UDhPRE1jaXUzN0lUNW9fU0NLcTdzZmRjY0V0RGhJemZVSkRKRDVhMG9OQUVIeGdtc3BhR0JVbVVMMEtrYWxvQ1ZoLVF3dS1YQlJ3Y0RSRXl5UFo3SXc3RUgtNU5nclRsbWNhYnhhR1BfUGttN2d3a1VRTU40Q0R3RTNMZ2dKTlpnQVdzNHhsYUZaOWlSY216cy1RdUtrbHFMVlRGbzZMb1pSTGZ0bjJsQXA4MW1Hd0p4SVBYWG9hVkFTOWdjTDg?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "Netflix《陽光女子》二刷更好看！誰說逼哭觀眾只靠灑狗血？正港最佳女配角是她！感性劇本+用心剪接：比原版更好看衝TOP 1！&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 01:44"
+    },
+    {
+      "title": "Steam限免：類寶可夢RPG《Dokimon Quest》限時免費 重溫懷舊掌機抓寶樂趣 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSnpzZ3RFc0JwaDZXeWY5UlJFM3JMQWNLU1dOWjlmYnVtSDRrWVR3VEF6eWlSQy1zVHl0bHdtb2RJQl9OdE96NzFOb0ptZnRuQWR1ZWZYOFMxdXVzdzhfbFFmLUNJcVRLdlhzU0hkWEZaeG5NMGltMnpiU29SRjhXN0h0VkVWM0czejRF?oc=5",
+      "source": "4Gamers",
+      "summary": "Steam限免：類寶可夢RPG《Dokimon Quest》限時免費 重溫懷舊掌機抓寶樂趣&nbsp;&nbsp;4Gamers",
+      "time": "08/24 17:51"
+    },
+    {
+      "title": "Steam荒謬釣魚《How to Fish》發售2天百萬銷量、26萬同上能拿槍射魚還能聚賭的混亂討海生活 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT1daRVdPU2VLdnI2dXFHSmpianl0emc1YjZ2TkZ5dDFfRF9JSXBxUDZrelplRGphRzZiUEliamNHcEZYTVh6cERqZWxCOUpZb2hvZmdncEZKVll0SGo2LW8yXzhQU2NFOWdkQUVNMkVYdXR5WGVmNGVRYjBFcUVLTlZkYldGeGNCV1RoT0dfQ2RuSWtDNGZlR3UzVENweW80QU1rNWU3eHNkWlk?oc=5",
+      "source": "4Gamers",
+      "summary": "Steam荒謬釣魚《How to Fish》發售2天百萬銷量、26萬同上能拿槍射魚還能聚賭的混亂討海生活&nbsp;&nbsp;4Gamers",
+      "time": "08/24 03:48"
+    },
+    {
+      "title": "拿砲管互毆還能彈反砲彈！Steam戰車動作遊戲《Tank Fu》測試開跑 操作坦克打出空中連段 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOclZkR3plWmFHQTBsa2I4TkpqTlNieVYzcThNZTEwS0drZ1dEaDY5RV96TVI4UHRoZnZoQVdydTY0TjJCSU9sYWlUN2tYcHZId0ZSSnBxeG5sSzRaNDE1b2ZIN0ZwOXl0N2p5TE9DX3NORHpPMkc3VXY3VHVyUDhocld3?oc=5",
+      "source": "4Gamers",
+      "summary": "拿砲管互毆還能彈反砲彈！Steam戰車動作遊戲《Tank Fu》測試開跑 操作坦克打出空中連段&nbsp;&nbsp;4Gamers",
+      "time": "08/24 10:05"
+    },
+    {
+      "title": "Netflix公布9月片單！李銘順《黑白清道夫》、LEGO®動畫、《紳士追殺令2》多部影集、電影開追 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNZVlEN1huUWR0S2h1Z3EwVXNkTFhUQVQ3N0FEalRxaEtxcXlwMEJDUjRTcGhOY2ZrbGItanVVWVNtZTktMU45akU1Z3JNVjFmLVR4RHZETUdlZ0dSUWVYV19kSDFUVXF5bmpSczNMZy04dU9MeUthb0hya09Id1ZSd1ZVZWIxQTctOWdwaVowUjhlMC1WdElWc2h5VzFZZFFfZEdvMWFnQS1vZk55TnVEMzFuSXRKSEsxVFo0Z2c0amVxOVE4aS1aUFUtRDV2MUdILXFUSUlzNmIyeEJEaWF0eTM1MlVWYWZYS0UxbUFlLW1vLVRyRTl6MWNfT1NzWEUwZGV2b09jSG00WE43enNFOEhWZVdHZTlQczg2Yw?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "Netflix公布9月片單！李銘順《黑白清道夫》、LEGO®動畫、《紳士追殺令2》多部影集、電影開追&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 06:49"
+    },
+    {
+      "title": "成人角色扮演遊戲《輪廻的紡錘》預告推出 Steam 中文版 - gamelife.tw",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPLWcyc1N5TF9aYUgwUlllenBQcjItaTRSdFFwd1o5cERkWVhxS2YwY2hjNThtcXRWYnFucmx3SHpQdVBPZ29qMlVfVWJTUVE2QWZBS2NMc1BnMjI4UU1tQ1c5eXJuVXgzVHgzc09ybEJKQnBscGtBbGczU0I0Sm5scDlVeWVaU1pCR1N1a0pRZHpWWEx2WmJSOVBIZ2tScDZuaUNJSlh2dEFWSk1PYzRPblJ1c3ZDQ2pGRy1kc0t6MWxlYUcxOEJrdEhrbDAzZ2RSQnNyZk1fUWxYaWdTTXEwOVpUSXpJY0RIQXhxWlR5V1QwXy1ib0tFbllXUG5EcnZyMFZGam9XQzVuY2RDNngtdFo2VXdhcFJSNlM5ZVFoWjZ3UG1HMjBZbjBZQkZUUEtEelE1YmtGbktrWUtCX2RXMmhZUUE5TVotTVE?oc=5",
+      "source": "gamelife.tw",
+      "summary": "成人角色扮演遊戲《輪廻的紡錘》預告推出 Steam 中文版&nbsp;&nbsp;gamelife.tw",
+      "time": "08/25 02:02"
+    },
+    {
+      "title": "同上破26萬人！Steam《How to Fish》美式居合花式宰魚 - udn遊戲角落",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mejhLcS1IWE15aWQ1X1lrOFBrQzhRS3Q0WURaMEh6ZDhDUW4zRlFSTTBvU1lEcEhHZ2VFNkVkaWdOYl82VFV4YkREcHZuWVh4ZGhBMDJ4b1EwUdIBX0FVX3lxTFBBMkJRQnN4VTJQMWpmRkRZVGNnM3R0R0hHT21hbmNMRE00VjVWT2FGT1BHYzk2NkxPWVFET0l6RWhpcE9Vd2xjczdZVlRvWEhfSmxGWlV0SmtkbXhqeWZZ?oc=5",
+      "source": "udn遊戲角落",
+      "summary": "同上破26萬人！Steam《How to Fish》美式居合花式宰魚&nbsp;&nbsp;udn遊戲角落",
+      "time": "08/24 05:17"
+    },
+    {
+      "title": "Steam百人沙盒戰術FPS《WARDOGS》封測同上破10萬人 9月開放搶先體驗 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcDZnZHNCOXZ5OXRnZzI2QmtuNkFHYkVkN1A2cXdIMjBpSF9IUWJXUjRXUkoxWUVaSkJOWUVoU0pzQy1aRllheDBFNDVjTWNFZ0lKYnpDV2FSWTQxaXU0MVZSUXZYcDNJZXBtdVp5Wm1lSkkyNGRBMHM3TXR3X1FPVXRhd1Z1M1JvOUFiVEVn?oc=5",
+      "source": "4Gamers",
+      "summary": "Steam百人沙盒戰術FPS《WARDOGS》封測同上破10萬人 9月開放搶先體驗&nbsp;&nbsp;4Gamers",
+      "time": "08/24 06:23"
+    },
+    {
+      "title": "時間就是血量的免費生存射擊《TIME TAKERS》Steam全球試玩測試9/5開跑 - 4Gamers",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRG16U2pBclBSQ1pGOTR6REpwZVkzSDJFV0hIRmxBMWFCZGV1d2pfdWhKbFZoRlVzR0hEY1NkcHNQY2l4T2RhdnkxZEQ4aUlfQXRwZVl4VE9WZmV1X094Vzl0UFJKbmRQdGNEemdJRmxIajRzWjJib3hWSUt1dDlDV0hVVnotOERVUWVqbmRGU3RlSW5aYTlkSXhIaw?oc=5",
+      "source": "4Gamers",
+      "summary": "時間就是血量的免費生存射擊《TIME TAKERS》Steam全球試玩測試9/5開跑&nbsp;&nbsp;4Gamers",
+      "time": "08/24 09:19"
+    },
+    {
+      "title": "《決勝時刻：現代戰爭4》公測Steam同時上線人數24小時跌近半玩家評價兩極| 遊戲情報站 - GANK 電玩誌",
+      "link": "https://news.google.com/rss/articles/CBMisANBVV95cUxNbzJ1OHYzWmpnWkxvUEVOWTlMejRuR0lJenpyT0NhSTBVdUdwYzd3QTI0M3BtcEtaR1BJUi1SVWNjTXNFS1h1LUd0S1djeGhWTnhFVzd3WnM2MGU2MUdpNDBjLVhSVVJmREpSS3p1Nm9ONlNfRnJGYWlSWjVOdkxpMDdCZzBzQ2hMSmg5TmViR3pvd0NDcFlSZHZ1eFdLS044WDcyNXA1dlBnM0phWnpwbExjYjdBRV93bW5jOWtNekVZTTBwTVUtT1J1Q202YWFJWWRhU19sZS14Nkk0UmttazdjTlVzdnZvYVhER2E1anNtdWxvREl4N0hISUxwVHJfalRwUE9KWjBFbGxQRHlEWm5NQ1RnMkxlZ2Fxa3B6aU9nazlyRFFMSmJJMzdDeVlTQ05EVGdkX0ZhWXVIYW9iV0FVYVZodHdXYl9zWkM1dlZXaVlaZW5oVEdpOHEyelRGQ3NCVmFNQkl4UVAwTmJ6aXowMG1JSDA4cTZBRmYtaHlJMlRvSHR5UDEtUTcxMmNqYUdmZE9CdHJpb1Nyd0J6ZkVTLXRuVUJDR3BQRTlCUnE?oc=5",
+      "source": "GANK 電玩誌",
+      "summary": "《決勝時刻：現代戰爭4》公測Steam同時上線人數24小時跌近半玩家評價兩極| 遊戲情報站&nbsp;&nbsp;GANK 電玩誌",
+      "time": "08/24 16:25"
+    },
+    {
+      "title": "《The Duskbloods》Switch 2獨佔惹熱議，角色「Steam Release」表情成網絡焦點| 遊戲情報站 - GANK 電玩誌",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOdU55M0tIVjNEMGJMWFptR29rN0ZkUnNBZmRVY196aGpYaW9sNTZMT01ZeHd5TlJwanNraVNhRFNJWGdjeGpUZERobmhRc01vNllsMmZMaFhzaFZ0bERqUTBZbW10TEo4X2pEWkw2YWFFbUVuckhwY2kxdzE5RWdpM0JmUzA5TWZCRVFRV2hlZHJoRTFiNlBEMjlMYVZ0MWdrcDVOU0hYd1h2b0lWSXNkOHExR2p3R2k4bDdseTZBNVlWTXRqUkVDTmdBOFdqeUlWOUJhcFlJcUtLLVFoSHN4dmJxVmtjRGFSeS1odVhOcmVEMTR1ak1ReGRkdTJaQUFwbXVzcUJwQUR3WmR4dlM3czVtSHFRRHJyYlIxSTg0LTE1b0FxbXkxMXBacjlhVndiZmFmWFp6dE9EZw?oc=5",
+      "source": "GANK 電玩誌",
+      "summary": "《The Duskbloods》Switch 2獨佔惹熱議，角色「Steam Release」表情成網絡焦點| 遊戲情報站&nbsp;&nbsp;GANK 電玩誌",
+      "time": "08/24 16:41"
+    }
+  ],
+  "運動": [
+    {
+      "title": "MLB／球場秒變格鬥場！白襪觀眾席多人大亂鬥 球迷跨排「飛身踢」畫面瘋傳 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43TjhsQmo2SXhBWEVJWXdMWWxpVUZoT2tnLWVsZ2JFUFVBcDBMR3hjcVlVcklZeEZtajFycUtxMUJDOG82c3ZIalhBdXlOS3pD0gFWQVVfeXFMT2NjM3FMSXd2OS1vMG5hbk9Nek1DT2NOZ3p4SmdWbWFxRUdLRFB1eG5rWGlyTzNnT0RMYlJJUnAwSWxQZjlEMENpM3pFYnptR3lVU2c0NVE?oc=5",
+      "source": "UDN",
+      "summary": "MLB／球場秒變格鬥場！白襪觀眾席多人大亂鬥 球迷跨排「飛身踢」畫面瘋傳&nbsp;&nbsp;UDN",
+      "time": "08/25 02:08"
+    },
+    {
+      "title": "MLB》美媒列25位「溢價合約」代表！韓國強打金河成入榜 年薪6.3億卻僅敲5安 - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxQSWJwZWozY1FxZWNnTVE0NlpDYzNIRGhFOGt6M3QxZWRhbzAyb0JKVEhfd0lkWEtnV3c3M2JXUUhLUmZfT1pMdGpSTWwyamtpb2JqcUM2dEgxSF9JSnN2R3Z1Z3R2NjdORDhIemRGa2ltYURCU1Y2ck9QcWdpSmJLTzIzcTEyYV9ZVEFLNE01anhTaHJCaElGMzMxQmpud2FuYWw1Y01janBjWk5mSDRpTEZlQ29LMlFXMWZ6RWVTRHl6UnJ5REQwWXd0cjBsVWxJRFV3c2ZQNVNvbmNQQlUwZ29KcjRkczhrSzRFaURYckVtQXJXdXpIcTJaNXVQX01XX2o3cFFtSzZCTmU1TEtkWmMwNmRrOC1fYm55WXNZZVpZVmludDF2c0ROOGNoRW9FM1ctSXJoaW5CR1hZN3ZVUzJhc2ZyY1YyamNWOUFLQjQxWXhrT1BkbTR5TjJ3VFV6QkJRdHZLVlRwb2VYM0xjNTMzdlBNTFpoWFhuMXlxMHhFS2JYUVBzd1NaWU1ORmxCOVRnTVdVOGhrOVlDQVMzQUo1b25rWE43OTh2aDNleHZQVDVoN1lienpTM3BGazN0Smw2cG9BV0dGTmJ4WEl3ZQ?oc=5",
+      "source": "Yahoo運動",
+      "summary": "MLB》美媒列25位「溢價合約」代表！韓國強打金河成入榜 年薪6.3億卻僅敲5安&nbsp;&nbsp;Yahoo運動",
+      "time": "08/25 00:44"
+    },
+    {
+      "title": "MLB》台灣新星李灝宇秀精彩轉傳守1分 老虎仍苦吞6連敗 - 自由體育",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XWVU5b3FpV0FYMk9uWVZHVHBiaUVFall3dWo1bGJ3TWJnSG5STWxkRGprTGtqUlBGQ3drZWpwNTlMSnRiQ2lVczNLMUh3clhnZnBjMzk5LXBFMWN0TjFCSA?oc=5",
+      "source": "自由體育",
+      "summary": "MLB》台灣新星李灝宇秀精彩轉傳守1分 老虎仍苦吞6連敗&nbsp;&nbsp;自由體育",
+      "time": "08/25 01:19"
+    },
+    {
+      "title": "MLB》PCA國聯MVP穩了？「關鍵數據」領先大谷翔平- 體育 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtU05yWFlLX1kzd1NDQXZHcm9BZFc4NFprZWE2R1dsSXFRZE1BUW1ubkVRSEVOcjZyMjlQSWxralFGYXB0UWRjdUo5YjJEd2Q3d0paY1RhdkJpN0xKN3VDSk9NTUNnTjhyLVZheEJR?oc=5",
+      "source": "中時新聞網",
+      "summary": "MLB》PCA國聯MVP穩了？「關鍵數據」領先大谷翔平- 體育&nbsp;&nbsp;中時新聞網",
+      "time": "08/25 00:54"
+    },
+    {
+      "title": "MLB》四十年前就提到棒速觀念，Ted Williams、Joey Votto 與打擊的藝術 - MLB - 棒球 - 運動視界Sports Vision",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54blF1YkdpVVp1aXM2N096ZWxlVVFOd3FLRTZpTk96djZ0TVh3bnVkS0RmOTFzVkhSX1J5WkVnOFUzYkpGcmxSdHpJdVZreTdv?oc=5",
+      "source": "運動視界Sports Vision",
+      "summary": "MLB》四十年前就提到棒速觀念，Ted Williams、Joey Votto 與打擊的藝術 - MLB - 棒球&nbsp;&nbsp;運動視界Sports Vision",
+      "time": "08/25 01:35"
+    },
+    {
+      "title": "MLB／老虎慘吞6連敗…李灝宇先發4支0 神準傳球貢獻本壘助殺| MLB | 運動 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CU3dLcnV2ZUlnUmdlV3U5S2lzakoydHdqNm0zcXFaeUs5LWpGeEFiNW55MTVyc19PRU9Pc3NhVjVFMUJvLWtxSUtHWkh3cU5o?oc=5",
+      "source": "UDN",
+      "summary": "MLB／老虎慘吞6連敗…李灝宇先發4支0 神準傳球貢獻本壘助殺| MLB | 運動&nbsp;&nbsp;UDN",
+      "time": "08/25 01:32"
+    },
+    {
+      "title": "MLB/上次封館停擺99天 主席對達成新版勞資協議有信心 - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNM2hhalJQNWk1YWhZOHhRV3ZqOVNVMXRCZDluUnNKMmNhaUNUMGVBc0MxcEpBZVJ2cU11eXhlNXBpWV9IcGZpR1BNNEpxRTJxU0ExRm82UjR4TzVlVkVudy04YkZGX1h1azBLYTZmWTJiWW5XREVjNEF0a3htV25hQUVxMms0eG5TTE9vMkI0VmRVS2ZQTWlYNXFuS3B6N3Ytb0FsNzlGSVdPZjQ1NWs0LXRfM3FqblpUVkdrNkdjbHNIN3ZWcldhUDJJQmoyeFFqd0ZmaHhaWW5XX3FfdGg2Nm1jTXBWSXFjS241d25iQnVpR3MwVzIwM1dNN2Z2VTZGNUlLeGp4cnhicDVjN0NMcjdOQUN4NG00bk51SmxTSWN3a2w4XzRSd1FTY2JROGpBMmpCcDJabEtoNnNneV84WDRnQ2dPWGZORmJ2dXJxZ1VROFBWckN4X2sxZmlsOUNqaHc?oc=5",
+      "source": "Yahoo運動",
+      "summary": "MLB/上次封館停擺99天 主席對達成新版勞資協議有信心&nbsp;&nbsp;Yahoo運動",
+      "time": "08/25 00:51"
+    },
+    {
+      "title": "MLB》有信心談好勞資協議 大聯盟主席喊話：我們計畫明年打棒球 - 自由體育",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1LXVJdWRxeER0U3VodE54QUg4cGxILUVBdURVM0djUkVabmVzbWkyZTRvMEFtYWozemVyVElMSi1wTl9nWU1ldFJ3eTFMOTkweDQ3bTI1cXN4dkdiMlExTg?oc=5",
+      "source": "自由體育",
+      "summary": "MLB》有信心談好勞資協議 大聯盟主席喊話：我們計畫明年打棒球&nbsp;&nbsp;自由體育",
+      "time": "08/25 01:40"
+    },
+    {
+      "title": "MLB》曾提拔鄧愷威當先發太空人總管布朗球季中途離職- 體育 - 中時新聞網",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBRWEybUVyc3lxSWNObHRzeDlJSUFNZ1MtVkhTalBsd1lxLTQ1YS1HMlJPQk85X2JQWkxScHRqZXhVcDVGOUpDUWc4M1NEa01KM005UFFnR0FaNlRFWF94UkNxWmdmSWItWlA2WVFR?oc=5",
+      "source": "中時新聞網",
+      "summary": "MLB》曾提拔鄧愷威當先發太空人總管布朗球季中途離職- 體育&nbsp;&nbsp;中時新聞網",
+      "time": "08/24 23:48"
+    },
+    {
+      "title": "MLB》6年2冠→連3年季後賽只贏1輪 太空人開除總管Dana Brown - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOU0tJdmx3VHBJM0Y5S3NVWTVPZDRuUFVrMEhZSU1aSXJPa1pkdHRGWHBWQ3hIdXBLNkFkTFlDWjNzQ2J1M01CVnZpNWN5MGRKYjc0N2dkNWx3T1k0OWtLNXh5TlhVSW5qb2FiWlJrcHo1RWhRcEUzTldXdzU5RGYxd3BsRTFINHBGS2I0Q2lOX3N4YWtNMjlnUHA4cnBrN2wxNUxTeWNSeU9tdmx3ckczQTBVeGNMc0U0MEg0MGt1NTNMMGNfTUx5d2NYLWhqNm42QlRqLUEzcWdMNFVNMGQwYU1ybm85RVRyU2ZaXzhJOVJkWDVuSWVib2ZrNVc2S1Bjb3U3TzhTUk80b1k1R2VoeC0zTU40OWU4UlNyRGtfOWxxSDlIWFFnR252aXZQRjgydmIxc09Yekk0eUdFWDFLTGctRQ?oc=5",
+      "source": "Yahoo運動",
+      "summary": "MLB》6年2冠→連3年季後賽只贏1輪 太空人開除總管Dana Brown&nbsp;&nbsp;Yahoo運動",
+      "time": "08/25 02:03"
+    },
+    {
+      "title": "MLB／美聯竟有11隊勝率不到5成 7支「弱隊」包括老虎相爭外卡 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vREtXNGRpVEo2X1ZPbF9RSzFlSHBROEpIQzhycmM0NjFzdzN3SHZGTE84WW9ld04yZGpDdlJlU0VvQUh3MEVLRVJUV0ZjQnhn0gFWQVVfeXFMTnRhTFktYldjT05mM05icjB6aTk3RnFTWFcwaVdrbmdoYXdoYm13dlpnM2VmcGNwYUZCYU5TTzFBZERYbGhDMVFBcWNFY3hucGdxa1BWcVE?oc=5",
+      "source": "UDN",
+      "summary": "MLB／美聯竟有11隊勝率不到5成 7支「弱隊」包括老虎相爭外卡&nbsp;&nbsp;UDN",
+      "time": "08/24 04:03"
+    },
+    {
+      "title": "MLB》季前交易換來鄧愷威 暫居美西龍頭的太空人總管布朗突然離任 - 自由體育",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qZXlqYWNEV3BnUXowRG5KcDFsdXRUbUt1UUg2U1N5UGtKcFM0QncwcUxRYk0wSUs4cGZDSjlBclItQ19hY3hmSFFNQmxMaFp5Y1M4X240d1hRZ21rLW5XSQ?oc=5",
+      "source": "自由體育",
+      "summary": "MLB》季前交易換來鄧愷威 暫居美西龍頭的太空人總管布朗突然離任&nbsp;&nbsp;自由體育",
+      "time": "08/24 23:49"
+    },
+    {
+      "title": "MLB／葛拉斯諾、朗希、山本對決勇士 道奇官網：夢幻先發陣容將成現實 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZM1JLalhwaFFBc2ZBbGU4Z1dnb3AtNXVESGZGeE1EamlRM2N0dVAyZkNndXVzWTFFc1RiVkltVW1fbGdlaWpGZi1BemE4SlRV0gFWQVVfeXFMUGpBbWZKQ1dmT2hWQ09OTWxsbHFWaEVRQWNtYXBPNlllT3ZqOFc3ckNBNXZXQVhhRUNNVVd6eTRLQmpPdmFKaXZ5NENKT2stckhCS28tQ3c?oc=5",
+      "source": "UDN",
+      "summary": "MLB／葛拉斯諾、朗希、山本對決勇士 道奇官網：夢幻先發陣容將成現實&nbsp;&nbsp;UDN",
+      "time": "08/24 04:40"
+    },
+    {
+      "title": "MLB／李灝宇中斷連4場敲安 接外野手轉傳助殺本壘守下1分 - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxORFU5dnFRdENPc1RpUnd1cHItWW1JZjJEemdIRTZlRjlsdC1YWENLT1hxdmd0dUlEVE84LXJyNHhxMGpDV1RsWHBLd0FzZWlfdjY1bWFieVFoNDNKbm9nQ1YzWVJfWHRGLWYxS1BENGpvSlRSWDd0YVNGSTFzYURlWjFhTXZZRTg1MDdIeVBGMzBLM2h6OXBXdW84RDh5aWhUS0NCX2g2d1RmUXZTS1g1YVdWaUhiSFdXY01WY3daX2h1ZmFTMXRWc2FvLThaSTRqVUZBUnVGMEZ3ZFl4UkdkY0tvUXYxTFk5SVB4Nzc5c0UtTHhWbzRMSk8zLTFaNDdrdHFfNHlzWE9TZzc0N0FiaHVqdmxxWTQxSWZ6LUxhT1FMY2Vjdk9SZ3E4c2pxaktRTXA4WThnUXlaRExYT0tDWFpVbEtHeVdpbTZWd0JaOF9hdHRKQ3p1dHBnN2YxXzVEMUJFWUxrOHIzVE1Mc3c?oc=5",
+      "source": "Yahoo運動",
+      "summary": "MLB／李灝宇中斷連4場敲安 接外野手轉傳助殺本壘守下1分&nbsp;&nbsp;Yahoo運動",
+      "time": "08/25 02:41"
+    },
+    {
+      "title": "MLB》連2年搞無預警離隊！響尾蛇球星馬提要回來了 教頭盼球迷別噓他 - 自由體育",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VSWJhbG8zVTVweF9ObmsxOFVJMEhTQTVOWXdQei0yS0FGbF8ySHRBcVotY3NZRjVXX3VvQlJjNTgydERNSE5oVnYxLUIyVFluNVV2dEZ1dXA4cDRSMGZVUg?oc=5",
+      "source": "自由體育",
+      "summary": "MLB》連2年搞無預警離隊！響尾蛇球星馬提要回來了 教頭盼球迷別噓他&nbsp;&nbsp;自由體育",
+      "time": "08/25 02:17"
+    },
+    {
+      "title": "MLB／太空人投手戰力一團糟總管下台 美媒評點6筆補強失準包括鄧愷威 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyZ1JsN0tJTWFvRWlhNVVIMVM3UkNDNXFPNmNVN3J3R3duZkstTmRMVUZxd1hhS3h2UmtHQWpiY3ZOUXRmM1UtZ2psVmlGWkRC0gFWQVVfeXFMTlliZHh5MXoxLXNjak51bmw2TWVsTExvMHF6ZldrbEJSN2F3VS1ybFF4Q3U5N2pFYVpFVmIyLW9ueDN1T3BvMXQwb3d5cVBnR0oyMGJBUXc?oc=5",
+      "source": "UDN",
+      "summary": "MLB／太空人投手戰力一團糟總管下台 美媒評點6筆補強失準包括鄧愷威&nbsp;&nbsp;UDN",
+      "time": "08/25 01:19"
+    },
+    {
+      "title": "鄧愷威暌違一個月登板大聯盟 今日MLB戰績 - 自由體育",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uOEtYcVJMaFlGSE1UQl9XUFdrX3Z1MkN1RTBKWV9nVFFlSEFaYm81N0FzbWtqYWVOczNybFhCNFdjTUpzbUtndWtqTGpVZWFwWG1TRXJrUEVuLS1DQlEtUw?oc=5",
+      "source": "自由體育",
+      "summary": "鄧愷威暌違一個月登板大聯盟 今日MLB戰績&nbsp;&nbsp;自由體育",
+      "time": "08/24 05:00"
+    },
+    {
+      "title": "中華職棒戰報》首度勝多於敗 中信兄弟8月開追劍指龍頭 - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxOcGRXNERjVUNaeFhDLXMtSDNhLUNCeVBZalVlU2xuclRZaGlHSm5WMnVXN1BnYWs3aGtSUjdiRlYxRHZPVzlrYXNWVkNsMFNjTWxtMnY5ZGVPQ2o2VjNDeHVtTzFMTktFVmlTUnUxS2VMX09iVmdaTGlTODlvRnRqeGZHbG9MQlNYTDZLZ2RPdFlkZjVud2JKeWhQbnloNXhoNmFZZGpMS0VqMm5IaVlRRExscWM0b3pHcDBkc2ZKWVRoQXNVSWw0ZWQ4ZWo1ZXFLcWtDRjFRNzJ6c2lUN0xPOW13OFU0REhObURkMXhIalFVeExlT252SHF6Tms0SkVpRE5LLWIzSEkyQ3VtVjRFQXVZUWhNTDdTM2c4UFRVWk1aU3hzbXdwaDY3emZzbFc1bW1Qb29Ed1ZuaW5yZUR3d1A4SEh3XzRjd09qYkw5V1czY3g2VjhiWE9CUzBzcG5IRGVJUXJITFVTRkVPWFZrOVRLdGlYNk1YblMySU1maw?oc=5",
+      "source": "Yahoo運動",
+      "summary": "中華職棒戰報》首度勝多於敗 中信兄弟8月開追劍指龍頭&nbsp;&nbsp;Yahoo運動",
+      "time": "08/24 03:48"
+    },
+    {
+      "title": "MLB／李灝宇狀態神勇仍無用功 老虎客場6戰5敗總仔怒批：非常糟糕 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yUlFYdGJ2VFNVd01wQVRjeVRPLXBERWtNUUkxQ25DMnFtaDRaREhhSG8zQjFTSldDQjlIOUlBSkh2dGxHcHNDdWNLSktWOXdI0gFWQVVfeXFMUFpzQ2JHTEg2ZE9UVFI5alBuZ0lyUzE4b3g0QTlXcjY0bXlGaDlMbGxXMldhZS11TmRGM3VvdVhJTTk0WkNhSFBCUjV4OExfa28yNVFkUkE?oc=5",
+      "source": "UDN",
+      "summary": "MLB／李灝宇狀態神勇仍無用功 老虎客場6戰5敗總仔怒批：非常糟糕&nbsp;&nbsp;UDN",
+      "time": "08/24 06:34"
+    },
+    {
+      "title": "NPB》林安可二軍猛轟2發後回一軍！西武爭冠關鍵戰 有望與孫易磊投打對決 - Yahoo運動",
+      "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOMDdiT1FTdlJPZGREVEZVakJLengwZ3lmck91MS1XRWNPdjBIdHFLazhfUjhjdzZ3TDhENm9CaG5paWpkekJTRVhMaUNreGVtTFVOeFdfT2tpR3Y1djJOdmdYQ3lCbzBMY3pEQ3Zka3Fmc29kcXRUV2VQbkhnZmJqTHU0QnRFTlJlbDNpOU9UbHdMa0R5SUYyeWNQUGJwZl9yeDZCNVlYWTA2V1JZajhCbzNzUHN4SF92Zng2RTR2SmQwRFJlZ1cyMnV3SEhSU0l2VDYxQldkS0hTSnhxVzhhT3M2TzFLdVNUMTAyLU13b2MtMnkwRWJmSVZuYlFWenJWTVRLTDVtUTBqQU5TX0tmMmRSdWJGRGdpaHltaGF0bXI2bmRIMHN1a0hFT1hXRTRoUVprSnM0UUx4dnpiYlZ0YVVPQ1hIeGp5QVNBblpnOF8zaFA5bjY5cVBBRXZMVkxsd0E4a3JybXFmYk4xeGVxSWhkMWxnVFNYTnNETkpZalNzNGgtM2lWanZJb0RDcTZKVEhTQnk5UUVBeGhOc195R3JTM0ZTNTV2Y2lOV0VJa1VMdGNqc2RF?oc=5",
+      "source": "Yahoo運動",
+      "summary": "NPB》林安可二軍猛轟2發後回一軍！西武爭冠關鍵戰 有望與孫易磊投打對決&nbsp;&nbsp;Yahoo運動",
+      "time": "08/25 01:52"
+    }
+  ],
+  "生活": [
+    {
+      "title": "親友把戶籍寄你家會失去自住優惠？稅務局揭判斷關鍵 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lT3BMQ2RVMHlDbUFuYjVpa29waVl3Z0lMbDBSYWdUcW9tMkhmazFOLUFTWWMxbXhtTkh4bkZSVC1OSmZpcVFidVlqUkgxOW1C0gFWQVVfeXFMT25SeXozNkFDU2hKVTJrZXNBQ3ppSHlVRmVTM2Z5S29rZW1XNEZ6S0MzQkVSWmhQckhCWDRXeWV0YjJ6X1VsbXMzTmttblVCSVkwUFV0d3c?oc=5",
+      "source": "UDN",
+      "summary": "親友把戶籍寄你家會失去自住優惠？稅務局揭判斷關鍵&nbsp;&nbsp;UDN",
+      "time": "08/25 00:37"
+    },
+    {
+      "title": "健康網》79歲開始運動也不晚！ 研究曝「這樣練」提升握力、走路速度 - 自由健康網",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jMlctaDg5Z0pKQ3VUZ0JTTjBXZFZVVG5QOFd6Qk5hZWJrZWp3NXh3dThIZloyeXh5Z1dJRFo1X1A1eFVxQ2pINUkyV3FZaFdhN2RxNzRZM2ZVU2FFQ3ZseXBaV3I?oc=5",
+      "source": "自由健康網",
+      "summary": "健康網》79歲開始運動也不晚！ 研究曝「這樣練」提升握力、走路速度&nbsp;&nbsp;自由健康網",
+      "time": "08/24 23:16"
+    },
+    {
+      "title": "沒收到稅單也要繳滯納金？稅務局揭這天起就算送達 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPMjB2dVljN1B2VEV2ajFrZkJTWDNjYnpodjJzcHdMM1JxbGliVjFEM0J1Y1ROaXFLOGpCY0IwSV9SZVZFNVdtOEx2WjlCTEJ1VXQ4aWFvejl5MEZ0XzBUWlJIMURwVGF0QTdueFp4NVFDWTB4dS1lWGZ1Z1EzQk1JbXV4a3pnTmVaMU9NY1RpbW5iUVdtQklxUHN5eGJJTC0xWmRrNnp2QUV4b1NjYWtQM2hQcndCZmRzcXB5aHVYV1FncDRaUG1KRG5KYXJfaGt1WUJMc29RclhjWFBBNmU0RWtrczdOY3hfZk0walRvcWxaS0tlNFNjLUFQNVRUYXVzZ01Md1JMV0l0WnBiRjk4T1FyeDhWRml6RjZNdGh2RGtYSzBTaWhzd3U0MjRIQUYxMFQxeFFaTi1KOHJUNkhaQ25nSFlYS3g4eE9BSXljZmNLNURnNThvWnJJd3A?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "沒收到稅單也要繳滯納金？稅務局揭這天起就算送達&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 22:32"
+    },
+    {
+      "title": "新聞稿－定期篩檢顧健康！基隆市中山區衛生所號召民眾做三癌篩檢為健康把關 - klchb.klcg.gov.tw",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yNHNkLUdIalktTlFXYjlhT3h2TU1ETUR2X01uaThMUjJORnVGb0h3M3plOFBQX1ZjVkN4VzZsR0huenBRaTZubGFqRlZsMzlTVlJhdmQ4ei1VSk5TYTFMWjZFSVVlZw?oc=5",
+      "source": "klchb.klcg.gov.tw",
+      "summary": "新聞稿－定期篩檢顧健康！基隆市中山區衛生所號召民眾做三癌篩檢為健康把關&nbsp;&nbsp;klchb.klcg.gov.tw",
+      "time": "08/24 13:25"
+    },
+    {
+      "title": "2026生技產業策略諮議委員會開幕 卓揆：加速AI、數位醫療與生技產業發展 落實健康台灣 強化國際布局 - ey.gov.tw",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOTlzekhoZmkyQkpoeXdFSk5jcEFCTkNGZWZwbUQtNWhDSFNOVGluVC10T21pR0xfTEhaVXVuQW0tY3M5ZUVoR2thTmZnRU1GM05qRkNYektqRDV4VEdJZFhNQnhSbDJVVWdacnVBLWlqc1dQcWVtelBMVTBEOHViNzJURjhjOTA?oc=5",
+      "source": "ey.gov.tw",
+      "summary": "2026生技產業策略諮議委員會開幕 卓揆：加速AI、數位醫療與生技產業發展 落實健康台灣 強化國際布局&nbsp;&nbsp;ey.gov.tw",
+      "time": "08/24 06:27"
+    },
+    {
+      "title": "親友把戶籍寄你家會失去自住優惠？稅務局揭判斷關鍵- 股市爆料同學會 - CMoney",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oWVhXdEF0S3N5a3AxZVBuMnV2SkluTTNhWERDOVBuQkc4WEszeDdyb1RUMXpNUFctOWp0Sk9tSXFKV0cxQ0NDbndYSl9qSUVxMDVIcm9QdU8?oc=5",
+      "source": "CMoney",
+      "summary": "親友把戶籍寄你家會失去自住優惠？稅務局揭判斷關鍵- 股市爆料同學會&nbsp;&nbsp;CMoney",
+      "time": "08/25 00:50"
+    },
+    {
+      "title": "SpaceX攜輝達 馬斯克：太空AI資料中心明年升空-新聞內容-基金 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLU5Gb0NYQl9wQ1B2czhvQTl5VlZMa0tXcFNQZHkyTERBQU1BajBYYlNHTm9sbTMxWGlkcU5ORnZzUDNHSWtDaGpnT1JmVF84Ml82NnB5TndvWERNcUx3eTFWaW1xNEQ4TGxBOFRiT0plcG9SZmdYMkNZTVhXaUtYWGl1WjVSczJzSms3OFdYdEc?oc=5",
+      "source": "MoneyDJ",
+      "summary": "SpaceX攜輝達 馬斯克：太空AI資料中心明年升空-新聞內容-基金&nbsp;&nbsp;MoneyDJ",
+      "time": "08/25 01:17"
+    },
+    {
+      "title": "有人「胖得很健康」嗎？新研究揭密！心梗、中風機率一次看 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNODRWU2JNSHhuZXJhbTNqOV9WV3E5elp3bUF0Sl9QenY0b2xrRW1jNHZKc3lHSHNEVUJELUZkcDNiVnl0RTM1bTZqNVJKUGN3M2xwa0lOSHBTNFkteHhEOEdVYWhVc0tULVFPMG1hemdwRjBMZU9EbzB2U1pmajVXMXduMUtXQ0JUZjZCc2QzQ1gwWnZtR3VUZEkwMGtRcGRNUlY1cE1PVEFXQm1jcmhrNnhVMkI0MHJLaWMxSnE4Q3dkT0tRVURfWlpjQXY1YWxPU3pWMTRIQzZGWUR4dHNQVFJyWGcxdnhteFRSUGdRcFJwQVdHUjZsZFU0OWtMRi1VTVBNVzd0SzZrQTNh?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "有人「胖得很健康」嗎？新研究揭密！心梗、中風機率一次看&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/25 02:41"
+    },
+    {
+      "title": "醫療法修正！違反隱私最高關5年 醫療暴力最高罰25萬 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00cE1pZEpJMXVTMTA5bHBzOXRPVzNyVWJMWUJla1gyZHdCUk0tSHQ2UVJ6R1NISndpdnlSU1JmR1VUZ043ckFkbFgxc01UNEFy0gFWQVVfeXFMTTlfMXQ2UEZYZDZUcUJsN0JxMTN1Z092NEwzN1E1dG83X3JVUTh6WFd2NHNYVTdEbnZscHRjdkowQzQ2RTN1QV9IRU1sSkRIWlNjZHZxUmc?oc=5",
+      "source": "UDN",
+      "summary": "醫療法修正！違反隱私最高關5年 醫療暴力最高罰25萬&nbsp;&nbsp;UDN",
+      "time": "08/25 02:04"
+    },
+    {
+      "title": "健康網》當心大腦提前老化！ 研究揭中年常看電視與腦退化有關 - 自由健康網",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94S2gyTmZqLS1BSE1adGFtRXlPeF9HelBITUEwNDl1Z29QNC1DTkk5U01DRDBBWU5JdmRhOTJoSF9sNklWWDdvVnRqdzExM2NxSG9TVC1JNlBmYVlyRW9tZDR4NkE?oc=5",
+      "source": "自由健康網",
+      "summary": "健康網》當心大腦提前老化！ 研究揭中年常看電視與腦退化有關&nbsp;&nbsp;自由健康網",
+      "time": "08/24 13:27"
+    },
+    {
+      "title": "泓格生醫亮相 2026 亞洲醫療器材製造展 展示先進醫療級 TPU 全方位解決方案 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOOHBxUnZJT0FPMHpjWi1OeHFvbUR5UGVIVTl5YkxzcTB2ZlBNMTV0VzV2YVlyNEVxeTNXLWF4OFo1aUYwZGpHYS1GS2x4SGZIcWNoVlQ2MmlielhMRjNkM095eFZXbW50N0RRQ0NoREkxNG1xZ0pWZVVsQ0xvNFRJS0xQSTB1VWxIeW5ReWdPRHNGUXpjWDNLWTVxbWRfZnZLZmNFVHU3MlhMRmlqRE5wSzZxSDZnYzAzYlZfV3BkUjhDZ0o2aXNlQVdRT3lUUEVNX0hIRG5UN1ZlbEQtcGYzMWZUVTJVYUNuQXoxWUhNb01xQlZsdndJYmhBMFA4MzJkYlkzSlhiNFFfWHpaQTJvakJUUXFmeUZIWC1NcjJsTHJuN1RuNzQ2dnJGdDFQd0JYMEJkRHNqM2ZxYTNkMTBJSnhNRFN3Uk1qZVlhbnRLSTJ6UHVHVHZlZG4zbFZNYjQ4NFAxU0RHR21vd01LUF9xUmRB?oc=5",
+      "source": "Yahoo股市",
+      "summary": "泓格生醫亮相 2026 亞洲醫療器材製造展 展示先進醫療級 TPU 全方位解決方案&nbsp;&nbsp;Yahoo股市",
+      "time": "08/25 01:17"
+    },
+    {
+      "title": "健康名人堂／不同工不同酬 讓急難重科找回醫療價值 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwNHdMdWF3OEVQbmxzejI4VnItU1JhcmN4ZjlNYWFScExsUVJBTHBlNGdlMGx4M0xHR1FSZllBeXZxMk5nbEprNHRJRHFMVXd2?oc=5",
+      "source": "UDN",
+      "summary": "健康名人堂／不同工不同酬 讓急難重科找回醫療價值&nbsp;&nbsp;UDN",
+      "time": "08/24 16:12"
+    },
+    {
+      "title": "健康網》補鈣喝豆漿差一截！ 專家曝素食族補足缺口靠5招 - 自由健康網",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51VUJOXzN4M0V6X2FOME1VZ2wwRzVGMHlxSWw4QWs0NDB5WWZVQWFCcEVvOXoxMXNTX0FMb3Bva3Vaak8yYlhIRlQ4eVVSeVFQNnllOEdfbmZmVnlSRHg3V0QyWHY?oc=5",
+      "source": "自由健康網",
+      "summary": "健康網》補鈣喝豆漿差一截！ 專家曝素食族補足缺口靠5招&nbsp;&nbsp;自由健康網",
+      "time": "08/24 22:23"
+    },
+    {
+      "title": "富邦產險「寵愛寶貝2.0」將醫療保障升級為「無自負額」 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14cXZ3QmhLV296aVNvSG56Mk5TQjd4WlZhVlBfZEV1djFsOXBaZnZtelZic3VQbkNnY3lJalpncW95bXI3cUVJenR4Qkt2UVdF0gFWQVVfeXFMUE5EYXRoZHp1Tk5NblNzNThtZ1lvUjYyZmRObDN0YnMwVEZZMlhVN2FWdzlJeENlOU9IYXlpOVZaQnItQjIzU253bEpKZk9nQTROSVp4dEE?oc=5",
+      "source": "UDN",
+      "summary": "富邦產險「寵愛寶貝2.0」將醫療保障升級為「無自負額」&nbsp;&nbsp;UDN",
+      "time": "08/25 02:19"
+    },
+    {
+      "title": "醫療走進偏鄉 樂生醫院攜手學生守護長者健康 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNZ0Zsa0Z0YnlhWGMyVUw4dXlxNU5HTmV2dWZDVnJxTFltN3JwUkM5ZFV6dTFBVTRVY2ZDZ2QyRDNHTlJtMGViUjUya1JQVUFWdmE1OEFpMnpSWHh4bmdJVkJOYU1CSU9EWHVTY2ZCQ2tRc1l6b1dnU3Z4SzdmS2hGRmxMQUhpNFdSYnF5SmVaWU1YZ3dWaFNpZ2h5Q2g2U3o4Mkd0MjZtZHc4YXo1dHVUbXJwcEozd3JKV2s5dWNGWmR6MFJUaTdwcnZXbDZfRnJsZW1kUkk4czgzREpmaUxQbWE1bHVJeE1oWEk0NTdTMDU2d3dZMm5qSmg1M2xzeVRBTUl4ZDl5dWFJbEdxYmdVNzJMRHd2aWZsVmhGYmFYN2RsNHVpSjUtZFFSd3dnQWxCRllaX3FZbGtRVFRIUFE4MTYyVUM?oc=5",
+      "source": "Yahoo新聞",
+      "summary": "醫療走進偏鄉 樂生醫院攜手學生守護長者健康&nbsp;&nbsp;Yahoo新聞",
+      "time": "08/24 14:22"
+    },
+    {
+      "title": "土增稅「一生一次」優惠有條件| 稅務法務| 產經 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BSXlOaEJTeExLeG1CSDdMQ2NBOGVDeUZSY1dSa01KT2xndVMtUzQxUUhzSDVKSURKRjl0aWFuaUtxSFFnTi1OLXV6c0dwUGZ4?oc=5",
+      "source": "UDN",
+      "summary": "土增稅「一生一次」優惠有條件| 稅務法務| 產經&nbsp;&nbsp;UDN",
+      "time": "08/24 16:55"
+    },
+    {
+      "title": "偏鄉醫療留才！立委陳瑩提案三讀 醫事人員補助獎勵金10年免所得稅 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYMFp3dkVKTC1WVWsydktZRm1CNFkxaUxQRzFOaUV1eFFhZ2tGWUJIQy1xdjdaTDZGTWEya292dkxQV21STld0eTVQdjRBUmhS0gFWQVVfeXFMUE4xbVhtOERTM0pkdnh0bXdJWEFXWXY5UnlCVGlBZkZMeWhYMHdoNm9QdDB4Xzk3V05VZEt6Tm9UWWIxdldxNEwzVlBuczNtT1dhQ19TWlE?oc=5",
+      "source": "UDN",
+      "summary": "偏鄉醫療留才！立委陳瑩提案三讀 醫事人員補助獎勵金10年免所得稅&nbsp;&nbsp;UDN",
+      "time": "08/25 02:46"
+    },
+    {
+      "title": "自住兼營業 地價稅按比率計 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VSEFNRG9ZQVQ0SGlBZzlkMF9kbTRzeGMzX0J3YnRwZDhtYjYtb093ZHA2amVHYnV4RE9ybVh6WVZkTk02cDRzQmx0OExCdjhk0gFWQVVfeXFMT3RuQ0VFVlM2czNLQVFfNXc4NHAwUjAzZDd4ejMtbDBWWHM3S2EyN1dMOUVxNHBodUxPbGpBVDc4V2VVOHFnNUZVM0ozWGVTaTNlaXJfN2c?oc=5",
+      "source": "UDN",
+      "summary": "自住兼營業 地價稅按比率計&nbsp;&nbsp;UDN",
+      "time": "08/24 16:54"
+    },
+    {
+      "title": "欠稅1,700萬拖20年仍逃不掉！稅務局漫長追稅內幕曝光 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JNmF6azlKMlJIUVVQRlRJTkZGS2xGUENiNWxmcVhzb2hGR1NMSGNHV21iV003Z1AwZkc4TlhjMk1lRDRKeTY3NTdYZUZWNkF30gFWQVVfeXFMT0dSdDJzZ2hOWVFPcF9ROXRpQTllbWdwelpGMkVVUmY1OWxaRlFsalNJM05WTUlTdzBuLTFvR2lNbGRvNzJNMW9wa0tnZzdtelY2SjBrYnc?oc=5",
+      "source": "UDN",
+      "summary": "欠稅1,700萬拖20年仍逃不掉！稅務局漫長追稅內幕曝光&nbsp;&nbsp;UDN",
+      "time": "08/24 08:20"
+    },
+    {
+      "title": "贈與境外股權 要課稅 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TdEdiYWF5c0s4cnNUSEdYZ0xYQnlaUmJGTHhWTm9adDdUSldfb2VqRzM1cXRmZU52NHlncnpmN0h1dXRENTBPV051SEJpRWg00gFWQVVfeXFMUDlCTnB0VWRRN285aWVxblY1OC14ZzViTWI0dlpFTzBndm90OHZpanAwT2VMRDAwSU5YN1ljNEpKWmhuaUxzdElyTDlPZTdEeGdpMks1Q1E?oc=5",
+      "source": "UDN",
+      "summary": "贈與境外股權 要課稅&nbsp;&nbsp;UDN",
+      "time": "08/24 17:55"
+    }
+  ]
 }
